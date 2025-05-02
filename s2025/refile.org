@@ -59,7 +59,7 @@
     DEADLINE: <2025-05-08 Thu> CLOSED: [2025-04-23 Wed 17:47]
     [[file:./APWorld/study.org][]]
 
-*** TODO Review Guide
+*** Review Guide
     DEADLINE: <2025-05-06 Tue>
 ** AP Seminar
 *** DONE IWA Soft Submission

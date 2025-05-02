@@ -1,0 +1,28 @@
+* TEST TIPS
+  Don't use they then
+** [0/3]
+   - [ ]  They Present
+   - [ ]  They Contrast
+   - [ ] They follow up with
+
+** When anaylying in part A question C, look for actual citations
+
+
+
+** Use the author's last name instead of 'the author'
+
+** Challenges or Errors for A) 
+*** Q1 [0/3]
+   - [ ] Only identifies 1 part
+   - [ ] Presents verbatium quote as main idea
+   - [ ] Presents main idea as research question
+*** A) Q2  [0/4]
+   - [ ] Mistakes evidene for claims
+   - [ ] Fabricates claims not present
+   - [ ] Listing claims insuffiecitn in number to form a line of reasoning
+   - [ ] Fialing to show claims as part of a line of reasoning
+*** A) Q3 [0/3]
+   - [ ] labeling evidence's credibility w/o justification
+   - [ ] mentionsing sources with no evaluation of revelance or credivility
+   - [ ] Mistakes claim for evidence
+** For question 2: Only use 1 peice of evidence per claim  -- generally for question 3, evaluate the evidence described in question 2
