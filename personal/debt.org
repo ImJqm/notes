@@ -1,0 +1,17 @@
+* DONE Bassel
+  CLOSED: [2025-04-12 Sat 20:33]
+* DONE Belo
+  CLOSED: [2025-04-12 Sat 20:33]
+* DONE Lia
+  CLOSED: [2025-04-12 Sat 20:33]
+* DONE Gael
+  CLOSED: [2025-04-12 Sat 20:34]
+* DONE Elia
+  CLOSED: [2025-04-12 Sat 20:34]
+* DONE Dane
+  CLOSED: [2025-04-12 Sat 20:34]
+* DONE Hank
+  CLOSED: [2025-04-12 Sat 20:35]
+* Rishi
+** TODO Robotics funds: ~$70
+** TODO Movie night ~$20

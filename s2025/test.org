@@ -1,0 +1,7 @@
+* this is line 1
+- [ ] this is a checkbox
+* Checklist [2/3]
+  - [X] item 1
+  - [X] item 2
+  - [ ] 
+

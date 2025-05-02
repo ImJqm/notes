@@ -1,0 +1,103 @@
+* A DAY
+** Ap CSA
+*** AP CSA EXAM
+   DEADLINE: <2025-05-07 Wed>
+
+*** DONE FRQ in Ap classrom
+   DEADLINE: <2025-04-14 Mon> CLOSED: [2025-04-12 Sat 13:32]
+
+** Choir
+*** DONE Grace Kelly Part Test 
+    DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-15 Tue 17:43]
+** Ap Statistics
+*** DONE Unit J review 
+   DEADLINE: <2025-04-13 Sun> CLOSED: [2025-04-12 Sat 22:48]
+    :LOGBOOK:
+    CLOCK: [2025-04-13 Sun 20:16]
+    :END:
+*** DONE K2 Reflection
+   DEADLINE: <2025-04-14 Mon> CLOSED: [2025-04-14 Mon 18:56]
+*** DONE K3 Reflection
+    DEADLINE: <2025-04-16 Wed> CLOSED: [2025-04-21 Mon 17:38]
+*** DONE Practice MCQ
+   DEADLINE: <2025-04-24 Thu> CLOSED: [2025-04-22 Tue 22:31]
+
+*** DONE Correct MCQ + FRQ
+    DEADLINE: <2025-05-02 Fri> CLOSED: [2025-05-01 Thu 19:31]
+
+*** TODO R Reflections DUE 
+    DEADLINE: <2025-05-02 Fri>
+
+*** TODO Program Calc w/ Cheat Sheet
+    DEADLINE: <2025-05-05 Mon>
+
+*** AP STATS EXAM
+    DEADLINE: <2025-05-08 Thu>
+    [[file:./APStats/study.org][]]
+** Adv Chem
+*** DONE Study for quiz
+    DEADLINE: <2025-04-16 Wed> CLOSED: [2025-04-15 Tue 21:01]
+*** DONE Phet Analysis
+    DEADLINE: <2025-04-16 Wed> CLOSED: [2025-04-15 Tue 14:43]
+*** DONE Pogil
+    DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-17 Thu 20:10]
+    aa
+* B DAY
+** AP World History
+*** DONE UNIT 8 TEST
+    DEADLINE: <2025-04-22 Tue> CLOSED: [2025-04-22 Tue 22:31]
+*** DONE Reading Guide 8c
+    DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-13 Sun 18:21]
+*** DONE UNIT 8 Curve Packet
+    DEADLINE: <2025-04-22 Tue> CLOSED: [2025-04-20 Sun 21:36]
+*** DONE 8d
+    DEADLINE: <2025-04-17 Thu> CLOSED: [2025-04-16 Wed 20:57]
+*** DONE Review U7 TEST
+    CLOSED: [2025-04-22 Tue 19:00]
+
+*** DONE AP World EXAM
+    DEADLINE: <2025-05-08 Thu> CLOSED: [2025-04-23 Wed 17:47]
+    [[file:./APWorld/study.org][]]
+
+*** TODO Review Guide
+    DEADLINE: <2025-05-06 Tue>
+** AP Seminar
+*** DONE IWA Soft Submission
+    DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-15 Tue 17:42]
+**** DONE IWA [5/5]
+     DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-17 Thu 20:17]
+     - [X] Plan
+     - [X] Draft
+     - [X] Revise
+     - [X] Peer review
+     - [X] Submit
+  
+*** DONE IMP Presentation  
+    DEADLINE: <2025-04-23 Wed> CLOSED: [2025-04-23 Wed 10:18]
+**** DONE IMP [4/4]
+     DEADLINE: <2025-04-23 Wed> CLOSED: [2025-04-22 Tue 19:01]
+    - [X] Plan Presentation
+    - [X] Make Presentation
+    - [X] Write Speech
+    - [X] Plan Oral Defense
+*** DONE Hard Submission AP Portfolio
+    DEADLINE: <2025-04-29 Tue> CLOSED: [2025-05-01 Thu 19:31]
+
+*** DONE AP Seminar EXAM
+    DEADLINE: <2025-05-12 Mon> CLOSED: [2025-04-23 Wed 17:47]
+
+** OnRamps Precalculus
+*** DONE Unit 6 Test
+    DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-14 Mon 20:55]
+*** DONE Unit 6 Exploration Assesment
+    DEADLINE: <2025-04-22 Tue> CLOSED: [2025-04-19 Sat 12:23]
+*** DONE Study for Final
+    DEADLINE: <2025-04-22 Tue> CLOSED: [2025-04-22 Tue 19:00]
+*** DONE Final Review Sheet
+    DEADLINE: <2025-04-22 Tue> CLOSED: [2025-04-22 Tue 19:00]
+** Adv Eng II
+*** DONE Get to page 160
+    DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-15 Tue 17:42]
+[[file:~/Documents/notes/s2025/test.org][cool discription]] 
+*** DONE Get to page 240  
+    DEADLINE: <2025-04-17 Thu> CLOSED: [2025-04-17 Thu 17:29]

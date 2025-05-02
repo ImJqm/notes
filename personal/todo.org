@@ -1,0 +1,16 @@
+* DONE Mu Alpha Theta Edit
+  DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-20 Sun 09:46]
+** DONE Application [4/4] 
+   DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-21 Mon 17:38]
+   - [X] Write Script
+   - [X] Finish edit
+   - [X] Film Video
+   - [X] Subtitle/Text Effects
+* DONE Get Gifts for Mrs. Carrigan NHS 
+  DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-23 Wed 10:18]
+  Green and Purple Puzzle
+  Coke
+  Reeses
+  Choclate Carmels
+  Thank you note
+* TODO Transfer knowledge from obsidian to org files 
