@@ -25,8 +25,8 @@
 *** DONE Correct MCQ + FRQ
     DEADLINE: <2025-05-02 Fri> CLOSED: [2025-05-01 Thu 19:31]
 
-*** TODO R Reflections DUE 
-    DEADLINE: <2025-05-02 Fri>
+*** DONE R Reflections DUE 
+    DEADLINE: <2025-05-02 Fri> CLOSED: [2025-05-02 Fri 20:06]
 
 *** TODO Program Calc w/ Cheat Sheet
     DEADLINE: <2025-05-05 Mon>
@@ -101,3 +101,6 @@
 [[file:~/Documents/notes/s2025/test.org][cool discription]] 
 *** DONE Get to page 240  
     DEADLINE: <2025-04-17 Thu> CLOSED: [2025-04-17 Thu 17:29]
+
+*** TODO FINISH ESSAY
+    DEADLINE: <2025-05-05 Mon>
