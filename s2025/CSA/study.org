@@ -1,0 +1,3 @@
+Check array indices for Inex Out of Bounts exception
+:w!
+
