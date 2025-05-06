@@ -1,0 +1,19 @@
+-Pop: parameter, Sample: Statistic - Point estimate: value obtained from sample to estimate p
+-Point estimate: phat/midpoint of C interval - Margin of error = distance from PE to either extremity
+-C Interval: Range of plausible values for the parameter based off of the PE. C% samples fall within
+- Don’t claim other samples will match yours- C% = probability of capturing the parameter on a given sample, not the statistic(you already know) - ME only accounts for variability, not bias -Narrower ME = more precise & less confident (and vice versa) - Confidence level up -> SD down CI: statisictic +- Z*(SD)<----SD of sample not of pop - Z* = critical value - When solving for n, unless if specified, use the worst case scenario phat = 0.5 -PE for diff = p1-p2- For difference: if 0 is a plausible value, no convicing evidence there is a difference
+-State: Construct a C% confidence interval for p = context / for the difference between between p1 & p2, define all p values -Plan: If conditions are met: (1-propoprtion Z-interval/2-proportion Z-interval) + Conditions: Random(Data is random or we are told it is representative of the pop), 10%(Sample size is less than 10% of the pop, only needed if sampling without replacement), Large counts: success && failures >=10 / np>= && nq>=10(do for p1 and p2)- show calcs
+-Do: Perform calculations and construct interval, write interval, state booth the (,) and the +-
+-Conclude: We are C% confident that the interval from _ to _ captures p/p1-p2, context
+Interpretation: C Interval: We are C% confidence that the interval_to_caputres the parameter in context
+C level: If you use a C% confidence interval often, about C% of your intervals will capture the true parameter value
+
+SE_phat1-phat2=sqrt((phat1(1-phat1)/n1)+(phat2(1-phat2)/n2))
+n=(z*)^2*phat(1-phat)/ME^2
+SE_phat=sqrt(phat(1-phat)/n)
+z*=|invNorm(1-Cl/2)|
+CI: statisic +-criticalvalue[z*](SE)
+
+90% -> z*=1.645
+95% -> z*=1.960
+99% -> z*=2.576

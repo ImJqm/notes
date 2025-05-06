@@ -1,0 +1,42 @@
+CIS for Means:
+One Sample t-interval for mean or paired t-interval: statistic: xbar, parameter: mu, Tinterval
+xbar +-t*(s/sqrt(n)) w/ df = n-1
+Two Sample t-interval for a difference in means: statistic xbar1 - xbar2, parameterL mu1-mu2: 
+(xbar1-xbar2)+-t*sqrt((s1)^2/n1+(s2)^2/n2)
+-2-SampT-Int
+Significange tests for means: (t-test)
+One Sample t-test for mean or paired t-test: Ho: mew = mew not
+t = xbar_diff-0/(s_diff/sqrt(n_diff))
+2 sample t-test for a difference in means: 
+(check conditions for each group)
+t=(xbar1-xbar2)-0/sqrt((s1)^2/n1+(s2)^2/n2)
+(2-sampTtest)  - INV t is only left sided
+
+t*=|invT(1-CL/2,df)|
+
+-can use 1-var stats to calculate Sxbar
+-conservative df, when using 2 samples always pick lower sample size - paired date gives better results
+than difference
+State: State Ho(0 for paired data bc paired data = diffs), state Ha, define parameters in context, state alpha, or say we are estiating the ___ at _% confidence
+s_(x1-x2)=sqrt((s1)^2/n1+(s2)^2/n2)
+t_df=xbar-mu/s_x/sqrt(n)
+Plan: state procedure, conditions
+Do: Run through calc, state t-score/t*, df, and p-value/ci
+Conclude: State whether we accept or reject Ho, next sentence talk about Ha in context
+- when doing !=, multiply p value by 2 bc 2 sided test
+Conditions:  ----Alpha = P(Type1 Error) - Beta = P(Type 2 Error) -Power = (1- Beta)= P(Rejecting Ho | Ho= false) - Beta and Power only exist when Ha= true
+Random: Sample is random/representative - 10%: (don’t mention if experiment): n< 0.1N (only when sampling w/o replacement)- Large/Normal: n>=30 or pop distribution is ~normal(no strong skew or outliers)
+-check conditions for both samples
+Assuming that Ho is true, there is a p-value probability of getting statistic in context just by chance ← interpreting p valu											
+You usually want a high power:
+3 Ways to increase: increase a
+(bad bc type P(type1error) goes 
+Up, 2 increase effect size(distance 
+Between a proposed Ho and the actual
+parameter) (usually impossible), or 
+(the best solution) increase sample size
+-Bigger sample easier to detect effectiveness, also results in lower sd
+
+Ha: mu>null -> right sided
+Ha: mu<null -> left sided
+HaL mu!=null -> 2 sided -> caluclate 1 side and multiply p-value*2

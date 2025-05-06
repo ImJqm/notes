@@ -1,0 +1,43 @@
+CONTEXT!!!
+Center: Median
+Unusual features: outliers/gaps
+Shape: Skew/Symmetry, Modality
+Spread: use Min/Max, or IQR for box plots
+
+Vocab:
+Distribution: what values a variable takes and the frequency it takes them
+Quantitative: Numerical  •Deviation: How far is each point from mean
+Categorical: Non-Numerical
+Joint Relative Frequency: relative frequency of 2 C variables, ex: Burgers & 1st pd.
+Conditional Relative Frequency: Total for both Cs / Total for GIVEN C
+Association: 2 categories have different relative frequencies.
+Different: 2 categories have similar relative frequencies. 
+Discrete: whole numbers n stuff, Continuous: any numbers and decimals
+
+Graphs:
+Bar Graph: Displays Categorical data, categories can overlap-> percents>100,      if line break
+Circle: Data cannot overlap, 100%
+2-Way-Tables: 2 categorical variables
+Segmented Bar Graph: Bar graphs added up to 100%
+Mosaic: ⇡but proportionally wide to sample size
+Steam&Leaf: 1|3 = 13, can split if needed
+Histogram:Intervals, discrete or continuous, quantitative variables,n=dataSetSize, 1) Find Range, 2) # of intervals is between 5 & √n, 3) int width = range/#of intervals, 5 & 10 = popular, 4) add up intervals and create
+
+Other Info:
+Symmetric: Mean = Median 
+Skewed left: Mean < Median          
+Skewed right: Mean> Median
+
+•x̄ = mean, Deviation:(x-x̄), all deviations added up = 0
+Variance: 𝝨(x-x̄)²
+Variance for Sample, s²: 𝝨(x-x̄)²/n-1
+Variance for Pop, σ^2: 𝝨(x-x̄)²/n
+Std. Dev:√Variance
+
+IQR = Q3-Q1
+Outliers: Low<Q1-1.5(IQR) High>Q3+1.5(IQR)
+
+5 Num Sum: Min, Q1, Med, Q3, Max
+Percentile: Percentage of data ≤this value
+
+Label outliers separately with dots, used next highest/lowest non outlier for mix/max
