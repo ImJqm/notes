@@ -1,5 +1,81 @@
-X2 GOF Test: - Checks if sample fits a suggested pop Ho: The claimed dist of (categorical var) is correct Ha: “” is incorrect - Conditions: Random/Randomized Experiment, 10% Condition, All Expected Counts > 5, X2=SIgma((observed-expected)^2/expected) df = # of categories -1, X2 GOF TEST in calc
-X2 homogeneity Test: - Checks difference across distributions(multi sample) Ho: There is no difference in the distribution of (cat var) across populations or treatments. Ha: There is - Same conditions as GOF, X2 = same, df = (#rows-1)(#cols-1) X2 Test
-X2 indep Test: - Checks association Ho: There is no difference association between 2 categorical variables in a given population or the two categorical variables are independent. Ha: They are- Same conditions as GOF, X2 = same, df = (#rows-1)(#cols-1) X2 Test
-T-int for Slope: Statistic: b, Parameter: B(beta) Conditions: LINER(Linear, Data = indep(10%), No outliers/skew on residual plot, Equal SD/spread for both x and y, Random) b +- t*SE_b, t* = invT(100-CL/2,df), df = n-2 LinRegTint
-T-test for slope: Ho: Beta = Beta_o, LINER, t = b-BETA/SEb, df = n-2, we can use the t star or p-value found on the regression for this btw
+X2 GOF Test: 
+
+- Checks if sample fits a suggested pop 
+
+Ho: The claimed dist of (categorical var) is correct 
+
+Ha: “” is incorrect 
+
+- Conditions: 
+
+Random/Randomized Experiment, 
+
+10% Condition, 
+
+All Expected Counts > 5, 
+
+X2=SIgma((observed-expected)^2/expected) 
+
+df = # of categories -1, 
+
+X2 GOF TEST in calc
+
+X2 homogeneity Test: 
+
+- Checks difference across distributions(multi sample) 
+
+Ho: There is no difference in the distribution of (cat var) across populations or treatments. 
+
+Ha: There is - Same conditions as GOF, X2 = same, df = (#rows-1)(#cols-1) X2 Test
+
+
+X2 indep Test: 
+
+- Checks association 
+
+Ho: There is no difference association between 2 categorical variables in a given population or the two categorical variables are independent. 
+
+Ha: They are- Same conditions as GOF, 
+
+X2 = same, 
+
+df = (#rows-1)(#cols-1) 
+
+X2 Test
+
+T-int for Slope: 
+
+Statistic: b, 
+
+Parameter: B(beta) 
+
+Conditions: 
+
+LINER(
+
+Linear, 
+
+Data = indep(10%), 
+
+No outliers/skew on residual plot, 
+
+Equal SD/spread for both x and y, 
+
+Random)
+
+b +- t*SE_b, 
+
+t* = invT(100-CL/2,df), 
+
+df = n-2 LinRegTint
+
+T-test for slope: 
+Ho: Beta = Beta_o, 
+
+LINER, 
+
+t = b-BETA/SEb, 
+
+df = n-2, 
+
+we can use the t star or p-value found on the regression for this btw
