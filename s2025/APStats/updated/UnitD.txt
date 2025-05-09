@@ -1,0 +1,48 @@
+Distributions:
+Probability Dist for random Variable:
+
+All probas must be between 0 and 1, Sum of probs = 1, Mean = sum of each result*its prob, sd = sqrt(sum of (x- mean)^2 * P(x))
+
+Binomial Dist:
+B: Binary(2 outcomes), 
+
+I:Independent, each outcome is indep of the others, 
+
+N: n(num of trials) is predetermined, 
+
+S: Same, probabilities to not change
+
+Mean = n*p, Sd = sqrt:(np(1-p)) where n = number of trials and p = the probability of succes
+
+Prob of x success in n trials, nCx*p^x*(1-p)^n-x,    P(fail)= q = 1-p, P(success on 1 trial) = p,
+
+Can be generalized to the normal dist, if the large counts condition is true, np & n(1-p) >=10
+
+Geometric Dist:
+B: Binary(2 outcomes), 
+
+I:Independent, each outcome is indep of the others,
+
+F:Were looking for the first success, words like until, n is not predetermined, 
+
+S: Same, probabilities to not change
+
+Mean = 1/p, SD: sqrt(1-p)/p, where p = prob of success
+
+Model: 1st success on xth attempt: ((1-p)^x-1)*p, Skewed right always
+
+Interpretation: Mean: Over many, many _ the average _ is about mean SD: The _ typically vary by about SD from the mean of MEAN
+
+Transformations: E(aX+-c) = a * E(x) +- c, Var(aX±c) = a^2*Var(x) ( addition doesnt change var or SD) SD(aX+-c) = a*SD(x), 
+
+More: E(x1+-x2) = E(x1)+-E(x2), Var(x1+-x2) = Var(x1)+Var(x2), SD(x1+-x2) = sqrt(SD(x1)^2+SD(x2)^2)
+
+Binomial Coefficient = number of paths that lead to a certain outcome
+
+nPr = Permutation = number of ways you can arrange n items with r choice to make = n!/(n-r)!, order matters
+
+nCx = Combination = how many ways can you arrange x items with r choices to make where order does not matter = n!/x!(n-x)!
+
+CDF = Percentile(cumulative), PDF = exactly that amount(precise), P(at least x) = 1-P(at most x-1)
+
+CDF = AT MOST

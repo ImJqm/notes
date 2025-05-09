@@ -1,0 +1,44 @@
+Vocab:
+LLN: Law of Large Numbers, if u run infinite trials they will asymptote to the theoretical probability
+
+How to interpret probability: If you take a very large sample of ___, about __% of them will ____
+
+LLN does not compensate for previous outcomes, 6 tails does not mean 6 heads next
+
+Probability:
+P(A) = # of outcomes for A/ total number of outcomes
+
+P(A^c) = 1-P(A)
+
+Mutually exclusive: If 2 events CANNOT occur at the same time, they are mutually exclusive
+
+P(A and B) = 0 if A and B are mutually exclusive
+
+P(A or B) = P(A) + P(B) IF A and B are mutually exclusive
+
+General Addition rule, typically if A and B are not mutually exclusive: P(A or B) = P(A) + P(B) - P(A and B)
+
+If A & B are independent, the P(B) does not affect P(A) and vice versa, so P(A given B) = P(A) and vice versa
+
+Events that occur without replacement are usually independent, indep events aren’t affected by past events
+
+Independent events: P(A and B) = P(A) * P(B), Dependent Events: P(A) * P(B given A) 
+
+Conditional Probability: P(A given B) = P(A and B)/P(B)
+
+To Show association, show unequal probabilities, 
+
+Trials:
+Component: what does one piece of the trial look like (ex: taking one basketball shot) (include 
+
+what numbers mean what, ex: 0-4 = miss, 5-9 score) (INCLUDE WHETHER U COUNT REPEATS OR NAH!!)
+
+Trial: Full trial, include # of times (ex: take shots till u miss, 5 times) 
+
+Response Variable: What response do u get from running the trial (ex: # of scores b4 miss)
+
+Statistic: The final report (ex: mean # of shots b4 miss)
+
+
+
+

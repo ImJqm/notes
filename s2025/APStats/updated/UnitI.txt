@@ -1,0 +1,94 @@
+Significance Tests:  
+1 Prop: 
+
+State: 
+
+Ho: p = x (has to be = because you have to plug into stuff), 
+Ha: p !=, <, > x, a = ___, where p is the true proportion of _ 
+
+Plan: We will use a 1 proportion Z test 
+
+Conditions: 
+
+Random,
+
+10%: Sample is less than 10% of pop, only needed if sampling w/o replacement), 
+
+Large Counts (np && n(1-p) >=10) Use the x from your hypothesis, the proportion, not your  sample statistic 
+
+Do: SE sqrt(p(1-p)/n) ←p from hypothesis, 
+
+Calculate phat <-from sample, calculate test statistic = z = (phat-p)/SE
+, draw diagram, 
+calculate p-value <-probability of getting a proportion of phat given Ho = true, 
+
+if use != ->double sided->invnorm only calculates for 1 end so multiply p-value by 2 
+
+Conclude: 
+
+if p-value>a(possible type 2 error): As p-value = _ > a = _ We fail to reject Ho. We do not having convincing evidence that Ha_.  
+
+If p-value<a(possible type 1 error): As p-value = _ < a= We reject Ho. We have convincing evidence that Ha_. 
+
+
+2 Prop: 
+
+State:
+
+Ho: p1-p2 = 0 
+
+Ha p1-p2!=<>0, 
+explain p1 and p2,  
+calculate pcombined=sum of success / sum of sample sizes 
+- pc is used for large counts and SD 
+
+-Plan: 2 proportion Z test 
+
+check conditions, same as b4, check 10% for both and random,
+
+large counts: check for both use pcn1 & (1-pc)n1 >= 10 && pcn2 && (1-pc)n2 >=10
+
+
+Do: Calculate SD = sqrt(pc(1-pc)/n1+pc(1-pc)/n2), 
+
+Calculate phat1-phat2, 
+
+Test statistic = z = (phat1-phat2) - 0 / SD  We use zero because our hypothesis, we assume null, draw diagram, calculate P-value (mutiply by 2 if !=) 
+
+Conclude: Same as before
+
+Check: use a 1/2 prop Z test to check your own
+
+You can never prove Ho to be true, you can only fail to reject it, if you want to prove something, make it Ha 
+
+- CI = Mean +- Z*(SD), For a 2-sided hypothesis test and a confidence of C%, α= 100% -C%
+
+For a 1-sided hypothesis test and a confidence of C%, α= (100%-C%)/2
+
+Alpha = P(Type1 Error) 
+
+- Beta = P(Type 2 Error)
+
+-Power = (1- Beta)= P(Rejecting Ho | Ho= false) 
+
+- Beta and Power only exist when Ha= true
+
+You usually want a high power:
+
+3 Ways to increase: increase alpha
+(bad bc type P(type1error) goes 
+Up, 
+
+2 increase effect size(distance 
+Between a proposed Ho and the actual
+parameter) (usually impossible), 
+
+or 
+(the best solution) increase sample size
+
+-Bigger sample easier to detect effectiveness, also results in lower sd
+
+
+Error Type = The One that is right
+Ho True + Reject Ho -> T1 Error
+Ha True + Fail to Reject Ho -> T2 Error

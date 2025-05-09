@@ -1,7 +1,7 @@
 * A DAY
 ** Ap CSA
-*** AP CSA EXAM
-   DEADLINE: <2025-05-07 Wed>
+*** DONE AP CSA EXAM
+   DEADLINE: <2025-05-07 Wed> CLOSED: [2025-05-07 Wed 18:23]
 
 *** DONE FRQ in Ap classrom
    DEADLINE: <2025-04-14 Mon> CLOSED: [2025-04-12 Sat 13:32]
@@ -9,6 +9,12 @@
 ** Choir
 *** DONE Grace Kelly Part Test 
     DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-15 Tue 17:43]
+
+*** TODO After Dark Project [1/3]
+    DEADLINE: <2025-05-12 Mon>
+    - [X] Pick Songs
+    - [ ] Format Slides
+    - [ ] Make Poter & Shirt
 ** Ap Statistics
 *** DONE Unit J review 
    DEADLINE: <2025-04-13 Sun> CLOSED: [2025-04-12 Sat 22:48]
@@ -28,8 +34,8 @@
 *** DONE R Reflections DUE 
     DEADLINE: <2025-05-02 Fri> CLOSED: [2025-05-02 Fri 20:06]
 
-*** TODO Program Calc w/ Cheat Sheet
-    DEADLINE: <2025-05-05 Mon>
+*** DONE Program Calc w/ Cheat Sheet
+    DEADLINE: <2025-05-05 Mon> CLOSED: [2025-05-07 Wed 18:22]
 
 *** AP STATS EXAM
     DEADLINE: <2025-05-08 Thu>
@@ -59,8 +65,8 @@
     DEADLINE: <2025-05-08 Thu> CLOSED: [2025-04-23 Wed 17:47]
     [[file:./APWorld/study.org][]]
 
-*** Review Guide
-    DEADLINE: <2025-05-06 Tue>
+*** DONE Review Guide
+    DEADLINE: <2025-05-06 Tue> CLOSED: [2025-05-07 Wed 18:23]
 ** AP Seminar
 *** DONE IWA Soft Submission
     DEADLINE: <2025-04-15 Tue> CLOSED: [2025-04-15 Tue 17:42]
@@ -102,5 +108,5 @@
 *** DONE Get to page 240  
     DEADLINE: <2025-04-17 Thu> CLOSED: [2025-04-17 Thu 17:29]
 
-*** TODO FINISH ESSAY
-    DEADLINE: <2025-05-05 Mon>
+*** DONE FINISH ESSAY
+    DEADLINE: <2025-05-05 Mon> CLOSED: [2025-05-07 Wed 18:22]

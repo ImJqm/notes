@@ -1,0 +1,46 @@
+Interpretations:
+Slope: For every 1 unit increase in explanatory variable, our model predicts an average increase/decrease of slope in response variable
+
+Y-intercept:When the explanatory variable is zero units, our model predicts that the response variable would be y-intercept
+
+S: The actual y-context is typically about S away from the number predicted by the LSRL.
+
+r^2: About r^2% of the variability in y-context is accounted for by the variability in x-context.
+
+r^2(coefficient of determination)= % of improvement in sum of residuals^2 when we use a linear model instead of the average y value to predict y
+
+LSRL(Least Squares Regression Line) 1/2 of data is above, other is below, the line where the sum of the residuals squared is the smallest
+
+Residual = y -y, Actual- Predicted, AP, 
+Yes pattern: Linear not appropriate, No Pattern: Linear appropriate
+
+-explanatory and response must be quantitative, swapping these 2 does not change r, r has no units, it doesn’t change when you change units, only for linear relationships
+
+r(correlation coefficient) = Strength of correlation, 
+
+-CDOFS=
+Context, 
+
+Direction(positive or negative), 
+
+Outliers, 
+
+Form(Linear, Nonlinear, No Form), 
+
+Strength(1-0.8:Strong, 0.8-0.5: Moderate, 0.5-0: Weak)
+
+slope(b)=r*(Sy/Sx)    |    y^=a+bx
+
+S(standard deviation of the residuals, typical residual length) = sqrt(sum of squared residuals/n-2)
+
+When the correlation isn’t r=+-1, the predicted value of y is closer to its mean, than the value of x to its mean
+
+Coreelation and LSRL != resistant to outliers
+
+Point Added: Far Right on line for mean of y(Slope:down,y-int:up, Correlation:down), Far Left(Slope:Down,y-int:up, Correlation(down)
+
+Point Added: Above line for mean of x(Slope=same,y-int:up,correlation:down) Below(Slope:same,y-int:down,correlation:down)
+
+Influential Points:High leverage(points are far from mean x, change slope) Outliers(Change correlation), a point can be/change both
+
+y=ax^p ---> logy=loga+plogx, Remember to undo log! | if residual is x^2, the linear model creates the sqrt of the y

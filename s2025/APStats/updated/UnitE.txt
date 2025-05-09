@@ -1,0 +1,28 @@
+Sampling Methods:
+Simple random sample: Put all individuals in hat, MIX WELL,  draw until u get sample, repeat if needed, ignore repeats (hat method)
+
+Cluster Sampling: sample groups of individuals near each other geographically, put all cluster names in hat, mix well, draw until you get sample, ignore repeats Stratified Sample: groups/ classes of ppl with common characteristics, set up hat for each strata, in each hat put all individuals for that strata in their hat, mix well, ignore repeats Proportional allocation: for each strata use sample size proportional to total pop, ex: 240 rooms, 96:ocean view, 48: partial view, 96: inland view, want sample size of 20, 20/240 = 1/12, so 96(1/12)=8 ocean view rooms, 8 inland, and 4 partial view Systematic Sampling: Interview every nth person, pick n, put nums 1-n in hat, mix well, draw starting num and interview every nth person from ur starting point Convicnece Sample: No randomization, “lemme interview the first 20 ppl i see”
+
+Making a study: 1) decide if u are gonna do a census or sample, 
+2) decide what you want to know, 
+3) decide who you want to get data from, 
+4) use randomization for sampling and assignment 
+5&6) analyze and conclude Response Bias: When questions or interviewers influence outcomes(ex: ur teacher asked if you cheated on the exam) 
+Undercoverage Bias: When some of the target samples are actually serveyed 
+Voluntary Response Bias: Only get responses from people who have smth to share, ex: voluntary survey Nonvoluntary Bias: Ppl ignore/refuse to do survey, ex: survey that is emailed out Sampling Error/Variation: Natural variability in samples, not a bad thing Bias: recorded data is off from the true values
+
+Observational Study: Subjects choose treatments and we record results, implies association, not causation Randomly Assigned Experiment: allows us to determine causation, Experimental Units: Smallest collection of individuals to which a treatment is applied(what goes into the hat) 
+
+Explanitory variable causes the response variable 
+
+Control Group: Group not given treatment to be used as a baseline - placebos help elim confounding(lurking) variables that might skew the results, 
+
+random assignment must be equal -If their are some variables you can't control use a blocked experiment design(1 experiment per block) 
+
+- matched pair design has a bunch of 2 subject blocks where treatments are randomly assigned within each block 
+
+-Statisically significant: unusual chance, <5%
+
+Randomized treatments Lets us infer cause and effect
+
+Random Sample lets use generalize for the population

@@ -1,0 +1,58 @@
+-Population Parameter: mean:mu,variance:sigma^2 
+
+-Sample Statistic: mean: x-bar, Variance: S^2 or Sx^2
+
+-We make inferences abt pops using samples, statistics can change from sample to sample, parameter stays the same. -N = pop, n = sample
+
+-Mean of dist of sample means = true mean, no matter n -The Lower the variability the more precise(narrow)- The lower the bias the more accurate(close to the true value, parameter) - mu of xbar = mean of means(mean of dist of sample means)  - Use words like True or All when referencing parameter
+
+CLT: if you take sufficiently large samples from the pop w/o replacement (>=30)  then the dist o’ sample means will be normally distributed 
+
+- A sampling distribution is unbiased if on average you get the true mean(need to be random) 
+
+- The higher the sample size the lower the variability 
+
+- Must write out everything including chachulations 4 checking conditions
+
+Sample: Proportions: distribution of the various statistics of sample size n with proportion p
+
+-Proportions use for categorical data, % of pop with trait. p=prob of success/pop proportion, phat = sample proportion, mew of phat = p, sigma of phat = sqrt(p(1-p)/n)
+
+-Conditions:
+
+- 10% condition: n < 0.1N, checks indep
+
+large counts: np>=10 && n(1-p)>=10(skewed if fail), 
+
+Random: sample is random(so we can infer 4 pop) 
+
+If met:p-hat ~ Normal(mew o’ phat = p, sd o’ phat of sqrt(pq/n))
+
+- Adding:Mean(x1+x2+...xn) =Mean(x1) +Mean(x2)+...Mean(xn), Var = Var(””), SD=sqrt(“”) - other words: mew o’ phat1-phat2 = p1-p2, VAR(phat1-phat2)=sigma^2 o’ p1 + sigma^2 o’ p2, in order to +-, both need to meet 10%, large counts, and random, and both need to be indep
+Sample Means:                              
+
+Average of Means xbar = mu, sigma o’ xbar = sigma/sqrtn 
+
+- CLT: if n>=30, dist = normal even if pop = skewed,
+
+the Xbar is the same as the mu for the pop, SD of the Xbar dist is sqrtn times smaller than the pop’s sd 
+
+Conditions:
+
+CLT: can be satisfied 3 ways: 
+1) its given the pop is normal 
+2) n>=30 
+3) the sample data has no strong skew and no outliers(so we can normally approximate)
+- Need independence 
+- 10% condition(so spread is calculable), 
+need to be random(so we unbiased)
+
++-: Mean (x1+x2+xn) = Mean(x1)+Mean(x2)+...Mean(xn), Var(“”) = Var(“”), SD = sqrtVar, 
+
+subtract: mu o’ xbar1-xbar2 = mu1-mu2, Var=sigma1^2/n1+sigma2^2/n2, 
+
+sd = sqrt o’ Var- In order to +-, need random indep, 10%, CLT 
+
+-xbar ~ Norm(mu o’ xbar, sigma o’ xbar = sigma/sqrtn) 
+
+- Recap(Mu o’ xbar = center of sample dist of xbar, mu = mean of pop data, sigma o’ xbar = sd of sampling dist, sigma = sd of pop data 

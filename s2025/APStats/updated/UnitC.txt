@@ -1,0 +1,31 @@
+Vocab:
+Percentile: (# of points <=value/total # of points)*100%
+
+Ogive: The Cumulative relative frequency graph.
+
+Z- Score: Number of SDs away from mean, Z = (x - mean)/SD, -1 -> 1, + -> above mean, - -> below
+
+Operations to data:
+Addition: Means & Medians change, SD/IQR and Z-score/percentile don’t
+
+Multiplication: Everything but Z-score and percentile changes ( standardized measures)
+
+Normal distribution: Area under curve = 1, N(Mean, SD) Mean: point where curve balances, Median: Splits area of curve in half, Skewed left: mean < median, Skewed right: mean> median
+
+Wider graph -> more variability, and vice versa
+
+Normal Model if density curve = linear
+
+If given data point, use normalcdf
+
+If given area, use invnorm
+
+Draw labeled normdist for full credit or show calc(calculator) operations
+
+normalcdf(Lower, Upper, Mean, SD) & invnorm(area, mean, sd, direction)
+
+Empirical Rule:
+1 sd: 34%
+2: 34+13.5%
+3: 34+13.5+2.3%
+4: 34+13.5+2.3+0.15%
