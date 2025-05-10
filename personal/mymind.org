@@ -14,6 +14,8 @@
 
 ** Make Satire sekiro copy ish 3d game
 
+** Imagine a typing test app, basically mokkey type but gtk themable????? 
+
 * College
 ** Online Info Meeting
    DEADLINE: <2025-05-22 Thu 19:00>

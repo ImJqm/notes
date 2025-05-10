@@ -1,7 +1,7 @@
 * US History
 * General ACC
-** TODO Vector Training [1/2]
-   DEADLINE: <2025-05-09 Fri>
+** DONE Vector Training [2/2]
+   DEADLINE: <2025-05-09 Fri> CLOSED: [2025-05-09 Fri 17:44]
    - [X] Mental Health
-   - [ ] Sexual Wellbeing
+   - [X] Sexual Wellbeing
 ** TODO Buy textbook
