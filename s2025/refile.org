@@ -114,5 +114,6 @@
 *** TODO Finish Quickwrites
     DEADLINE: <2025-05-21 Wed>
 
-*** TODO Project
+*** TODO Ela Project
     DEADLINE: <2025-05-14 Wed>
+    [[file:~/Documents/notes/s2025/Ela/podcast.org][Notes/Ideas]]

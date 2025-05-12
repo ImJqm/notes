@@ -1,2 +1,2 @@
-* TODO this is a test                                                     :cool:
-  DEADLINE: <2025-04-15 Tue>
+* DONE this is a test                                                     :cool:
+  DEADLINE: <2025-04-15 Tue> CLOSED: [2025-05-12 Mon 15:22]
