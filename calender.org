@@ -1,8 +1,8 @@
-* TODO UIL Academic Recognition
-  DEADLINE: <2025-05-15 Thu 16:20>
+* DONE UIL Academic Recognition
+  DEADLINE: <2025-05-15 Thu 16:20> CLOSED: [2025-05-20 Tue 20:08]
 
-* TODO Mu Alpha Theta Social
-  DEADLINE: <2025-05-16 Fri 16:20>
+* DONE Mu Alpha Theta Social
+  DEADLINE: <2025-05-16 Fri 16:20> CLOSED: [2025-05-20 Tue 20:07]
 
 * TODO College Seminar
   DEADLINE: <2025-05-22 Thu 19:00>

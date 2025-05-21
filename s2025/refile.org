@@ -10,10 +10,10 @@
 *** DONE Grace Kelly Part Test 
     DEADLINE: <2025-04-21 Mon> CLOSED: [2025-04-15 Tue 17:43]
 
-*** TODO After Dark Project [2/3]
-    DEADLINE: <2025-05-12 Mon>
+*** DONE After Dark Project [3/3]
+    DEADLINE: <2025-05-12 Mon> CLOSED: [2025-05-20 Tue 20:07]
     - [X] Pick Songs
-    - [ ] Format Slides
+    - [X] Format Slides
     - [X] Make Poter & Shirt
 ** Ap Statistics
 *** DONE Unit J review 
@@ -111,9 +111,9 @@
 *** DONE FINISH ESSAY
     DEADLINE: <2025-05-05 Mon> CLOSED: [2025-05-07 Wed 18:22]
 
-*** TODO Finish Quickwrites
-    DEADLINE: <2025-05-21 Wed>
+*** DONE Finish Quickwrites
+    DEADLINE: <2025-05-21 Wed> CLOSED: [2025-05-20 Tue 20:07]
 
-*** TODO Ela Project
-    DEADLINE: <2025-05-14 Wed>
+*** DONE Ela Project
+    DEADLINE: <2025-05-14 Wed> CLOSED: [2025-05-20 Tue 20:07]
     [[file:~/Documents/notes/s2025/Ela/podcast.org][Notes/Ideas]]
