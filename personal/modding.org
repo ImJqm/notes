@@ -1,0 +1,16 @@
+* Setup
+  ./gradlew
+  config da stuff
+  then run 
+   1. Refresh dependencies
+
+    ./gradlew --refresh-dependencies
+
+    2. Ensure everything builds
+
+    ./gradlew build
+
+    3. Run the modded Minecraft client
+
+    ./gradlew runClient
+  

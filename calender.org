@@ -5,7 +5,7 @@
   DEADLINE: <2025-05-16 Fri 16:20> CLOSED: [2025-05-20 Tue 20:07]
 
 * TODO College Seminar
-  DEADLINE: <2025-05-22 Thu 19:00>
+  DEADLINE: <2025-05-29 Thu 20:00>
   
    Uchicago
    Yale
