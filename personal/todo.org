@@ -14,3 +14,11 @@
   Choclate Carmels
   Thank you note
 * TODO Transfer knowledge from obsidian to org files 
+  DEADLINE: <2025-06-03 Tue>
+
+* TODO Find out how to open apps from the terminal but not run them in the terminal
+  DEADLINE: <2025-06-03 Tue>
+
+  DEADLINE: <2025-06-05 Thu> CLOSED: [2025-06-04 Wed 09:29]
+
+* TODO Find a way to color correct photos to the gruvbox style

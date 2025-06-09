@@ -4,8 +4,8 @@
 * DONE Mu Alpha Theta Social
   DEADLINE: <2025-05-16 Fri 16:20> CLOSED: [2025-05-20 Tue 20:07]
 
-* TODO College Seminar
-  DEADLINE: <2025-05-29 Thu 20:00>
+* DONE College Seminar
+  DEADLINE: <2025-05-29 Thu 20:00> CLOSED: [2025-06-03 Tue 21:59]
   
    Uchicago
    Yale
