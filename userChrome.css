@@ -1,0 +1,49 @@
+/* Hide window control buttons (minimize, maximize, close) */
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+/* Hide the back/forward buttons */
+#nav-bar #back-button,
+#nav-bar #forward-button,
+#nav-bar #reload-button {
+  display: none !important;
+}
+
+/* Hide tab strip navigation icons (extra just in case) */
+#TabsToolbar .tabbrowser-arrowscrollbox-periphery {
+  display: none !important;
+}
+
+
+/* --- Remove the "close tab" X on each tab --- */
+.tabbrowser-tab .tab-close-button {
+  display: none !important;
+}
+
+/* --- Remove the "new tab" + button --- */
+#tabs-newtab-button,
+#new-tab-button {
+  display: none !important;
+}
+
+/* --- Remove the bookmark star in the URL bar --- */
+#star-button-box,
+#star-button {
+  display: none !important;
+}
+#picture-in-picture-button,
+#urlbar-picture-in-picture-button,
+#pageAction-urlbar-picture-in-picture-button {
+  display: none !important;
+}
+
+#sidebar-button-box,
+#sidebar-button {
+  display: none !important;
+}
+
+
+
+
+
