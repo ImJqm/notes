@@ -1,0 +1,144 @@
+{
+    "layer": "top",
+    "output": "DP-1",
+    "position": "top",
+    "height": 36,
+    "spacing": 4,
+    "exclusive": true,
+    "passthrough": false,
+    "fixed-center": true,
+
+    "modules-left": ["hyprland/workspaces", "custom/sep", "hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": [
+        "tray",
+        "custom/sep",
+        "pulseaudio",
+        "pulseaudio#microphone",
+        "cava",
+        "clock#date",
+        "battery",
+        "custom/sep",
+        "custom/power"
+    ],
+    "wlr/workspaces": {
+        "on-click": "activate",
+        "format": "{name}",
+        "all-outputs": true,
+        "disable-scroll": false,
+        "active-only": false
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "rewrite": {
+            "(.{42}).*": "$1.."
+        },
+        "icon": true,
+        "icon-size": 22
+    },
+
+"cava": {
+        "framerate": 144,
+        "autosens": 1,
+        "sensitivity": 1,
+        "bars": 14,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "method": "pulse",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "actions": {
+                   "on-click-right": "mode"
+                   }
+    },
+
+    "tray": {
+        "show-passive-items": true,
+        "spacing": 10
+    },
+
+    "clock": {
+        "tooltip": false,
+        "format": "  {:%H:%M}"
+    },
+
+    "clock#date": {
+        "format": "  {:%a %d %b}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "calendar": {
+            "mode": "month",
+            "mode-mon-col": 3,
+            "on-click-right": "mode",
+            "format": {
+                "months": "<span color='#f5e0dc'><b>{}</b></span>",
+                "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
+                "today": "<span color='#f38ba8'><b>{}</b></span>"
+            }
+        },
+        "actions": { "on-click-right": "mode" },
+        "min-length": 8,
+        "max-length": 28
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "  muted",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": "󰂑",
+            "headset": "󰂑",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [" ", " ", " "]
+        },
+        "on-click-middle": "pamixer -t",
+        "on-click": "pavucontrol"
+    },
+
+
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " ",
+        "on-click": "pavucontrol -t 4",
+        "on-click-middle": "~/.config/hypr/scripts/volume.sh --toggle-mic",
+        "on-scroll-up": "~/.config/hypr/scripts/volume.sh --mic-inc",
+        "on-scroll-down": "~/.config/hypr/scripts/volume.sh --mic-dec",
+        "tooltip-format": "{source_desc} | {source_volume}%"
+    },
+
+    "custom/sep": {
+        "format": "|",
+        "tooltip": false
+    },
+
+    "custom/power": {
+        "tooltip": false,
+        "on-click": "$HOME/power.sh &",
+        "format": "⏻ "
+    },
+
+"battery": {
+        "interval": 5,
+
+        "format": "{icon} {capacity}% ",
+        "format-icons": ["", "", "", "", ""],
+        "format-charging": " {icon} {capacity}% ",
+        "tooltip-format": " {power}W - {timeTo}",
+ 
+        "states": {
+            "ok": 50,
+            "warning": 30,
+            "low": 20,
+            "critical": 10
+        },
+    }
+}
