@@ -1,0 +1,230 @@
+* Webinar
+
+
+** Notes
+
+
+** Ally Herrman, Robotics analyst, does cad modeling
+   - Flight controller
+   - Uses headsets
+   - Works on robotics systems
+   - Trainign group and pretends to be an astronaut
+   - Paid to learn
+   - Work in Space
+
+
+** About:
+   - Houston, Texas
+   - Wasn't interested in space, liked mechanis instead(engineering)
+   - Studied mechaninal engineering
+   - Accidentally signed up at technology college
+   - Ended up enjoying it
+   - Like video game
+   - Design -> CAD -> Build
+  
+
+** How she started at nasa
+   - sophmore: someone from san jecento **get a glimpse program**
+   - lady form there: gimme ur resume, ill hook you up
+   - No enginering positions but astronaut position
+
+
+** Went to event at hotel
+   - WHen shuttle came down & they had to close rodes
+   - Scott Tangle was assigned, Ally could come to
+   - Accross street from johnson space center
+   - Basically a bodyguard ish
+   - Keep flow of people traffic
+
+
+** Someone from robotics department asked her manager for someone w/ CAD
+   - Kinda transferred over
+   - Worked on **canadarm2** on ISS
+   - 
+
+
+** On ISS
+   - Couple diff robotic systemn
+   - Japanse
+   - EUropean(on russian side)
+   - Dexter(SPDF)
+
+*** Canda Arm 2
+    - 7 joint arm
+    - Needed REALLY DETAILED CAD
+    - She modled the whole space station exterrior
+    - COmapnies pay money to keep some hardware on station
+    - She makes sure they fit in right place
+    - Can walk over itself(Japanse can't)
+    - Slide table is kinda of an airlock
+    - Comes out with hardware, and then robot graps it
+    - Hours & Hours of time lapse, robotic arm is REALLY SLOW
+    - Every movement has to be planned
+
+
+** Dextre(SPDM) 
+   - Robot
+   - Kinda like a person
+   - two double jointed arms
+   - Canda arm can move spdm
+   - He can go around and do stuff
+
+
+** Models
+   - Accurate within 1 degree and 1/2 of an inch
+   - Mission designers use 3d models to develop a thought out procedure
+
+
+
+** ISS Experience
+   - Traveled in different countries
+   - Around US
+   - Put on a VR headset
+   - You are like in and outside spation
+   - She worked heavily on that
+   - Camera our robot could grab
+   - Full 360 view
+   - Production won an emmy
+
+
+** Learn how robotics system moves
+
+** She gets to pretend to be an astronaut flying a simulation
+
+
+
+** Cupola ISS
+   - Module on station
+   - Window on bottom side that lets you look at the earth
+   - Most earth photos are from here
+   - Shutters on outside
+   - Simulates being an astronaut on MOCK iss
+   - 
+
+
+
+
+** Operations shwon to public on NASA TV
+   - Videos and stuff to show to people
+   - Person: Portugal/Brazil  - Watches the stuff
+   - Moving payloads takes time
+   - canadarm2 and dextre are a W duo
+   - 8 Hours to move smth a couple feet
+   - Work day & Night
+
+
+
+
+** Put a camera on a grasp target
+   - Have an overlay/crosshair for alignment
+   - ApaISS has good timelapse videos of ISS
+
+
+** Gets to work closely to people who have similar interests
+   - Everyday is diffent
+
+
+
+** What activities should we as high school students try and take part in to be successful in fields such as robotics and engineering, and to be noticed by colleges and organisations -- such as NASA -- in the future?
+  - No engineering class in highschool
+  - Computer design
+   - For NASA: Any Engineering degree, math, physics, electrical, mechanical, aueronautical
+   - Pretty much any stem degree
+    - Works for contractor(NOt NASA :())
+      -NASA: Strict Guidelines -- per job basis
+    - AST Qualifications
+    - [[https://searchpub.nssc.nasa.gov/servlet/sm.web.Fetch/NSREF-3000-0566_NASA_AST_Qualification_RatingReqtsDeskGuide-V1.pdf.pdf?rhid=1000&did=5581529&type=released][AST QUalifdications]]
+    - Her jpob in in operations
+      - Always can say no later, any oppurtunity: DO IT
+      - 
+
+
+
+** How did you get connections to Nasa when you initially get your degree for mechanics?
+   - Didnt graduate yet
+   - Got internship, happened to be located at NASA
+   - Some of the other peopel would go to their differnet companies
+   - no where to look (Usually there is direct NASA internship)
+   - You dont know unless somebody shows up
+   - 
+
+
+** What CAD Program?
+   - CoCreate
+   - Never heard of before
+   - Was using wilfire in university
+   - Maybe creo parametric
+   - BG in solidworks
+   - Geomagic
+
+
+** Typical Day
+   - Everyday is different
+   - Today: did work for mission called MISSE
+   - Exposes materials to outside space for long period of time to see what happens
+   - Swap samples and analyze every six months
+   - Worked on it before
+   - She moves robot around
+   - Today did some analysis work
+   - Study and train for certification
+   - Gets to take breaks tho 
+   - Lot of green space
+   - Lot of animals
+   - Turtles, dogs, deer, and potential alligators
+   - Lot of emails
+   - Highly variable tasks
+   - Team you can trust
+
+
+** Why do the robot arms and materils move so slowly in space?
+   Flight rules:
+   - What were moving, how close we are to other things
+   - We might meed to move slowly for safety
+   - ISS is billions
+   - Unsafely -> Damage and lose funding
+   - Potential wasted time, money, and effort
+   - Could hurt crew on board
+   Documents & Documents for each displicne
+   - Can only go so fast if youre more than 5 feet away from smth
+   - Compare downlink w/ Software
+   - Lot of mass
+   - Tiny bit of gravity in space
+   - Inertia
+
+
+** How do you handle unexpected anomalies or failures during robotic operations on the ISS?
+   - Try our best to prepare for everything
+   - Sometimes surprise
+   - Train rlly hard NOT to mess up
+   - ex: which batterues power what in x oreintation
+   - Super specific edge cases are what they are trained on
+   - Redundancy
+   - SHe is certified in: Simulation: One of seven joints in broken, how do you keep doing it w/o that joint
+   - You can switch to differetn software
+   - If mechincally broken: figure how to do it usin gother 6 joints
+   - Situation: moving smth, never put it there before, could not put it there
+   - Had to design new trajectories to re-align on the fly
+   - Comes down to how hard we train
+
+
+** What would you say was the most educational experience for you?
+   - Life
+   - Experiencing things
+
+
+** What kinds of projects do you work on in your area/field in NASA and of them which one is your most favorite and why?
+   - One that always sticks out
+   - Extremely difficutl
+   - WOrk overtime for it
+   - HAD to get it done in a safe, effective way
+   - As long as you get it done
+   - Not micro managed
+   - Project called Bartolomeo
+     - Platform on the outside of the space station
+     - Platform that hangs on side of one of the modules
+     - A lot of other payloads or hardware can sit on it to get done
+     - Payload can be plugged into Bartolomeo to power itself 
+     - In person, hardware was nothing like the models, had to do a lot of work to fix it
+     - People would use the model, and if the hardware was innacurate, it would be bad
+     - They gave her a keychain because she worked so hard
+
