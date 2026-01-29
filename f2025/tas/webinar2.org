@@ -1,0 +1,341 @@
+* Webinar #2
+
+** Info
+   - Geust: Kurt Leucht
+   - Senroir Software Develpoer and public speaker at NASA's Kennedy Space cente
+   - 30+ Years cutting edge robotics, software, and mission support ystsems
+   - 
+*** Current Work:
+    - software development for regolith-minign robots
+    - high res lunar mission planning tools
+    - researching bioligcally inspiried swarm robots that mimic ants behavior
+    - Gives presentations about living off of the lnad on Mars
+
+
+
+** Notes
+
+*** About
+    - Little bit of softwar and a lot of robotics
+    - Didn't grow up anywhere near nasa
+    - Central Illinois
+    - Very Very Rural
+    - Lots of cornfeilds
+    - Loved computers and loved softwar
+    - At time, way less available
+    - It was the 80s as a kid
+    - Did play computer games
+    - Also wrote some software programs
+    - Way before modern internet or youtube tutorials
+    - Apple 2e personal computer
+    - Also loved to tinker, take things apart and put them back together
+    - When was little took apart toaster and somehow put it back together and made it work
+    - Not just take them apart, but understand how they work
+    - Erector set is old toy that he loved
+    - Not even an 80s toy, handme down
+    - You could build anything it was a full kit with motors gears and kits
+    - Also quite fond of rockets and space program
+
+
+*** What are engineers?
+    - Basically get paid to solve problems
+    - That their boss asks them to work on
+    - You can solve a problem by fixing somethiong that is broken, or by inventing something new, or putting things together in a never before seen combination
+    - Great field for highly technical people
+    - Also great feild for creative people -- often missed
+
+
+*** About College
+    - Likes to stress to highscool highschool students
+    - WHERE you go to college doesnt matter as much as HOW you do and WHAT you learn
+    - Those are  the key things
+    - He chose electrical engineering (cs wasn't rlly prominent or popular)
+    - Pick a field that interests you
+    - Dont pick a feild for salary
+    - If interested ---> whole career wont feel like work
+    - Any work expereince WHILE in college is an amazing thing to have
+      - Not for everyone tho
+      - If going to make it harder --> not worth it
+      - IF you do it or trade back & forth:
+      - Valid but work in college doesnt HAVE to be in feild of study
+        - Looks great but not required
+        - Any type of work is GOOD work
+        - Shows hard work & collaboration
+        - Dont turn down bc not dream job
+
+
+*** About Him
+    - Lucky to get intership/coop job with NASA Kennedy in College
+    - Very similar things today
+    - Worked for time for a semester, didnt go at all
+    - Then go to school for semster
+    - Back & Forth
+    - made it very easy to be hired by nasa post grad
+    - 4y bachelors in Electical Engineering
+    - Highered full Time
+    - Even if NASA didn't higher him
+    - Engineers still HIGHYL sought after
+    - Buisnesses NEED engineers
+    - Everyone needs problem solvers
+
+
+*** Post Grad
+    - 1st non intern job was to investigate failures of electronic systems
+    - Figuring out exactly WHAT caused those failures
+    - Basically crime scene investigators
+    - Microscopes & Testing Equipment
+    - Boss: Named Gary
+      - Taught him work life balance
+      - Made sure he didnt work himself to death
+      - A lot of people do
+      - Follow your passion even if passion turns away from job
+      - Told him if oyu dont whitsle way there & back, you might wanna work somewhere else
+      - you SHOULD love the work you do, if not -> you are in the wrong place
+    - He took his advice and moved into software development group
+    - A lot more interested in software despite hardware degree
+    - Compute COntrol System inside NASA Firing Rooms
+    - Firing Rooms
+      - Large rooms full of engineers and people interacting with them
+      - Used to control launch countdown and to monitor the rocket
+      - room you always see on tv of nasa launc
+      - Worked in this for many years, really really cool job
+    - Wasnt forever job at NASA
+
+*** New Group: Tech Development Group
+    - Testing theories & inventing new technologies in a lab
+    - Working on technologies used on moon or mars some day
+    - Coolest job of all in 35y NASA Career
+    - Lead a project called The Swarm RObots
+      - Used a system of small and inexpensive robots that behave like ants
+      - Find and collect rescources on moon/mars
+      - Working on proof of concept of hobby level robots on earth
+      - Goal is *inexpensive* 
+      - Tested it on earth testing prototype, small mobility platform
+      - Used to test software
+
+
+*** Video 
+    - Futuristic robotic technologies we plan on using
+    - NASA Swarm robots robotsunder construction
+    - Studied behavior patterns of ants after they find out piles of food and how they moved aroudn
+    - omg ubuntu terminal
+    - windows video player tho :(
+    - Test software on simulation
+    - Simulation of multiple robots searching for rescource
+    - Tested in parking lot at work
+    - Omg the heat map of the robots is GTK themed :D
+    - White spot represents rescource
+    - Dark spots are movements
+    - Robots came across big pile -> summoned other robots when he came back home
+    - Lets all go to the loot!
+    - This is how ants work, they use a chemical pheramone trail
+    - Replicate ant behavior using wireless technologies
+    - 20x normal speed pretty slow :/
+    - They just test with hobby level robots, pretty awesome, goal is inexpensive, focus is software, not hardware
+
+
+*** Another video, approved for public
+    - not intersting tho :/
+
+
+*** Next Project: 
+    - Wrote software for novel robot that can excavate
+    - Small and lightweight
+    - Tough and robust
+    - Excavate hard volcanic soil
+    - Can do it in low gravity conditions
+    - basically 4 rows of cylinders
+    - 2 rows of wheels
+    - 2 rows of rotary diggers
+    - Earth based proof of concept focused on making a working robot similar to moon
+    - Woah they use apirl tags just like FTC
+    - Been funded to send a version to the moon
+    - Thats pretty awesome
+    - Smaller version, just as capable, but can fit in any commerical lunar lander
+    - In the next few years will go to the moon
+
+
+
+*** Why a digging robot?
+    - Lot of uses on the moon
+    - Can clear area for landers
+    - Can dig ditches or trenches, for burying equipment
+      - Ex: Equippment, Wires, Or powersource
+    - Can protect equipmewnt from vehicles on surface
+    - Can extract subsurface Water for drinking or for watering plants
+    - Most people think moon is dry
+      - It is until several feat below surface
+      - Certain of a layer of ice a few feet below the first layer of moon
+
+
+
+*** Computer ANimation
+    - Land on lander, smaller commerical
+    - Deploy on surface
+    - Differnet deployment techniques based off of what lander
+    - Drives path around lander and chooses ecavation lander
+    - Not manually driven, full auto
+    - Detect rocks and obstacles
+    - Change path to correct dynamically
+    - Estimate safe extraction area
+    - Main focus is to excavate area in front of lander
+    - Drives forward while drums spin, basically takes bite
+    - Gets hot due to no air to dissapate heat
+    - You have to actively pull heat away from electronics and dump it into empty space
+    - Robot also has to recharge
+    - Operating in dusty environment:
+      - Avoid having to plug in robot becuase it could get dirty
+      - Why no solar panels?, Dust covers them
+      - Always recharge
+    - Contactless charging, pretty awesome
+    - Charge transfers through antennas
+
+
+
+*** How robot works
+    - Teeth on wheeels dig
+    - Offset each tooth to minimize forces on robot
+    - Can load collected material into hopper arm
+    - Wheels can go over rocks
+    - Arms and drums
+    - Robot can change center of gravity by moving arms to gain wheel contact pressure -> climb steep slope
+
+
+
+*** Another Project: Moon Tycoon
+    - High Degree precision moon emulation software
+    - Simulates for people and tools
+    - Still in heavy development
+    - Used by nasa mission planners and others to plan detailed and complex lunar missions and equipment, robot, and astronaut interactions
+    - Hired intern last week to work on it
+    1) Choose Spot
+    2) Land Scape Is simulated
+    3) Detail is highly accurate
+    4) Textures, Lighting SImulations
+    5) Place Items & Interact
+    6) Place & Drive, and operate robots
+       - Arms mechanisms and cameras
+    - Lots of tools to work with in the engine
+
+
+
+*** NASA Speaker's Burea
+    - Group of volunteers that speak about NASA at many schools and events
+    - Thats how he is speaking here today
+     
+*** How has engineering changed throughout the time you have been doing your job?
+    - Process of engineering has remianed pretty constant
+    - Requirements -> Design -> Reviews
+    - Repeat then implemnt
+    - End with testing, especially during implementation
+    - Tools we use have changed
+    - When he started, had computers, but not many of the things we have today
+    - We didnt have email access, had just been invented, rising in unbiversties, expaned to companies later on
+    - Tools we use have grown exponentially
+    - Moon Tycoon is made using Unity
+    - Tools so good -> Silly to not use it
+
+*** you’ve researched biologically inspired 'swarm' robotics that mimic ants. When coding these robots for a lunar environment, what is the biggest challenge in translating biological behavior into a software algorithm that can handle the terrain of the Moon?
+    - Process involved not the moon but the earth
+    - Did not need to solve the problem for the moon, that wasnt the goal
+    - Very early research project
+    - Once it goes to the next level, demonstrated on lander and put on moon
+    - People who work on those would need to take it to the next level
+    - Need to simulate and add software layer that wasnt used before
+
+
+*** Do you have any advice for shy students?
+    - When was young, very shy, sister outgoing
+    - Hung back
+    - Parents said clutching their leg and hiding behind them, while sister is out there
+    - evolved since then
+    - Has 2 college students, one is shy, one is outgoing
+    - Shy tends to open up when he is with HIS people
+    - Really into computers, videogames, and software
+    - When he is in room with like minded people, he opens up and engages
+    - Immerse youre self with like minded people, will naturally get you to open up, and you can expand from there and with expereince become more outgoing in unnatural environments 
+    - 
+
+
+*** Did you ever have moments where you felt as if software/engineering wasn't for you? If so, how did you persist?
+    - Imposter syndrome is natural
+    - Dont feel bad about it
+    - If you gotta do extra stuff then just do it, dont feel bad about it
+    - Can be very worthwhile
+    - Dont think less
+    - Everybody thinks that
+
+
+
+*** 	What does a day to day work week look like?
+    - Unique job working with robots
+    - Not all of coworkers get this oppurtunity
+    - Not always amazing and always thsi fun
+    - Lot of overhead involved in engineering
+    - Start day by going through emails
+    - If you run a lot of projects -> lot of emails
+    - Not in charge, you wont get as much
+    - Time where he was in charge, felt like he couldnt get work done donebc so many emails
+    - Less manager -> More work
+    - Feel good not behind tho
+    - Depends on project tho
+
+
+*** 	What coding languages or skills should we learn to get to a position like yours?
+    - Actual answer is dependent
+    - Real answer: use languages YOU are comfortable with and ones that appear to be growing/popular
+    - Resume, future employers will see that, see experience
+    - Even if not exact language, employers will train
+    - Hard to answer because NASA languages are way different from language for SWARM Robots
+    - Everything is Differnet
+    - Swam project was a few 100k vs billions for mars rover
+    - Mars rover needs so many ways to handle problems w/o human interaction
+    - Needs big and robust, and redudant software stack
+    - Use rlly rlly old software
+    - Research project is more modern and currently popular
+    - Lab robots use python, just cause its easy and quick, not real time but oyu dont need that
+
+
+*** What is a good roadmap to learning robotics?
+    - Assuming high schooler
+    - Has robotics? -> Join
+    - I alr did that tho bro -_-
+    - Its true tho 
+    - Do same at colleges, just get experience and work with them
+    - Low friction way to learn
+    - Valuble experience
+    - Hobby robotics is also good
+    - Even legos
+    - I also did that bro -_-
+    - Im also usiong sphereo bnro any actual advice
+    - Arduiono (I said that not him)
+    - Even block code, but words is better
+    - He lowkey dragging it tho :/
+    - Find programmable product
+
+
+*** 	What are some common challenges you face?
+    - Software bugs
+    - Can happen because in a hurry, and wrote bad software
+    - Hes right 💔
+    - Design BEFORE implementation
+    - Another challenge is simulation vs reality
+    - Integration problem
+    - Things might not always work in reality the way you expect them to
+    - BEst solution is fix software, AND fix simulation so its more accurate in the future
+
+
+
+*** 	How many EDNs have you used in your time?
+    - guessing 0
+    - If I stacked them all up its not as big as youre thinking
+    - Bought yay high
+    - i dont rlly use them lowkey 
+    - Not as much as should
+    - ur a bad example brocluch but lowkey aint nobody doing allat💔
+    - only been on new project for a couple weeks and is halfway through his new notebook
+    - Lowkey innefficient, hes maybe doing smth right cus documention or he doing it wrong cus he saying to much
+    - Stuff he wont look at again, or wont be able to find
+    - Always trying to imporve
+    - End of meeting🆓
+
