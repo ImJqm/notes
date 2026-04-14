@@ -1,0 +1,2 @@
+(self.webpackChunk_scribd_app_monolith=self.webpackChunk_scribd_app_monolith||[]).push([[1386,9005],{89005(s){s.exports="https://s-f.scribdassets.com/webpack/assets/images/shared/logos/slideshare/slideshare_lockup_white_RGB.8afc0075.svg"}}]);
+//# sourceMappingURL=https://www.scribd.com/webpack/monolith/1386.aba098bac7d6f1821021.js.map
