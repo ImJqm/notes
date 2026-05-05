@@ -1,0 +1,67 @@
+#school/s2026/5-APChem 
+
+- UV is used for electronic transitions
+- Infrared is used to study bonds
+- Microwave is used to study entire molecules.
+- Periodic Trends
+- Oxyacids
+- What determines Ionic Strength
+-  Percent to Mass, Mass to Mole, Divide by smallest, Multiple till whole
+- Hydrate = crystalline substance with a fixed composition of water
+- Alkali Metal Cations and NH4+, C2H3O2-, and NO3- are always soluble.
+
+
+### 5 Points
+---
+
+- Reaction rate = 1/coeffiecient times delta [ ] / delta t
+	- Reactant -> -
+	- Product -> +
+
+- Factors that affect Rates
+	- Concentration (only one that doesn't affect k)
+	- Nature
+	- Temperature
+	- Surface Area (More Surface, More Contant, More Reavtion)
+	- Catalysts 
+
+- Changes in pressure -> Only Gasses affected
+
+- Increase Pressure / Decrease volume -> EQ shifts to fewer particles
+- Decrease Pressure / Increase volume -> EQ shifts to more particles
+- More Positive Stds. Reduction Potential (E) -> More likely to reduce
+- delta G = -nFE = -RTlnK
+- Distillation seperates. mixtures via boiling points
+
+- Paper Chomrotography = Small on Small scale
+	- Put stationary phase on paper
+	- Mobile phases is a liquid
+	- Seperate based on polarity
+
+- Colum Chromotorgraphy = BIG on large scale
+	- Pakced vertical comlumn
+	- Stationary phase phase = silica gel/solid
+	- Seperates larger amounts by flow rate
+	- This is dependent on IMFS
+
+- Energy vs Bond Distance Graph
+	- Optimal at bond at vertex
+	- Bond length is when attractive (electrons and nuclei) = repuslive(e to e and nuclus to nucleus)
+
+- Be is chill with 4 electrons
+- B is chill with 6
+
+### Glitches
+---
+- Group 5 vs. Group 4
+	- Cu is NOT [Ar]4s2 3d9 it is [Ar]4s1 3d10 because fewer e- sharing orbitals -> more stable
+	- Cr is NOT [Ar]4s2 3d4 it is [Ar]4s1 3d5 because fewer e- sharing orbitals -> more stable
+
+- Aufbau Principle - electrons must. occupy lowest energy level first
+
+- Pauli Exclusion Princple : an orbital may have at most 2 electrons
+
+- Hund's Rule: Electrons occupy orbitals in a way that makes the numbers of electrons with the same spin as large as possible
+
+- Group 2 vs Group 3
+	- Its easier to remove an electron from boron (2s2 2p1) because the p orbital doesn't penetrate the nuclear region
