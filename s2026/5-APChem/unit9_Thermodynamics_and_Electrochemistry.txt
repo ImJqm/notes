@@ -1,0 +1,216 @@
+UNIT 9: THERMODYNAMICS AND ELECTROCHEMISTRY
+AP Exam Weighting: 7-9%
+=============================================
+
+TOPIC 9.1 - INTRODUCTION TO ENTROPY
+
+- Entropy (S): a measure of the dispersal of matter and energy in a system.
+- Entropy increases when matter becomes more dispersed (more disordered).
+
+Processes that INCREASE entropy (deltaS > 0):
+- Solid -> liquid -> gas (particles become freer to move)
+- Dissolving a solid into solution
+- Increasing temperature (broader distribution of kinetic energies)
+- Increasing volume of a gas at constant temperature
+- Reactions that produce more moles of gas than they consume
+
+Processes that DECREASE entropy (deltaS < 0):
+- Gas -> liquid -> solid
+- Precipitation from solution
+- Reactions that consume more moles of gas than they produce
+
+General rule for reactions:
+- If moles of gas(products) > moles of gas(reactants): deltaS > 0
+- If moles of gas(products) < moles of gas(reactants): deltaS < 0
+
+
+TOPIC 9.2 - ABSOLUTE ENTROPY AND ENTROPY CHANGE
+
+- Absolute entropy (S degrees): standard molar entropy in J/mol*K.
+  Unlike enthalpy, absolute entropies can be assigned (they are never negative for a
+  real substance; S degrees = 0 only at absolute zero).
+- More complex molecules have higher absolute entropy.
+- Gases have higher entropy than liquids; liquids higher than solids.
+
+EQN: deltaS degrees(reaction) = sum[S degrees(products)] - sum[S degrees(reactants)]
+
+(multiply each S degrees by the stoichiometric coefficient)
+
+
+TOPIC 9.3 - GIBBS FREE ENERGY AND THERMODYNAMIC FAVORABILITY
+
+EQN: deltaG degrees = deltaH degrees - T*deltaS degrees
+  T = temperature in Kelvin
+
+- deltaG degrees < 0: process is thermodynamically favored (products favored at equilibrium).
+- deltaG degrees > 0: process is thermodynamically unfavored (reactants favored at equilibrium).
+- deltaG degrees = 0: system is at equilibrium under standard conditions.
+
+NOTE: "Thermodynamically favored" is preferred over "spontaneous" in AP Chemistry.
+NOTE: Thermodynamically favored does NOT mean fast (kinetics and thermodynamics are separate).
+
+Predicting thermodynamic favorability from signs of deltaH and deltaS:
+
+deltaH < 0 and deltaS > 0: deltaG < 0 at ALL temperatures (always favored)
+deltaH > 0 and deltaS < 0: deltaG > 0 at ALL temperatures (never favored)
+deltaH < 0 and deltaS < 0: favored at LOW temperatures (enthalpy drives favorability)
+deltaH > 0 and deltaS > 0: favored at HIGH temperatures (entropy drives favorability)
+
+At the crossover temperature: deltaG = 0, so T = deltaH degrees / deltaS degrees
+
+Standard Gibbs free energy from formation values:
+EQN: deltaG degrees(reaction) = sum[deltaGf degrees(products)] - sum[deltaGf degrees(reactants)]
+
+
+TOPIC 9.4 - THERMODYNAMIC AND KINETIC CONTROL
+
+- A process can be thermodynamically favored (deltaG < 0) but still not occur at a
+  measurable rate.
+- Kinetic control: when a thermodynamically favored process has a very high activation
+  energy, it proceeds too slowly to observe.
+- Example: diamond converting to graphite is thermodynamically favored but kinetically
+  extremely slow.
+- A slow reaction is NOT necessarily at equilibrium; it may simply be kinetically controlled.
+
+
+TOPIC 9.5 - FREE ENERGY AND EQUILIBRIUM
+
+- deltaG degrees and K are directly related:
+  EQN: deltaG degrees = -RT ln K
+  EQN: K = e^(-deltaG degrees / RT)
+  R = 8.314 J/(mol*K); T in Kelvin
+
+- deltaG degrees < 0 -> K > 1 -> products favored at equilibrium.
+- deltaG degrees > 0 -> K < 1 -> reactants favored at equilibrium.
+- deltaG degrees = 0 -> K = 1 -> roughly equal amounts at equilibrium.
+- When deltaG degrees is near 0: K is close to 1.
+- When |deltaG degrees| >> RT: K is very large or very small.
+
+
+TOPIC 9.6 - FREE ENERGY OF DISSOLUTION
+
+- Dissolution of a salt involves three energetic factors:
+  1. Breaking of solute-solute interactions (endothermic, decreases entropy).
+  2. Reorganization of solvent around dissolved species (often endothermic for water).
+  3. Formation of new solute-solvent interactions (exothermic, decreases entropy of solvent).
+- The net deltaG for dissolution reflects the balance of all three.
+- Predictions for total deltaG of dissolution are difficult because enthalpic and entropic
+  contributions can partially cancel each other.
+
+
+TOPIC 9.7 - COUPLED REACTIONS
+
+- An external energy source can drive a thermodynamically unfavorable process:
+  - Electrical energy drives electrolysis.
+  - Light drives photosynthesis (CO2 + H2O -> glucose + O2).
+- Coupled reactions: a thermodynamically unfavorable reaction is paired with a favorable
+  one that shares an intermediate.
+- The overall reaction has deltaG degrees < 0 (sum of both reactions is thermodynamically favored).
+- Example in biology: ATP hydrolysis (deltaG << 0) is coupled to biosynthesis reactions
+  (deltaG > 0) to drive them forward.
+
+
+TOPIC 9.8 - GALVANIC (VOLTAIC) AND ELECTROLYTIC CELLS
+
+Key vocabulary:
+- Anode: electrode where OXIDATION occurs (OIL: Oxidation Is Loss of electrons).
+- Cathode: electrode where REDUCTION occurs (RIG: Reduction Is Gain of electrons).
+- "AN OX, RED CAT" mnemonic: ANOde = OXidation; REDuction = CAThode.
+
+NOTE: Labeling electrodes as positive or negative will NOT be assessed on the AP Exam.
+
+Galvanic (voltaic) cell:
+- Converts chemical energy to electrical energy.
+- Reaction is thermodynamically favored (deltaG < 0, positive cell potential E degrees > 0).
+- Electrons flow spontaneously from anode to cathode through external circuit.
+- Ions flow through salt bridge to maintain electrical neutrality.
+- Anode mass decreases (metal oxidized); cathode mass increases (metal deposited).
+
+Electrolytic cell:
+- Converts electrical energy to chemical energy.
+- Reaction is thermodynamically unfavored (deltaG > 0, requires external voltage).
+- Used for electroplating, charging batteries, electrolysis of water.
+
+Salt bridge function: allows ions to flow between half-cells to balance charge;
+cations flow toward cathode side, anions flow toward anode side.
+
+
+TOPIC 9.9 - CELL POTENTIAL AND FREE ENERGY
+
+Standard cell potential:
+- EQN: E degrees(cell) = E degrees(cathode) - E degrees(anode)
+  (using standard reduction potentials from table)
+- More positive E degrees(cell): more thermodynamically favored reaction.
+
+Relationship to Gibbs free energy:
+- EQN: deltaG degrees = -n*F*E degrees(cell)
+  n = number of moles of electrons transferred
+  F = Faraday's constant = 96,485 C/mol electrons (approximately 96,500 C/mol)
+  E degrees(cell) in volts (V = J/C)
+
+- E degrees > 0 -> deltaG degrees < 0 -> thermodynamically favored.
+- E degrees < 0 -> deltaG degrees > 0 -> thermodynamically unfavored.
+
+Calculating standard reduction potentials:
+- Reduction half-reaction with higher (more positive) E degrees = cathode.
+- Reduction half-reaction with lower (more negative) E degrees = anode (reversed to oxidation).
+- Standard reduction potential of the reversed (anode) half-reaction = -E degrees(anode, as written).
+- Standard reduction potentials are NOT multiplied when half-reactions are scaled.
+
+
+TOPIC 9.10 - CELL POTENTIAL UNDER NONSTANDARD CONDITIONS
+
+Nernst equation:
+- EQN: E = E degrees - (RT/nF) ln Q
+- Cell potential E depends on concentrations of active species (via Q).
+
+Key conceptual relationships:
+- Standard conditions: Q = 1, so E = E degrees.
+- As reaction proceeds toward equilibrium: |E| decreases.
+- At equilibrium: Q = K and E = 0 (cell is "dead").
+- Q < 1 (fewer products than at standard): |E| > |E degrees| (higher driving force).
+- Q > 1 (more products than at standard): |E| < |E degrees| (lower driving force).
+
+Concentration cell: both half-cells use the same redox couple but at different
+concentrations. Electrons flow from the dilute side (anode) to the concentrated side
+(cathode) to equalize concentrations.
+
+NOTE: Quantitative calculations with the Nernst equation are NOT assessed on the
+AP Exam; only qualitative understanding is required.
+
+
+TOPIC 9.11 - ELECTROLYSIS AND FARADAY'S LAW
+
+Faraday's Law connects charge flow to mass deposited/dissolved in electrolysis.
+
+EQN: I = q/t
+  I = current in amperes (A)
+  q = charge in coulombs (C)
+  t = time in seconds (s)
+
+1 mole of electrons = 96,485 C (Faraday's constant, F)
+
+Problem-solving steps:
+1. Find charge: q = I x t (current x time)
+2. Find moles of electrons: mol e- = q / F
+3. Use stoichiometry to find moles of substance (based on electrons per ion/atom).
+4. Convert to mass: mass = moles x molar mass.
+
+Applications of Faraday's Law:
+- Mass of metal deposited during electroplating.
+- Mass of electrode that dissolves.
+- Current required for a given rate of deposition.
+- Time required for a given amount of deposition.
+
+
+KEY EQUATIONS FOR UNIT 9
+- deltaG degrees = deltaH degrees - T*deltaS degrees
+- deltaG degrees(rxn) = sum[deltaGf degrees(products)] - sum[deltaGf degrees(reactants)]
+- deltaS degrees(rxn) = sum[S degrees(products)] - sum[S degrees(reactants)]
+- deltaG degrees = -RT ln K
+- K = e^(-deltaG degrees/RT)
+- E degrees(cell) = E degrees(cathode) - E degrees(anode)
+- deltaG degrees = -n*F*E degrees(cell)
+- E = E degrees - (RT/nF) ln Q  [Nernst equation, qualitative use only]
+- I = q/t
+- 1 mole e- = 96,485 C (Faraday's constant)

@@ -1,0 +1,249 @@
+UNIT 3: PROPERTIES OF SUBSTANCES AND MIXTURES
+AP Exam Weighting: 18-22% (largest unit on exam)
+================================================
+
+TOPIC 3.1 - INTERMOLECULAR AND INTERPARTICLE FORCES
+
+Types (from weakest to strongest in general):
+
+London Dispersion Forces (LDF):
+- Present in ALL molecules and atoms.
+- Caused by temporary, fluctuating dipoles inducing dipoles in neighboring molecules.
+- Strength increases with: larger molecular size (more electrons), greater surface area.
+- Often the dominant IMF in large nonpolar molecules.
+- NOTE: Do NOT use "London dispersion forces" and "van der Waals forces" interchangeably.
+
+Dipole-Dipole Interactions:
+- Present between polar molecules.
+- Stronger than LDF for molecules of comparable size because they add on top of LDF.
+- Strength depends on the magnitudes of the dipoles and their orientation.
+
+Ion-Dipole Forces:
+- Between ions and polar molecules.
+- Stronger than dipole-dipole forces.
+- Important in dissolving ionic compounds in polar solvents (e.g., NaCl in water).
+
+Hydrogen Bonding:
+- A special, strong type of dipole-dipole interaction.
+- Occurs when H is covalently bonded to N, O, or F and is attracted to a lone pair
+  on another N, O, or F atom (in a different molecule or another region of the same molecule).
+- Explains anomalously high boiling points of H2O, HF, NH3.
+- Important in DNA base pairing and protein folding.
+
+Noncovalent interactions in biomolecules:
+- Large biomolecules use combinations of IMFs to maintain 3D shape and function.
+
+
+TOPIC 3.2 - PROPERTIES OF SOLIDS
+
+Ionic solids:
+- Held by strong electrostatic interactions between cations and anions.
+- High melting points, low vapor pressure, brittle (shatters when layers shift because
+  like charges align and repel), conducts electricity only when melted or dissolved.
+
+Covalent network solids:
+- Atoms covalently bonded in continuous 3D (diamond) or 2D (graphite) networks.
+- Formed from nonmetals/metalloids only.
+- Very high melting points due to strong covalent bonds.
+- Diamond: hard and rigid (fixed bond angles in 3D network), does not conduct electricity.
+- Graphite: soft (layers slide easily), conducts electricity within layers due to delocalized pi electrons.
+
+Molecular solids:
+- Discrete covalently-bonded molecules held together by IMFs.
+- Low melting points (IMFs are weak compared to covalent/ionic bonds).
+- Do not conduct electricity (valence electrons are localized in bonds/lone pairs).
+- Can be composed of very large molecules or polymers.
+
+Metallic solids:
+- Sea of delocalized electrons surrounding positive metal ion cores.
+- Good conductors of electricity and heat (mobile electrons).
+- Malleable and ductile (metal cores can slide without breaking bonds).
+- Interstitial alloys: more rigid, less malleable than pure metals.
+- Alloys retain conducting sea of electrons.
+
+Biomolecules/polymers:
+- Shape and function strongly depend on noncovalent interactions within and between molecules.
+
+
+TOPIC 3.3 - SOLIDS, LIQUIDS, AND GASES
+
+Solid:
+- Particles in fixed positions with limited motion (vibration only).
+- Crystalline: regular, repeating 3D arrangement.
+- Amorphous: no regular arrangement (e.g., glass).
+
+Liquid:
+- Particles in close contact, continuously moving and colliding.
+- IMF strength and temperature determine arrangement and motion.
+- Definite volume, no definite shape.
+
+Gas:
+- Particles in constant random motion, widely spaced.
+- No definite shape or volume.
+- Collisions between particles and container walls create pressure.
+
+NOTE: Solid and liquid have similar molar volumes because particles are always
+in close contact. Gases have much larger molar volumes.
+
+NOTE: Phase diagrams will NOT be assessed on the AP Exam.
+
+
+TOPIC 3.4 - IDEAL GAS LAW
+
+EQN: PV = nRT
+  P = pressure (atm or kPa)
+  V = volume (L)
+  n = moles of gas
+  R = gas constant (0.08206 L*atm/mol*K  or  8.314 J/mol*K)
+  T = temperature in Kelvin
+
+Dalton's Law of Partial Pressures:
+- In a gas mixture, each gas exerts pressure independently.
+- EQN: PA = Ptotal x XA  (where XA = moles A / total moles)
+- EQN: Ptotal = PA + PB + PC + ...
+
+Key relationships from PV = nRT (at constant amounts):
+- Boyle's Law: P and V are inversely proportional at constant T and n.
+- Charles's Law: V and T are directly proportional at constant P and n.
+- Gay-Lussac's Law: P and T are directly proportional at constant V and n.
+- Avogadro's Law: V and n are directly proportional at constant P and T.
+
+
+TOPIC 3.5 - KINETIC MOLECULAR THEORY (KMT)
+
+Assumptions of KMT (ideal gas):
+1. Gas particles are in constant, random motion.
+2. Particle volume is negligible compared to container volume.
+3. No intermolecular forces between gas particles.
+4. Collisions are perfectly elastic (no net energy loss).
+
+EQN: KE = (1/2)mv^2  (kinetic energy of a single particle)
+
+- Average KE is proportional to Kelvin temperature.
+- Higher temperature = higher average speed = broader Maxwell-Boltzmann distribution.
+- Maxwell-Boltzmann distribution: shows range of particle speeds/energies at a given T.
+  At higher T: distribution shifts right (higher average speed) and flattens (wider range).
+- Heavier molecules move more slowly at the same temperature than lighter molecules.
+
+
+TOPIC 3.6 - DEVIATIONS FROM IDEAL GAS LAW
+
+- Real gases deviate from ideal behavior because:
+  1. Real gas particles do have intermolecular attractions (especially at low T and high P).
+  2. Real gas particles do have finite volume (significant at very high P).
+
+- At high pressure: actual volume is greater than predicted (particles take up space).
+- At low temperature (near condensation): actual pressure is less than predicted
+  (IMFs pull particles together, reducing collision force against walls).
+- Gases deviate most from ideal behavior at LOW TEMPERATURE and HIGH PRESSURE.
+
+
+TOPIC 3.7 - SOLUTIONS AND MIXTURES
+
+- Homogeneous mixture (solution): uniform composition throughout (e.g., saltwater).
+- Heterogeneous mixture: composition varies by location (e.g., sand and water).
+
+Molarity:
+- EQN: M = n(solute) / V(solution in liters)
+- Units: mol/L (molar)
+
+Dilution: M1V1 = M2V2
+
+
+TOPIC 3.8 - REPRESENTATIONS OF SOLUTIONS
+
+- Particulate representations of solutions show:
+  - Relative concentrations of components (number of dissolved particles).
+  - Interactions between solute and solvent particles (e.g., ion-dipole in NaCl/H2O).
+- When ionic compounds dissolve: ions shown surrounded by water molecules with
+  partial charges oriented appropriately (negative end of water near cation).
+
+NOTE: Colligative properties will NOT be assessed on the AP Exam.
+NOTE: Calculations of molality, percent by mass, percent by volume will NOT be tested.
+
+
+TOPIC 3.9 - SEPARATION OF SOLUTIONS AND MIXTURES
+
+- Solutions cannot be separated by filtration.
+- Chromatography (paper, thin-layer, column):
+  - Separates compounds based on differential intermolecular interactions with
+    mobile phase (solution moving through) and stationary phase (paper or solid).
+  - More polar compounds: stronger interaction with polar stationary phase -> travel less.
+  - Less polar compounds: travel further with nonpolar mobile phase.
+  - Chromatogram can be used to infer relative polarities of components.
+- Distillation: separates liquids based on differences in boiling points.
+
+
+TOPIC 3.10 - SOLUBILITY
+
+"Like dissolves like":
+- Polar/ionic solutes dissolve in polar solvents (e.g., NaCl in water).
+- Nonpolar solutes dissolve in nonpolar solvents (e.g., I2 in hexane).
+- Substances with similar IMFs tend to be miscible (liquids) or soluble.
+
+Ionic compounds dissolving:
+- Ion-dipole interactions between ions and water molecules provide energy to
+  overcome the lattice energy and dissolve the compound.
+
+
+TOPIC 3.11 - SPECTROSCOPY AND THE ELECTROMAGNETIC SPECTRUM
+
+Electromagnetic spectrum (from low to high energy):
+Radio -> Microwave -> Infrared -> Visible -> Ultraviolet -> X-ray -> Gamma ray
+
+- Microwave radiation: associated with transitions in molecular rotational energy levels.
+- Infrared (IR) radiation: associated with transitions in molecular vibrational energy levels.
+  Molecules must have a change in dipole moment to absorb IR.
+- Ultraviolet/Visible (UV-Vis) radiation: associated with transitions in electronic energy levels
+  (electrons moving between orbitals).
+
+Absorption vs. emission:
+- Absorption: photon absorbed, energy increases.
+- Emission: photon emitted, energy decreases.
+
+
+TOPIC 3.12 - PROPERTIES OF PHOTONS
+
+Speed of light equation:
+- EQN: c = lambda x nu
+  c = speed of light (3.00 x 10^8 m/s)
+  lambda = wavelength (m)
+  nu = frequency (Hz or s^-1)
+
+Planck's equation:
+- EQN: E = h x nu
+  E = energy of photon (J)
+  h = Planck's constant (6.626 x 10^-34 J*s)
+  nu = frequency (Hz)
+
+- Therefore: shorter wavelength = higher frequency = higher energy per photon.
+- When a photon is absorbed, the atom/molecule energy increases by exactly E = h*nu.
+- When a photon is emitted, the atom/molecule energy decreases by exactly E = h*nu.
+
+
+TOPIC 3.13 - BEER-LAMBERT LAW
+
+EQN: A = epsilon x b x c
+  A = absorbance (unitless)
+  epsilon = molar absorptivity (how strongly the substance absorbs at a given wavelength)
+  b = path length of light through the solution (cm)
+  c = concentration of absorbing species (mol/L)
+
+- Absorbance is directly proportional to concentration when path length and wavelength
+  are held constant.
+- The spectrophotometer is set to the wavelength of maximum absorbance (optimum
+  wavelength) to maximize sensitivity.
+- A calibration curve (absorbance vs. known concentrations) is used to determine
+  unknown concentrations.
+- Percent transmittance = (I/I0) x 100. Relationship: A = -log(T/100)
+
+
+KEY EQUATIONS FOR UNIT 3
+- PV = nRT
+- PA = Ptotal x XA
+- Ptotal = PA + PB + ...
+- KE = (1/2)mv^2
+- M = n(solute) / L(solution)
+- c = lambda x nu
+- E = h x nu
+- A = epsilon x b x c

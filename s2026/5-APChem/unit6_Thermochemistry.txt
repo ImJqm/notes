@@ -1,0 +1,151 @@
+UNIT 6: THERMOCHEMISTRY
+AP Exam Weighting: 7-9%
+=========================
+
+TOPIC 6.1 - ENDOTHERMIC AND EXOTHERMIC PROCESSES
+
+- Temperature change indicates energy transfer between system and surroundings.
+- Exothermic: system releases energy to surroundings; products are at lower energy
+  than reactants; temperature of surroundings increases; deltaH < 0.
+- Endothermic: system absorbs energy from surroundings; products are at higher energy
+  than reactants; temperature of surroundings decreases; deltaH > 0.
+- Dissolving: may be endothermic or exothermic depending on whether energy released
+  in forming new solute-solvent interactions exceeds energy required to break
+  solute-solute and solvent-solvent interactions.
+
+
+TOPIC 6.2 - ENERGY DIAGRAMS
+
+- Energy diagrams show the energy of reactants vs. products.
+- Exothermic: products lower than reactants on energy diagram.
+- Endothermic: products higher than reactants on energy diagram.
+- Energy diagrams also show activation energy (hump between reactants and products).
+
+
+TOPIC 6.3 - HEAT TRANSFER AND THERMAL EQUILIBRIUM
+
+- Particles in a warmer body have higher average KE than particles in a cooler body.
+- Heat transfer: collisions between particles in contact allow KE to transfer from hotter
+  to cooler body.
+- Thermal equilibrium: reached when both bodies reach the same temperature
+  (same average KE).
+- First Law of Thermodynamics: energy is conserved; energy lost by system = energy
+  gained by surroundings (and vice versa).
+
+
+TOPIC 6.4 - HEAT CAPACITY AND CALORIMETRY
+
+EQN: q = mc(delta T)
+  q = heat transferred (J or kJ)
+  m = mass (g)
+  c = specific heat capacity (J/g*K or J/g*degreeC)
+  delta T = T(final) - T(initial) (in K or degreeC, same magnitude)
+
+- Specific heat capacity (c): energy needed to raise 1 g of a substance by 1 K.
+- Molar heat capacity: energy needed to raise 1 mol of a substance by 1 K.
+- Water has a relatively high specific heat (4.18 J/g*K).
+- Different substances have different specific heat capacities; equal masses of
+  different substances change temperature differently for the same heat input.
+
+Calorimetry:
+- Calorimeter measures heat exchange in reactions or physical processes.
+- Coffee-cup calorimeter (constant pressure): used for reactions in solution.
+  q(reaction) = -q(solution) = -(m*c*delta T)
+- Temperature increase: exothermic process (system releases heat to solution).
+- Temperature decrease: endothermic process (system absorbs heat from solution).
+
+
+TOPIC 6.5 - ENERGY OF PHASE CHANGES
+
+- Phase transitions occur at constant temperature for a pure substance.
+- Melting/vaporization: endothermic; system absorbs energy to break IMFs.
+- Freezing/condensation: exothermic; system releases energy as IMFs form.
+
+EQN: q = n x deltaH(phase change)
+  n = moles of substance
+  deltaH(fusion) = energy to melt one mole
+  deltaH(vaporization) = energy to vaporize one mole
+
+- deltaH(condensation) = -deltaH(vaporization) [equal magnitude, opposite sign]
+- deltaH(freezing) = -deltaH(fusion)
+
+Heating/cooling curve for a pure substance:
+- Sloped portions: temperature is changing (using q = mc*deltaT).
+- Flat portions: phase change at constant temperature (using q = n*deltaH).
+
+
+TOPIC 6.6 - INTRODUCTION TO ENTHALPY OF REACTION
+
+- Enthalpy change (deltaH rxn): heat absorbed or released at constant pressure.
+  Negative deltaH: exothermic (heat released).
+  Positive deltaH: endothermic (heat absorbed).
+
+EQN: q = n x deltaH(rxn)
+  n = moles of reaction as written
+
+- Bonds breaking: endothermic (energy absorbed).
+- Bonds forming: exothermic (energy released).
+- Net deltaH = energy to break bonds in reactants - energy released forming bonds
+  in products.
+
+NOTE: Distinction between enthalpy (H) and internal energy (U) will NOT be tested.
+At constant pressure (most AP reactions), deltaH = q.
+
+
+TOPIC 6.7 - BOND ENTHALPIES
+
+- Average bond enthalpy: average energy needed to break one mole of a specific bond
+  in the gas phase.
+- Estimated enthalpy of reaction using bond enthalpies:
+
+EQN: deltaH(rxn) = sum of bond energies broken (reactants) - sum of bond energies
+                   formed (products)
+
+Mnemonic: "Bonds Broken = energy In; Bonds Formed = energy Out"
+  deltaH = (sum of bonds broken) - (sum of bonds formed)
+  If energy released in forming bonds > energy absorbed in breaking bonds: exothermic.
+
+- Bond enthalpies give estimates; actual values can differ because they use averages.
+- Stronger bonds have higher bond energies and shorter bond lengths.
+- Triple bonds > double bonds > single bonds in energy.
+
+
+TOPIC 6.8 - ENTHALPY OF FORMATION
+
+- Standard enthalpy of formation (deltaHf degrees): enthalpy change when 1 mole of
+  a compound is formed from its elements in their standard states.
+- Standard state: pure substance at 1 atm; solutions at 1 M; gases at 1 atm.
+- deltaHf degrees of a pure element in its standard state = 0.
+
+EQN: deltaH(rxn) degrees = sum[deltaHf degrees (products)] - sum[deltaHf degrees (reactants)]
+
+Steps:
+1. Look up deltaHf degrees for each product and reactant.
+2. Multiply each by stoichiometric coefficient.
+3. Subtract sum of reactant values from sum of product values.
+
+
+TOPIC 6.9 - HESS'S LAW
+
+Hess's Law: Because enthalpy is a state function, the total enthalpy change for a
+reaction is the same regardless of the pathway taken. Therefore:
+deltaH(overall) = sum of deltaH for each step.
+
+Rules for manipulating equations:
+1. If a reaction is REVERSED, flip the sign of deltaH.
+2. If a reaction is MULTIPLIED by a factor c, multiply deltaH by c.
+3. If reactions are ADDED together, add their deltaH values.
+
+Strategy:
+- Identify the target reaction.
+- Arrange given reactions so desired species appear as needed (as reactants or products).
+- Flip and/or scale each equation accordingly, adjusting deltaH.
+- Add all equations and deltaH values.
+
+
+KEY EQUATIONS FOR UNIT 6
+- q = mc(delta T)
+- q = n x deltaH(phase change)
+- q = n x deltaH(rxn)
+- deltaH(rxn) degrees = sum[deltaHf degrees(products)] - sum[deltaHf degrees(reactants)]
+- deltaH(rxn) = sum(bond energies broken) - sum(bond energies formed)

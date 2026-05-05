@@ -1,0 +1,141 @@
+UNIT 4: CHEMICAL REACTIONS
+AP Exam Weighting: 7-9%
+===========================
+
+TOPIC 4.1 - INTRODUCTION TO REACTIONS
+
+Physical change: change in properties but NOT composition (e.g., phase changes, dissolving).
+Chemical change: substances transformed into new substances with different composition.
+Evidence of chemical change: heat or light produced, gas formed, precipitate formed, color change.
+
+
+TOPIC 4.2 - NET IONIC EQUATIONS
+
+- All chemical and physical changes can be represented by balanced equations.
+- Atoms are conserved: equal numbers of every element on both sides.
+- Charge is also conserved in ionic equations.
+
+Three forms of equations:
+1. Molecular equation: shows complete formulas for all reactants and products.
+2. Complete ionic equation: shows all soluble ionic compounds as separated ions.
+3. Net ionic equation: eliminates spectator ions (ions that appear unchanged on both sides),
+   showing only the species that actually change.
+
+Steps to write a net ionic equation:
+1. Write and balance the molecular equation.
+2. Break all strong electrolytes (strong acids, strong bases, soluble salts) into ions.
+3. Cancel spectator ions.
+4. Write the net ionic equation with remaining species.
+
+
+TOPIC 4.3 - REPRESENTATIONS OF REACTIONS
+
+- Balanced chemical equations can be represented as particulate-level diagrams.
+- Particulate models must be consistent with the balanced equation (correct ratios and
+  types of atoms/molecules shown on each side).
+
+
+TOPIC 4.4 - PHYSICAL AND CHEMICAL CHANGES
+
+- Chemical processes: involve breaking and forming covalent or ionic bonds.
+- Physical processes: involve only changes in intermolecular interactions (e.g., melting, boiling).
+- Note: dissolving a salt in water can be argued either way, since ionic bonds break but
+  IMFs (ion-dipole) form. The AP Exam treats this as a physical change unless otherwise stated.
+
+
+TOPIC 4.5 - STOICHIOMETRY
+
+- Balanced equation coefficients represent mole ratios of reactants and products.
+- Stoichiometry steps:
+  1. Balance the equation.
+  2. Convert given quantity to moles.
+  3. Use mole ratio from balanced equation.
+  4. Convert moles of desired substance to requested units.
+
+Limiting reactant:
+- The reactant that is completely consumed first; it determines maximum product formed.
+- Compare moles of each reactant to the mole ratio needed; the one present in lesser
+  relative amount is limiting.
+
+Percent yield = (actual yield / theoretical yield) x 100
+
+Stoichiometry can be combined with:
+- Ideal gas law: PV = nRT to find moles of gas.
+- Molarity: M = n/L to find moles of solute in solution.
+
+
+TOPIC 4.6 - INTRODUCTION TO TITRATION
+
+- Titration: determines amount of analyte by reacting it with a titrant of known concentration.
+- Equivalence point: point at which analyte is completely consumed by the titrant.
+  moles of acid = moles of base at equivalence point (for 1:1 reactions).
+- Endpoint: the experimentally observed event (usually a color change of an indicator)
+  signaling the titration is complete; ideally coincides with the equivalence point.
+- MA x VA = MB x VB (for 1:1 acid-base reactions at equivalence point)
+
+
+TOPIC 4.7 - TYPES OF CHEMICAL REACTIONS
+
+Acid-Base reactions:
+- Involve transfer of one or more protons (H+) between species.
+
+Oxidation-Reduction (Redox) reactions:
+- Involve transfer of one or more electrons between species.
+- Indicated by changes in oxidation numbers.
+- Oxidation: loss of electrons (oxidation number increases).
+- Reduction: gain of electrons (oxidation number decreases).
+- Combustion: a redox reaction where a substance reacts with O2.
+  Complete combustion of hydrocarbons: produces CO2 and H2O.
+- NOTE: The terms "reducing agent" and "oxidizing agent" will NOT be tested on the AP Exam.
+
+Precipitation reactions:
+- Mixing aqueous ions to form an insoluble (or sparingly soluble) ionic compound.
+- Must-know solubility: all Na+, K+, NH4+, and NO3- salts are soluble in water.
+- NOTE: Rote memorization of other solubility rules is NOT required.
+
+Oxidation number rules:
+1. Element in pure form = 0.
+2. Monatomic ion = charge of ion.
+3. O in compounds = -2 (except in peroxides = -1, or with F).
+4. H in compounds = +1 (except with metals = -1).
+5. Sum of oxidation numbers in a neutral compound = 0.
+6. Sum of oxidation numbers in a polyatomic ion = ion charge.
+
+
+TOPIC 4.8 - INTRODUCTION TO ACID-BASE REACTIONS
+
+Bronsted-Lowry definitions:
+- Acid: proton (H+) donor.
+- Base: proton (H+) acceptor.
+- When an acid donates H+, it becomes its conjugate base.
+- When a base accepts H+, it becomes its conjugate acid.
+- Conjugate acid-base pairs differ by exactly one H+.
+
+Water as amphoteric:
+- Water can donate or accept protons, acting as either acid or base.
+- In water: H2O + H2O <-> H3O+ + OH-
+
+NOTE: Lewis acid-base concepts will NOT be assessed on the AP Exam.
+
+
+TOPIC 4.9 - OXIDATION-REDUCTION (REDOX) REACTIONS
+
+Half-reactions:
+- Oxidation half-reaction: shows the species being oxidized (electrons on right).
+- Reduction half-reaction: shows the species being reduced (electrons on left).
+
+Balancing redox equations using half-reactions (acidic solution):
+1. Write unbalanced half-reactions.
+2. Balance all atoms except O and H.
+3. Balance O by adding H2O.
+4. Balance H by adding H+.
+5. Balance charge by adding electrons.
+6. Multiply half-reactions so electrons cancel.
+7. Add half-reactions and simplify.
+
+For basic solution: after balancing in acid, add OH- to both sides to neutralize H+.
+
+
+KEY EQUATIONS FOR UNIT 4
+- MA x VA = MB x VB (acid-base titration, 1:1)
+- Percent yield = (actual / theoretical) x 100

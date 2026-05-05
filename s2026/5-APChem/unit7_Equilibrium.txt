@@ -1,0 +1,161 @@
+UNIT 7: EQUILIBRIUM
+AP Exam Weighting: 7-9%
+========================
+
+TOPIC 7.1 - INTRODUCTION TO EQUILIBRIUM
+
+- Many chemical processes are reversible: they can proceed in both forward and
+  reverse directions simultaneously.
+- Examples: dissolution/precipitation, vaporization/condensation, acid-base reactions,
+  redox reactions.
+- At equilibrium: no observable changes; concentrations and partial pressures of all
+  species remain constant.
+- Equilibrium is DYNAMIC: forward and reverse reactions continue at equal rates.
+  There is no net change, but both directions are still occurring.
+
+
+TOPIC 7.2 - DIRECTION OF REVERSIBLE REACTIONS
+
+- If rate(forward) > rate(reverse): net conversion of reactants to products (proceeds forward).
+- If rate(reverse) > rate(forward): net conversion of products to reactants (proceeds reverse).
+- Equilibrium: rate(forward) = rate(reverse); no net change.
+
+
+TOPIC 7.3 - REACTION QUOTIENT AND EQUILIBRIUM CONSTANT
+
+For the reaction: aA + bB <-> cC + dD
+
+EQN: Kc = [C]^c [D]^d / ([A]^a [B]^b)
+
+EQN: Kp = (PC)^c (PD)^d / ((PA)^a (PB)^b)
+
+Kc uses molar concentrations; Kp uses partial pressures.
+- Pure solids and pure liquids are NOT included in K or Q expressions (their
+  concentrations/pressures are constant and incorporated into K).
+- Q (reaction quotient): same expression as K, but using non-equilibrium values.
+
+NOTE: Conversion between Kc and Kp will NOT be assessed on the AP Exam.
+NOTE: Equilibrium calculations for dissolved species in equilibrium with gas phase
+will NOT be assessed.
+
+
+TOPIC 7.4 - CALCULATING THE EQUILIBRIUM CONSTANT
+
+- Measure concentrations or partial pressures of all species at equilibrium.
+- Substitute into the equilibrium expression to find K.
+- ICE table method (Initial, Change, Equilibrium):
+  1. Write initial concentrations.
+  2. Define x as the change (increase or decrease) in concentration.
+  3. Express equilibrium concentrations in terms of x.
+  4. Substitute into K expression and solve for x.
+
+
+TOPIC 7.5 - MAGNITUDE OF THE EQUILIBRIUM CONSTANT
+
+- Large K (K >> 1): reaction proceeds nearly to completion; products dominate at equilibrium.
+- Small K (K << 1): reaction barely proceeds; reactants dominate at equilibrium.
+- K = 1: roughly equal concentrations of reactants and products at equilibrium.
+
+
+TOPIC 7.6 - PROPERTIES OF THE EQUILIBRIUM CONSTANT
+
+If a reaction is reversed: K becomes 1/K (take the reciprocal).
+If stoichiometric coefficients are multiplied by c: K becomes K^c.
+If reactions are added: K(overall) = K1 x K2 x K3 x ...
+These rules also apply to Q.
+
+
+TOPIC 7.7 - CALCULATING EQUILIBRIUM CONCENTRATIONS
+
+Comparing Q to K:
+- Q < K: reaction proceeds forward (toward more products) to reach equilibrium.
+- Q > K: reaction proceeds reverse (toward more reactants) to reach equilibrium.
+- Q = K: system is at equilibrium; no net change occurs.
+
+ICE table method:
+1. Set up ICE table with initial concentrations.
+2. Let x = change in concentration of reactants (decrease) and products (increase).
+3. Write equilibrium expressions in terms of x.
+4. Substitute into K expression.
+5. Solve (may require quadratic formula or simplifying approximations when K is small).
+
+
+TOPIC 7.8 - REPRESENTATIONS OF EQUILIBRIUM
+
+- Particulate diagrams at equilibrium show the relative numbers of reactant and
+  product molecules consistent with the value of K.
+- Can also show the approach to equilibrium over time using graphs of concentration vs. time.
+
+
+TOPIC 7.9 - LE CHATELIER'S PRINCIPLE
+
+Le Chatelier's Principle: When a system at equilibrium is disturbed (stressed), the
+system shifts to counteract the disturbance and reach a new equilibrium.
+
+Stresses and responses:
+
+Adding reactant -> reaction shifts forward (toward products).
+Removing reactant -> reaction shifts reverse (toward reactants).
+Adding product -> reaction shifts reverse (toward reactants).
+Removing product -> reaction shifts forward (toward products).
+
+Changing volume/pressure (gas phase reactions only):
+- Decrease volume (increase pressure) -> reaction shifts toward side with fewer moles of gas.
+- Increase volume (decrease pressure) -> reaction shifts toward side with more moles of gas.
+- If equal moles of gas on both sides: no shift.
+
+Changing temperature:
+- Increasing T -> reaction shifts in endothermic direction (K changes).
+- Decreasing T -> reaction shifts in exothermic direction (K changes).
+- Temperature changes alter the VALUE of K; all other stresses do not change K.
+
+Adding an inert gas (no volume change): no effect on equilibrium.
+Catalyst: no effect on equilibrium position or K; only speeds up reaching equilibrium.
+
+
+TOPIC 7.10 - REACTION QUOTIENT AND LE CHATELIER'S PRINCIPLE
+
+- Any stress that shifts equilibrium changes Q relative to K, which drives the reaction
+  to restore Q = K.
+- Concentration change: Q changes, K stays same; system shifts to reestablish Q = K.
+- Temperature change: K changes; Q initially unchanged; system shifts to achieve Q = K.
+
+
+TOPIC 7.11 - INTRODUCTION TO SOLUBILITY EQUILIBRIA
+
+For the dissolution: MA(s) <-> M+(aq) + A-(aq)
+EQN: Ksp = [M+][A-]
+
+- Ksp = solubility product constant; measures extent of dissolution.
+- Larger Ksp = more soluble salt.
+- Smaller Ksp = less soluble salt.
+
+Calculating molar solubility from Ksp:
+- Let s = moles per liter that dissolve.
+- Express ion concentrations in terms of s using stoichiometry.
+- Substitute into Ksp expression and solve for s.
+
+Predicting precipitation:
+- Calculate Q using actual ion concentrations.
+- If Q > Ksp: solution is supersaturated; precipitation occurs.
+- If Q < Ksp: solution is unsaturated; no precipitation.
+- If Q = Ksp: solution is at saturation; equilibrium.
+
+
+TOPIC 7.12 - COMMON-ION EFFECT
+
+- The solubility of a salt DECREASES when one of its constituent ions is already present
+  in solution (common-ion effect).
+- Explained by Le Chatelier's principle: adding a product ion shifts equilibrium toward
+  the solid (less dissolution).
+- Calculation: use ICE table where initial concentration of the common ion is given,
+  then substitute into Ksp to find new molar solubility.
+
+
+KEY EQUATIONS FOR UNIT 7
+- Kc = [C]^c[D]^d / ([A]^a[B]^b)
+- Kp = (PC)^c(PD)^d / ((PA)^a(PB)^b)
+- Ksp = [M+]^m[A-]^a (for dissolution equilibria)
+- If reaction reversed: K(new) = 1/K
+- If coefficients multiplied by c: K(new) = K^c
+- If reactions added: K(overall) = K1 x K2 x ...

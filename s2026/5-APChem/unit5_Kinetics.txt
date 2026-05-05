@@ -1,0 +1,158 @@
+UNIT 5: KINETICS
+AP Exam Weighting: 7-9%
+=========================
+
+TOPIC 5.1 - REACTION RATES
+
+- Reaction rate: the change in concentration of a reactant or product per unit of time.
+- Rate = -delta[reactant]/delta t = +delta[product]/delta t
+- Rates of change of individual species are related by stoichiometry:
+  For aA + bB -> cC + dD:
+  Rate = -(1/a) x delta[A]/delta t = -(1/b) x delta[B]/delta t
+       = +(1/c) x delta[C]/delta t = +(1/d) x delta[D]/delta t
+
+- Factors that increase reaction rate:
+  - Higher reactant concentration
+  - Higher temperature
+  - Greater surface area (for solids)
+  - Addition of a catalyst
+
+
+TOPIC 5.2 - INTRODUCTION TO RATE LAW
+
+- Rate law: rate = k[A]^m[B]^n
+  k = rate constant (temperature dependent)
+  m = order with respect to A
+  n = order with respect to B
+  m + n = overall order of reaction
+
+- Reaction orders (m, n) must be determined experimentally; they cannot be predicted
+  from the balanced equation (unless the reaction is elementary).
+- Method of initial rates: compare initial rates from experiments where only one
+  reactant concentration changes at a time.
+  If [A] doubles and rate doubles: first order in A (m = 1).
+  If [A] doubles and rate quadruples: second order in A (m = 2).
+  If [A] doubles and rate is unchanged: zeroth order in A (m = 0).
+
+- Units of k depend on overall reaction order:
+  Zeroth order: M/s
+  First order: 1/s (or s^-1)
+  Second order: 1/(M*s)
+
+
+TOPIC 5.3 - CONCENTRATION CHANGES OVER TIME
+
+Integrated rate laws (for a single reactant A):
+
+Zeroth order: [A]t = [A]0 - kt
+  EQN: [A]t - [A]0 = -kt
+  Plot of [A] vs. t is linear; slope = -k
+
+First order: ln[A]t = ln[A]0 - kt
+  EQN: ln[A]t - ln[A]0 = -kt
+  Plot of ln[A] vs. t is linear; slope = -k
+
+Second order:
+  EQN: 1/[A]t - 1/[A]0 = kt
+  Plot of 1/[A] vs. t is linear; slope = k
+
+To determine order from data: try plotting [A], ln[A], and 1/[A] vs. time;
+the one that is linear tells you the order.
+
+Half-life (first order only):
+  EQN: t(1/2) = 0.693 / k
+  For first order reactions, half-life is CONSTANT and independent of concentration.
+  This applies to radioactive decay.
+
+Half-life for zeroth order: t(1/2) = [A]0 / 2k (depends on initial concentration)
+Half-life for second order: t(1/2) = 1 / (k[A]0) (depends on initial concentration)
+
+
+TOPIC 5.4 - ELEMENTARY REACTIONS
+
+- Elementary reaction: a single step describing an actual molecular collision.
+- Molecularity: number of particles colliding in one elementary step.
+  Unimolecular: A -> products, rate = k[A]
+  Bimolecular: A + B -> products, rate = k[A][B]  (most common)
+  Termolecular: A + B + C -> products (very rare)
+- For an elementary reaction, the rate law CAN be written directly from stoichiometry.
+
+
+TOPIC 5.5 - COLLISION MODEL
+
+- Successful reaction requires a collision with:
+  1. Sufficient energy (at or above activation energy, Ea).
+  2. Proper orientation of the reacting molecules.
+
+- Maxwell-Boltzmann distribution: shows the range of kinetic energies of particles at
+  a given temperature. The fraction of particles with energy >= Ea determines reaction rate.
+  At higher temperature: more particles have E >= Ea, so more successful collisions occur.
+
+
+TOPIC 5.6 - REACTION ENERGY PROFILE
+
+- Reaction coordinate diagram plots energy vs. progress of reaction.
+- Reactants -> transition state (highest energy point) -> products
+- Activation energy (Ea): energy difference between reactants and transition state.
+  The higher Ea, the slower the reaction at a given temperature.
+- deltaH (enthalpy change) = energy of products - energy of reactants
+  Exothermic: products lower in energy than reactants; deltaH < 0.
+  Endothermic: products higher in energy than reactants; deltaH > 0.
+
+- Arrhenius equation: rate constant k is temperature-dependent; higher T means larger k.
+  NOTE: Calculations involving the Arrhenius equation will NOT be assessed on the AP Exam.
+
+
+TOPIC 5.7 - INTRODUCTION TO REACTION MECHANISMS
+
+- Reaction mechanism: a series of elementary steps that together give the overall reaction.
+- When elementary steps are added together, they must give the overall balanced equation.
+- Reaction intermediate: produced in one step, consumed in a later step.
+  Not present in the overall equation. Can be detected experimentally.
+- Catalyst: present in the mechanism but not consumed overall (appears in overall equation
+  as neither reactant nor product, though it may appear in elementary steps).
+
+
+TOPIC 5.8 - REACTION MECHANISM AND RATE LAW
+
+- Rate-determining step (rate-limiting step): the slowest step in the mechanism.
+- When the first step is rate-determining (or all steps are irreversible):
+  The overall rate law = rate law of the slowest elementary step.
+- The overall rate law derived from mechanism must be consistent with the
+  experimentally determined rate law.
+
+
+TOPIC 5.9 - PRE-EQUILIBRIUM APPROXIMATION
+
+- When the first step is a fast equilibrium (not the slow step), use the pre-equilibrium
+  approximation to express the concentration of the intermediate in terms of reactants.
+- Substitute this into the rate law of the slow step to get the overall rate law.
+- The derived rate law must still match experimental observations.
+
+
+TOPIC 5.10 - MULTISTEP REACTION ENERGY PROFILE
+
+- Energy profile for a multistep reaction shows multiple humps, one for each step.
+- Each hump corresponds to one transition state.
+- Valleys between humps correspond to intermediates.
+- The rate-determining step is the one with the HIGHEST activation energy (highest hump).
+- Overall deltaH = energy of final products - energy of initial reactants.
+
+
+TOPIC 5.11 - CATALYSIS
+
+- A catalyst increases reaction rate WITHOUT being consumed overall.
+- Catalysts work by providing an alternative reaction pathway with a LOWER activation energy.
+- Lower Ea means more particles have sufficient energy to react -> faster rate.
+- Catalyst does NOT change deltaH (overall energy change) of the reaction.
+- Homogeneous catalyst: same phase as reactants.
+- Heterogeneous catalyst: different phase from reactants (e.g., solid catalyst, gas reactants).
+- Catalyst appears as a reactant in one step and product in another step of the mechanism.
+
+
+KEY EQUATIONS FOR UNIT 5
+- Rate = k[A]^m[B]^n
+- Zeroth order: [A]t - [A]0 = -kt
+- First order: ln[A]t - ln[A]0 = -kt
+- Second order: 1/[A]t - 1/[A]0 = kt
+- First order half-life: t(1/2) = 0.693/k

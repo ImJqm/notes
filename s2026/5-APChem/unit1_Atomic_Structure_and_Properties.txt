@@ -1,0 +1,126 @@
+UNIT 1: ATOMIC STRUCTURE AND PROPERTIES
+AP Exam Weighting: 7-9%
+========================================
+
+TOPIC 1.1 - MOLES AND MOLAR MASS
+
+- Atoms and molecules cannot be counted directly in lab work.
+- Avogadro's number: NA = 6.022 x 10^23 mol^-1. It connects moles to number of particles.
+- The molar mass of a substance (in g/mol) is numerically equal to the average atomic or
+  molecular mass in amu.
+- Key equation: n = m/M  (moles = mass / molar mass)
+- Use dimensional analysis to convert between mass, moles, and number of particles.
+
+
+TOPIC 1.2 - MASS SPECTRA OF ELEMENTS
+
+- A mass spectrum of a pure element shows the isotopes present and their relative abundance.
+- The average atomic mass is calculated as the weighted average of isotopic masses:
+  average atomic mass = sum of (isotope mass x fractional abundance) for all isotopes
+- NOTE: The AP Exam only tests singly charged monatomic ions from a single element.
+  Peaks from multiple elements or other species are NOT tested.
+
+
+TOPIC 1.3 - ELEMENTAL COMPOSITION OF PURE SUBSTANCES
+
+- Pure substances may be made of individual molecules, or atoms/ions in fixed ratios (formula units).
+- Law of definite proportions: any pure sample of a compound always has the same ratio of
+  masses of its constituent elements.
+- The empirical formula shows the lowest whole-number ratio of atoms in a compound.
+- To find empirical formula from percent composition: convert % to grams, grams to moles,
+  divide all by the smallest number of moles, round to whole numbers.
+
+
+TOPIC 1.4 - COMPOSITION OF MIXTURES
+
+- Pure substances: contain only one type of atom, molecule, or formula unit.
+- Mixtures: contain two or more types of particles in variable proportions.
+- Elemental analysis can determine the relative numbers of atoms in a substance and
+  assess purity.
+- Mass percent = (mass of component / total mass) x 100
+
+
+TOPIC 1.5 - ATOMIC STRUCTURE AND ELECTRON CONFIGURATION
+
+- The atom has a positively charged nucleus (protons + neutrons) surrounded by negatively
+  charged electrons.
+- Coulomb's law: the force between charged particles is proportional to the product of their
+  charges divided by the square of the distance between them.
+  EQN: F(coulombic) proportional to (q1 x q2) / r^2
+- Electrons occupy shells (energy levels) and subshells (sublevels): s, p, d, f.
+- Inner electrons = core electrons; outer electrons = valence electrons.
+- Electron configurations follow the Aufbau principle: fill lowest energy subshells first.
+  Order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p...
+- Hund's rule: within a subshell, electrons occupy orbitals singly before pairing.
+- Pauli exclusion principle: no two electrons can have identical quantum numbers
+  (each orbital holds max 2 electrons with opposite spins).
+- For ions: remove electrons from the highest-energy subshell first (typically outermost shell).
+- NOTE: Writing electron configurations for exceptions to Aufbau (e.g., Cr, Cu) will NOT
+  be tested on the AP Exam.
+- Ionization energy (the energy to remove an electron) increases as effective nuclear charge
+  increases and as distance from nucleus decreases. Coulomb's law explains this qualitatively.
+
+
+TOPIC 1.6 - PHOTOELECTRON SPECTROSCOPY (PES)
+
+- PES measures the energy required to remove electrons from different subshells.
+- Each peak in a PES spectrum corresponds to a subshell.
+- Peak position (binding energy): higher binding energy means the electrons are closer to the
+  nucleus or experience a greater effective nuclear charge.
+- Peak height: proportional to the number of electrons in that subshell.
+- PES data can be used to verify or predict electron configurations.
+- Lower binding energy peaks = valence electrons (easier to remove).
+- Higher binding energy peaks = core electrons (harder to remove).
+
+
+TOPIC 1.7 - PERIODIC TRENDS
+
+- The periodic table is organized by increasing atomic number; recurring properties reflect
+  patterns in ground-state electron configurations.
+- All trends below can be explained using Coulomb's law, the shell model, shielding, and
+  effective nuclear charge (Zeff).
+
+Ionization Energy (IE):
+- Energy needed to remove the outermost electron.
+- Increases across a period (left to right): more protons, same shielding, higher Zeff.
+- Decreases down a group: electrons are farther from the nucleus, more shielding.
+- Successive IEs increase dramatically when a core electron is removed.
+
+Atomic and Ionic Radius:
+- Atomic radius decreases across a period (higher Zeff pulls electrons closer).
+- Atomic radius increases down a group (more electron shells).
+- Cations are smaller than their parent atoms (fewer electrons, same/more nuclear charge).
+- Anions are larger than their parent atoms (more electrons, same nuclear charge).
+
+Electron Affinity:
+- Energy change when a neutral atom gains an electron.
+- Generally becomes more negative (more exothermic) across a period.
+- Trends are less regular than IE.
+
+Electronegativity:
+- Tendency of an atom to attract electrons in a bond.
+- Increases across a period, decreases down a group.
+- Fluorine has the highest electronegativity.
+
+- Periodicity allows prediction of unknown or unmeasured property values.
+
+
+TOPIC 1.8 - VALENCE ELECTRONS AND IONIC COMPOUNDS
+
+- Bond formation is driven by interactions between valence electrons and nuclei.
+- Elements in the same group (column) have the same number of valence electrons and form
+  analogous compounds (e.g., NaCl and KCl are both 1:1 ionic compounds).
+- Typical ionic charges are predicted from the periodic table:
+  - Group 1: +1
+  - Group 2: +2
+  - Group 13: +3
+  - Group 15: -3
+  - Group 16: -2
+  - Group 17: -1
+  - Transition metals: variable charges
+
+
+KEY EQUATIONS FOR UNIT 1
+- n = m/M  (moles = mass in grams / molar mass in g/mol)
+- F(coulombic) proportional to (q1 x q2) / r^2
+- Average atomic mass = sum of (fraction x isotopic mass) for all isotopes

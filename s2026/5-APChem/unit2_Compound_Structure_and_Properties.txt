@@ -1,0 +1,124 @@
+UNIT 2: COMPOUND STRUCTURE AND PROPERTIES
+AP Exam Weighting: 7-9%
+===========================================
+
+TOPIC 2.1 - TYPES OF CHEMICAL BONDS
+
+- Electronegativity increases left to right across a period; decreases down a group.
+- Nonpolar covalent bond: electrons shared between atoms of similar electronegativity
+  (e.g., C-H bonds are considered effectively nonpolar).
+- Polar covalent bond: electrons shared between atoms of different electronegativity.
+  The more electronegative atom carries a partial negative charge (delta-).
+  Greater electronegativity difference = greater bond dipole.
+  All polar bonds have some ionic character; the distinction between ionic and covalent is
+  a continuum, not a sharp boundary.
+- Ionic bond: typically between a metal and a nonmetal; one atom effectively transfers
+  electrons to the other.
+- Metallic bonding: valence electrons are delocalized across all metal atoms (sea of electrons).
+  This accounts for electrical conductivity, malleability, and ductility of metals.
+
+
+TOPIC 2.2 - INTRAMOLECULAR FORCE AND POTENTIAL ENERGY
+
+- A potential energy vs. internuclear distance graph shows:
+  - Equilibrium bond length: the internuclear distance at minimum potential energy.
+  - Bond energy: the energy required to separate the atoms from equilibrium to infinity.
+- Bond order affects bond length and energy:
+  - Triple bonds are shorter and stronger than double bonds.
+  - Double bonds are shorter and stronger than single bonds.
+- Ionic bond strength (Coulomb's law):
+  - Larger ionic charges -> stronger attraction.
+  - Smaller ionic radii -> stronger attraction (ions closer together).
+
+
+TOPIC 2.3 - STRUCTURE OF IONIC SOLIDS
+
+- Ionic crystals are arranged in a systematic, periodic 3D array that maximizes
+  cation-anion attraction while minimizing same-charge repulsion.
+- NOTE: Knowledge of specific crystal structures (NaCl, CsCl, ZnS) will NOT
+  be assessed on the AP Exam.
+
+
+TOPIC 2.4 - STRUCTURE OF METALS AND ALLOYS
+
+- Metallic solid model: array of positive metal ion cores surrounded by delocalized
+  (mobile) valence electrons.
+- Interstitial alloy: smaller atoms fill spaces (interstices) between larger metal atoms.
+  Example: steel (carbon occupies gaps in iron lattice). Tends to be harder, less malleable.
+- Substitutional alloy: atoms of comparable size replace each other in the lattice.
+  Example: brass (zinc replaces copper). Typically retains metallic conductivity.
+
+
+TOPIC 2.5 - LEWIS DIAGRAMS
+
+Rules for drawing Lewis structures:
+1. Count total valence electrons for all atoms.
+2. Arrange atoms (least electronegative atom is usually central, H always terminal).
+3. Connect atoms with single bonds (each uses 2 electrons).
+4. Complete octets of terminal atoms first with lone pairs.
+5. Place remaining electrons on central atom.
+6. If central atom lacks an octet, form double or triple bonds with adjacent atoms.
+7. Exceptions to octet rule:
+   - Atoms with fewer than 8 electrons: H (2), Be (4), B (6).
+   - Atoms with expanded octets (beyond period 2): P, S, Cl, etc. can hold more than 8.
+   - Odd-electron species (radicals) cannot have full octets everywhere.
+
+
+TOPIC 2.6 - RESONANCE AND FORMAL CHARGE
+
+- Resonance: when more than one valid Lewis structure can be drawn for a molecule,
+  the true structure is a hybrid of all resonance contributors. Resonance structures
+  differ only in the placement of pi electrons, not sigma bonds or atoms.
+- Formal charge = (valence electrons) - (nonbonding electrons) - (1/2 bonding electrons)
+- The best Lewis structure minimizes formal charges and places negative formal charges
+  on more electronegative atoms.
+- Limitations: Lewis structures cannot accurately represent molecules with odd numbers
+  of valence electrons.
+
+
+TOPIC 2.7 - VSEPR AND HYBRIDIZATION
+
+VSEPR theory: electron pairs (bonding and lone pairs) arrange themselves to minimize
+repulsion. Lone pairs repel more strongly than bonding pairs.
+
+Electron Geometry and Molecular Geometry:
+
+2 electron groups: linear, 180 degrees bond angle, sp hybridized
+3 electron groups:
+  - 0 lone pairs: trigonal planar, 120 degrees, sp2
+  - 1 lone pair: bent, <120 degrees, sp2
+4 electron groups:
+  - 0 lone pairs: tetrahedral, 109.5 degrees, sp3
+  - 1 lone pair: trigonal pyramidal, <109.5 degrees, sp3
+  - 2 lone pairs: bent, <109.5 degrees, sp3
+5 electron groups (expanded octet):
+  - 0 lone pairs: trigonal bipyramidal
+  - 1 lone pair: seesaw
+  - 2 lone pairs: T-shaped
+6 electron groups (expanded octet):
+  - 0 lone pairs: octahedral
+  - 1 lone pair: square pyramidal
+  - 2 lone pairs: square planar
+
+Hybridization:
+- sp: 2 electron groups, 180 degrees bond angles
+- sp2: 3 electron groups, 120 degrees bond angles
+- sp3: 4 electron groups, 109.5 degrees bond angles
+- NOTE: Hybridization involving d orbitals will NOT be assessed on the AP Exam.
+  For molecules with 5 or 6 electron groups, students are only responsible for molecular shape.
+
+Sigma and Pi bonds:
+- A sigma (sigma) bond: formed by direct (end-to-end) overlap of orbitals. All single bonds
+  are sigma bonds.
+- A pi (pi) bond: formed by lateral (side-by-side) overlap of orbitals. All double bonds
+  contain one sigma and one pi. Triple bonds contain one sigma and two pi bonds.
+- Pi bonds are weaker than sigma bonds.
+- Pi bonds prevent free rotation around the bond axis -> geometric (cis/trans) isomers.
+- NOTE: Molecular orbital diagrams and bonding/antibonding/nonbonding orbital
+  distinctions will NOT be assessed on the AP Exam.
+
+Dipole moment (polarity of molecule):
+- A molecule is polar if it has polar bonds AND the bond dipoles do not cancel due
+  to asymmetric geometry.
+- Symmetric molecules (e.g., BF3, CCl4, CO2) are nonpolar even with polar bonds.
+- Asymmetric molecules (e.g., H2O, NH3, HCl) are polar.

@@ -1,0 +1,201 @@
+UNIT 8: ACIDS AND BASES
+AP Exam Weighting: 11-15% (second largest unit)
+================================================
+
+TOPIC 8.1 - INTRODUCTION TO ACIDS AND BASES
+
+Key definitions:
+- pH = -log[H3O+]
+- pOH = -log[OH-]
+- H3O+ and H+(aq) are used interchangeably on the AP Exam.
+
+Water autoionization:
+- EQN: Kw = [H3O+][OH-] = 1.0 x 10^-14 at 25 degrees C
+- EQN: pKw = pH + pOH = 14 at 25 degrees C
+
+- Neutral solution: [H3O+] = [OH-]; pH = pOH = 7 at 25 degrees C.
+- Acidic solution: [H3O+] > [OH-]; pH < 7 at 25 degrees C.
+- Basic solution: [OH-] > [H3O+]; pH > 7 at 25 degrees C.
+- NOTE: At temperatures other than 25 degrees C, neutral pH does not equal 7.
+
+
+TOPIC 8.2 - pH AND pOH OF STRONG ACIDS AND BASES
+
+Strong acids (completely ionize in water):
+- HCl, HBr, HI, HNO3, H2SO4 (first proton), HClO4
+- [H3O+] = initial concentration of strong acid (1:1 ionization)
+- pH = -log[strong acid]
+
+Strong bases (completely dissociate in water):
+- Group I hydroxides: LiOH, NaOH, KOH -> [OH-] = [base]
+- Group II hydroxides: Ca(OH)2, Ba(OH)2 -> [OH-] = 2[base]
+- pOH = -log[OH-]; then pH = 14 - pOH
+
+
+TOPIC 8.3 - WEAK ACID AND BASE EQUILIBRIA
+
+Weak acid equilibrium (HA + H2O <-> H3O+ + A-):
+- EQN: Ka = [H3O+][A-] / [HA]
+- EQN: pKa = -log Ka
+- Only a small fraction of molecules ionize; [HA]eq approximately [HA]initial.
+- Larger Ka = stronger weak acid = lower pKa.
+
+ICE table for weak acid:
+  HA: Initial = C, Change = -x, Equilibrium = C - x
+  H3O+: Initial = 0, Change = +x, Equilibrium = x
+  A-: Initial = 0, Change = +x, Equilibrium = x
+  Ka = x^2 / (C - x); if x << C, Ka approximately x^2/C
+
+Weak base equilibrium (B + H2O <-> HB+ + OH-):
+- EQN: Kb = [HB+][OH-] / [B]
+- EQN: pKb = -log Kb
+- Similar ICE table approach.
+
+Conjugate acid-base relationship:
+- EQN: Ka x Kb = Kw = 1.0 x 10^-14 at 25 degrees C
+- EQN: pKa + pKb = pKw = 14
+
+Percent ionization = ([H3O+]eq / [HA]initial) x 100
+- Weaker acids have lower percent ionization.
+- Percent ionization increases as the acid is diluted (lower initial concentration).
+
+
+TOPIC 8.4 - ACID-BASE REACTIONS AND BUFFERS
+
+Strong acid + strong base:
+- React completely: H+ + OH- -> H2O
+- pH determined by excess [H+] or [OH-].
+- At equivalence: pH = 7.
+
+Weak acid + strong base:
+- React completely: HA + OH- -> A- + H2O
+- If weak acid is in excess: buffer formed (use Henderson-Hasselbalch).
+- If strong base is in excess: pH from excess OH-.
+- At equivalence: only A- (conjugate base) remains; pH > 7 (basic).
+
+Weak base + strong acid:
+- React completely: B + H+ -> HB+
+- If weak base is in excess: buffer formed.
+- If strong acid is in excess: pH from excess H+.
+- At equivalence: only HB+ (conjugate acid) remains; pH < 7 (acidic).
+
+Weak acid + weak base:
+- Reach equilibrium state; both HA and B remain.
+
+
+TOPIC 8.5 - ACID-BASE TITRATIONS
+
+Titration curve features:
+- Strong acid / strong base: sharp equivalence point at pH = 7.
+- Weak acid / strong base: equivalence point at pH > 7; gradual slope near equivalence.
+- Weak base / strong acid: equivalence point at pH < 7.
+
+At equivalence point: moles acid = moles base.
+  MA x VA = MB x VB (for 1:1 reactions)
+
+Half-equivalence point (for weak acid/base only):
+- [HA] = [A-]
+- pH = pKa (for weak acid) at half-equivalence point
+- This is how pKa can be determined from a titration curve.
+
+Polyprotic acids:
+- Show multiple equivalence points on titration curve.
+- One per ionizable proton.
+- NOTE: Exact concentration calculations for polyprotic acid titrations
+  will NOT be tested; only qualitative reasoning about species present.
+
+
+TOPIC 8.6 - MOLECULAR STRUCTURE OF ACIDS AND BASES
+
+Factors that increase acid strength:
+- Higher electronegativity of atom bonded to H: more electron density pulled away
+  from H, making it easier to donate.
+- More electronegative atoms in the molecule (inductive effect): stabilize conjugate base.
+- Resonance stabilization of conjugate base: charge is delocalized.
+- Larger atomic radius of atom bonded to H (down a group): weaker bond, easier to
+  donate H. (e.g., HI > HBr > HCl >> HF in acid strength)
+
+Strong acids: HCl, HBr, HI, HNO3, H2SO4, HClO4 (memorize these).
+Weak acids: everything else, including HF, acetic acid (CH3COOH), carbonic acid (H2CO3).
+
+Carboxylic acids (-COOH): common weak acid functional group.
+Nitrogenous bases (e.g., NH3): common weak bases.
+
+Base strength: conjugate base of a stronger acid is a weaker base.
+  Larger Ka -> smaller conjugate Kb (and vice versa).
+
+
+TOPIC 8.7 - pH AND pKa
+
+Predicting predominant form:
+- If pH < pKa: acid form (HA) predominates.
+- If pH > pKa: base form (A-) predominates.
+- If pH = pKa: [HA] = [A-].
+
+Indicators:
+- Acid-base indicators are weak acids/bases that change color when protonated vs.
+  deprotonated.
+- For accurate titrations, choose indicator with pKa near the pH at equivalence point.
+
+
+TOPIC 8.8 - PROPERTIES OF BUFFERS
+
+- A buffer resists changes in pH upon addition of small amounts of acid or base.
+- Buffer composition: a significant amount of BOTH a weak acid AND its conjugate base
+  (or weak base AND its conjugate acid) present simultaneously.
+
+How a buffer works:
+- Added H+: reacts with conjugate base (A- + H+ -> HA). Consumes acid.
+- Added OH-: reacts with conjugate acid (HA + OH- -> A- + H2O). Consumes base.
+- The ratio [A-]/[HA] changes only slightly, so pH changes only slightly.
+
+
+TOPIC 8.9 - HENDERSON-HASSELBALCH EQUATION
+
+EQN: pH = pKa + log([A-]/[HA])
+
+- When [A-] = [HA]: pH = pKa.
+- When [A-] > [HA]: pH > pKa (more basic than pKa).
+- When [A-] < [HA]: pH < pKa (more acidic than pKa).
+
+Use this equation when:
+- You have a buffer solution (both weak acid and conjugate base present).
+- After a partial neutralization reaction.
+
+NOTE: Calculating exact pH change after adding acid/base to a buffer will NOT be assessed.
+NOTE: Derivation of H-H equation will NOT be assessed.
+
+
+TOPIC 8.10 - BUFFER CAPACITY
+
+- Buffer capacity: how much acid or base a buffer can absorb before pH changes significantly.
+- Higher capacity: higher concentrations of both buffer components.
+  Doubling both [HA] and [A-] keeps pH the same but doubles capacity.
+
+- Buffer with more conjugate acid ([HA] > [A-]):
+  Greater capacity to absorb BASE.
+- Buffer with more conjugate base ([A-] > [HA]):
+  Greater capacity to absorb ACID.
+
+
+TOPIC 8.11 - pH AND SOLUBILITY
+
+- If a salt contains a basic ion (conjugate base of a weak acid, e.g., F-, CO3^2-) or
+  a conjugate acid of a weak base, its solubility is pH-dependent.
+- Adding acid: drives dissolution of salts containing basic ions (Le Chatelier's principle:
+  acid neutralizes the basic ion, pulling equilibrium forward).
+- Hydroxide salts: dissolve more in acid (lower pH neutralizes OH-, pulls dissolution forward).
+
+NOTE: Quantitative calculations of solubility vs. pH will NOT be assessed on the AP Exam.
+
+
+KEY EQUATIONS FOR UNIT 8
+- pH = -log[H3O+]
+- pOH = -log[OH-]
+- pH + pOH = 14 (at 25 degrees C)
+- Kw = [H3O+][OH-] = 1.0 x 10^-14 at 25 degrees C
+- Ka = [H3O+][A-] / [HA]
+- Kb = [HB+][OH-] / [B]
+- Ka x Kb = Kw
+- pKa + pKb = 14
+- pH = pKa + log([A-]/[HA])  (Henderson-Hasselbalch)
