@@ -1,0 +1,43 @@
+- L = T delta t -> T = delta L / delta T
+
+- L = Iw = mr^2 * w = mvr for point mass
+
+- Power = W/t = Fd/t = F*
+
+- 2 Liquids in a U-tube -> Force is equal at bottom of top liquid
+
+- F_N = apparent weight
+
+- Atwood machine, F = (m1+m2)a
+
+- Escape velocity can be derived from  infinite distance
+	- E = U_g + K
+	- 0 = -GMm/r + 1/2mv^2 
+	- Rearrange -> v=sqrt(2GM/r)
+
+- Slopes
+	- x vs t -> velocity
+	- v vs t -> accel
+	- theta vs t -> angular velocity (omega)
+	- w vs t -> angular accel (alpha)
+	- delta p vs delta t -> Net Force
+	- delta L vs delta t -> Net Torque
+
+- Areas
+	- v vs t -> Displacement
+	- a vs t -> Change in v
+	- w vs t -> Change in theta
+	- alpha vs t -> Change in omega (angular velocity)
+	- F_net vs t -> Impulse = Change in Momentum = Delta p
+	- T vs t -> Angular Impulse = Change in Angular Momentum = Delta L
+	- F_net vs x -> Work / Delta E
+	- T_net vs theta -> Angular Work / delta E (this is most likely k_rot)
+
+- Circular Orbits
+	- Sys: ME total = constant & PE_g_total = const
+	- Satellite: L_sat = const & KE_sat = const
+
+- Eliptical Orbit
+	- Sys: ME_total = constant & PE_g_toal NOTEQUAL const
+	- Satellite: L_sat = constant & KE_g_toal NOTEQUAL const
+	  
