@@ -1,0 +1,116 @@
+AP PHYSICS 1 - UNIT 4: LINEAR MOMENTUM
+Exam Weighting: 10-15%
+
+=============================================================
+LINEAR MOMENTUM
+=============================================================
+Linear momentum (vector quantity, same direction as velocity):
+  p = m * v
+
+Total momentum of a system = sum of individual momenta:
+  p_total = sum of (m_i * v_i)
+
+Momentum is used to analyze collisions and explosions.
+
+Collision: interaction where forces between objects are much larger than external forces.
+  - Analyze only initial and final states; use object model.
+
+Explosion: internal forces in a system push objects apart.
+
+NOTE: "momentum" in AP Physics 1 always means linear momentum.
+
+=============================================================
+CHANGE IN MOMENTUM AND IMPULSE
+=============================================================
+Change in momentum:
+  delta_p = p_final - p_initial = m * v_final - m * v_initial
+
+Relationship between net force and momentum (Newton's Second Law in momentum form):
+  F_net = delta_p / delta_t
+
+Impulse (J): product of average net force and the time interval over which it acts.
+  J = F_avg * delta_t
+
+Impulse is a VECTOR; same direction as the net force.
+
+Impulse-Momentum Theorem:
+  J = delta_p
+  F_avg * delta_t = m * delta_v
+
+Graphical interpretation:
+  - Impulse = area under the F_net vs. time graph.
+  - Net force = slope of the p vs. time graph.
+
+Newton's Second Law is a result of the impulse-momentum theorem for constant mass:
+  F_net = m * a   (derived from F_net = delta_p / delta_t when mass is constant)
+
+Larger delta_t for same impulse means smaller average force (crumple zones, catching a ball gently).
+
+BOUNDARY: AP Physics 1 does NOT include situations where mass changes with time.
+
+=============================================================
+CONSERVATION OF LINEAR MOMENTUM
+=============================================================
+Total momentum of a system is always conserved (in ALL interactions).
+
+If net external force on the system = 0:
+  p_total,initial = p_total,final   (momentum is constant)
+  sum of (m_i * v_i,initial) = sum of (m_i * v_i,final)
+
+If net external force is nonzero:
+  momentum is transferred between the system and its environment.
+  delta_p_system = J_external = F_external * delta_t
+
+By Newton's Third Law: the impulse that object A exerts on B equals and opposes the
+impulse that B exerts on A. Internal forces therefore cancel; they cannot change total momentum.
+
+Velocity of center of mass:
+  v_cm = (sum of m_i * v_i) / (sum of m_i)
+
+In absence of external forces, v_cm is constant.
+
+BOUNDARY: AP Physics 1 requires full quantitative treatment of conservation of momentum
+in ONE dimension. In two dimensions, only a semiquantitative (setup) treatment is required
+(solve simultaneous equations NOT required; but students must set them up and reason about changes).
+
+=============================================================
+ELASTIC AND INELASTIC COLLISIONS
+=============================================================
+Elastic collision:
+  - Total kinetic energy is conserved (K_initial = K_final for the system).
+  - Individual objects may gain or lose KE; the total is the same.
+  - Momentum is always conserved.
+
+Inelastic collision:
+  - Total kinetic energy of the system DECREASES.
+  - Some KE is converted to thermal energy, sound, or deformation.
+  - Momentum is still conserved.
+
+Perfectly inelastic collision:
+  - Objects stick together and move with the same final velocity.
+  - Maximum KE is lost (while still conserving momentum).
+  - m_1 * v_1,i + m_2 * v_2,i = (m_1 + m_2) * v_f
+
+Summary: Momentum is conserved in ALL collisions. KE is conserved ONLY in elastic collisions.
+
+Momentum bar charts: useful representation for showing momentum before and after interactions.
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+p = m * v
+F_net = delta_p / delta_t
+J = F_avg * delta_t
+J = delta_p   (Impulse-Momentum Theorem)
+p_total,i = p_total,f   (when no net external force)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Momentum is a VECTOR; direction matters. Use sign conventions for 1D problems.
+- A rubber ball bouncing off a wall has a LARGER momentum change than a clay ball that sticks,
+  even if both hit with the same speed (because rubber ball reverses direction).
+- Energy is NOT always conserved in collisions; momentum always is.
+- A large force for a short time can have the same impulse as a small force for a long time.
+- After a perfectly inelastic collision, the objects move together (one combined object).
+- In an isolated system (no external force), total momentum never changes, but KE can change.

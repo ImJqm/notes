@@ -1,0 +1,138 @@
+AP PHYSICS 1 - UNIT 8: FLUIDS
+Exam Weighting: 10-15%
+
+=============================================================
+INTERNAL STRUCTURE AND DENSITY
+=============================================================
+Matter states:
+  Solids: atoms/molecules tightly bound, fixed shape.
+  Liquids: atoms/molecules loosely bound, no fixed shape.
+  Gases: atoms/molecules far apart, no fixed shape.
+  Fluids = liquids + gases (no fixed shape).
+
+Ideal fluid: incompressible (constant density) and has no viscosity (no internal friction).
+
+Density:
+  rho = m / V   (mass per unit volume; units: kg/m^3)
+
+  - Density is a property of a material.
+  - More dense substance: more mass per same volume.
+  - Volume and density of an incompressible fluid do not change with pressure.
+
+=============================================================
+PRESSURE
+=============================================================
+Pressure: magnitude of perpendicular force per unit area.
+  P = F_perp / A
+
+  - Pressure is a SCALAR (no direction).
+  - Units: Pascals (Pa) = N/m^2
+
+Pressure in a fluid is caused by the collective forces of the fluid's particles on surfaces.
+
+Absolute pressure at a point in a fluid:
+  P_abs = P_0 + P_gauge
+  where P_0 = reference pressure (e.g., atmospheric pressure P_atm)
+  and P_gauge = gauge pressure (additional pressure due to fluid column)
+
+Gauge pressure from a vertical column of fluid:
+  P_gauge = rho * g * h
+  where rho = fluid density, g = 10 m/s^2, h = depth below fluid surface
+
+Therefore: P_abs = P_0 + rho * g * h
+
+Key consequences:
+  - Pressure increases with depth in a fluid.
+  - Pressure at the same depth is the same throughout a connected static fluid (Pascal's Principle implied).
+  - Pressure does NOT depend on horizontal position or the shape of the container.
+
+=============================================================
+FLUIDS AND NEWTON'S LAWS
+=============================================================
+Newton's laws apply to fluid particles.
+The macroscopic behavior of a fluid results from internal particle interactions and external forces.
+
+A fluid accelerates (velocity changes) when there is a net force on it, including pressure differences.
+
+BUOYANT FORCE
+An object submerged in or floating in a fluid experiences an upward buoyant force:
+  - Result of fluid pushing harder on the bottom of the object than on the top (pressure increases with depth).
+  - Arises from the collective forces of fluid particles on the object.
+
+Archimedes' Principle:
+  F_B = rho_fluid * g * V_displaced
+  (buoyant force = weight of fluid displaced by the object)
+
+  - Buoyant force is UPWARD.
+  - Only depends on the density of the fluid and volume of fluid displaced (NOT on object material or density).
+  - V_displaced = volume of the part of the object that is submerged.
+
+Floating condition:
+  - Object floats when buoyant force = weight of object.
+  - F_B = m_object * g  =>  rho_fluid * g * V_displaced = rho_object * g * V_object
+  - Fraction submerged = rho_object / rho_fluid
+  - If rho_object < rho_fluid: object floats (partially submerged).
+  - If rho_object > rho_fluid: object sinks.
+  - If rho_object = rho_fluid: object is neutrally buoyant (floats fully submerged).
+
+For a submerged object:
+  Net upward force = F_B - F_gravity = (rho_fluid - rho_object) * g * V
+  If rho_fluid > rho_object: net force upward (object rises).
+  If rho_fluid < rho_object: net force downward (object sinks).
+
+=============================================================
+FLUIDS AND CONSERVATION LAWS
+=============================================================
+CONTINUITY EQUATION (Conservation of Mass for Fluids)
+For an incompressible fluid flowing through a tube:
+  - The rate at which mass enters must equal the rate at which mass exits.
+  - Flow rate (volume per second): Q = A * v
+    where A = cross-sectional area, v = fluid speed
+
+Continuity equation:
+  A_1 * v_1 = A_2 * v_2
+
+  - Fluid speeds up where the tube narrows (smaller area => faster flow).
+  - Fluid slows down where the tube widens.
+
+BERNOULLI'S EQUATION (Conservation of Energy for Fluids)
+For an ideal fluid in steady flow:
+  P + (1/2) * rho * v^2 + rho * g * h = constant   (same at all points along a streamline)
+
+  Where: P = pressure at a point, v = fluid speed, h = height of the point
+
+Bernoulli's equation says that along a streamline, total mechanical energy per unit volume is constant.
+  - Faster flow => lower pressure (e.g., airplane wing lift, venturi effect).
+  - Higher elevation => lower pressure (if speed is constant).
+  - Lower elevation => higher pressure (consistent with P = P_0 + rho*g*h for static case).
+
+Torricelli's Theorem (derived from Bernoulli; open container with hole):
+  Speed of fluid exiting a small hole at depth h below the surface:
+  v = sqrt(2 * g * h)
+  (derived by setting v_top = 0, P_top = P_hole = atmospheric, and applying Bernoulli)
+
+BOUNDARY: All fluids are ideal (incompressible, no viscosity) and pipes are full unless stated otherwise.
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+rho = m / V
+P = F / A
+P_abs = P_0 + rho * g * h
+F_B = rho_fluid * g * V_displaced   (Archimedes' Principle)
+A_1 * v_1 = A_2 * v_2   (Continuity equation)
+P + (1/2) * rho * v^2 + rho * g * h = constant   (Bernoulli's equation)
+v_exit = sqrt(2 * g * h)   (Torricelli's theorem)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Objects float NOT because they are "lighter" but because their density is less than the fluid's density.
+- Buoyant force depends on VOLUME DISPLACED, not on the object's density or mass directly.
+- A fully submerged object always displaces a volume of fluid equal to its own volume.
+- Pressure acts equally in all directions at a given point in a static fluid.
+- In Bernoulli's equation: faster flow = lower pressure (inverse relationship between v and P).
+- Continuity: where a pipe is narrower, fluid moves faster (same volume per second must pass through).
+- Torricelli's result is the same speed as an object in free fall from height h (no coincidence; same energy).
+- Gauge pressure = 0 at the surface (where h = 0); absolute pressure at the surface = atmospheric pressure.
+- Bernoulli's equation is essentially conservation of energy per unit volume for steady, ideal fluid flow.

@@ -1,0 +1,159 @@
+AP PHYSICS 1 - UNIT 6: ENERGY AND MOMENTUM OF ROTATING SYSTEMS
+Exam Weighting: 10-15%
+
+=============================================================
+ROTATIONAL KINETIC ENERGY
+=============================================================
+Rotational kinetic energy of a rigid system:
+  K_rot = (1/2) * I * omega^2
+
+Rotational KE is a SCALAR and is always >= 0.
+
+A rigid system can have rotational KE even while its center of mass is at rest
+(because individual points on the system still have linear speed).
+
+Total kinetic energy of a rolling/rotating+translating system:
+  K_total = K_trans + K_rot
+  K_total = (1/2) * m * v_cm^2 + (1/2) * I_cm * omega^2
+
+For a point mass: K_rot = (1/2) * (mr^2) * omega^2 = (1/2) * m * v^2 = K_trans
+  (rotational KE reduces to translational KE for a single point mass)
+
+=============================================================
+TORQUE AND WORK (ROTATIONAL)
+=============================================================
+A torque does work on a rigid system when the system rotates through an angular displacement.
+
+Work done by a torque:
+  W = tau * delta_theta
+  (tau = torque in N*m; delta_theta = angular displacement in radians)
+
+Work = area under the tau vs. theta (angular position) graph.
+
+The rotational work-energy theorem: net work by all torques = change in rotational KE.
+
+=============================================================
+ANGULAR MOMENTUM AND ANGULAR IMPULSE
+=============================================================
+Angular momentum of a rigid system about a given axis:
+  L = I * omega
+
+Angular momentum of a point object (or object not clearly rotating about a fixed axis):
+  L = m * v * r * sin(phi)
+  where r = distance from reference point to object, phi = angle between r and v
+
+Angular momentum is a vector; direction is along the axis of rotation (CW vs. CCW).
+BOUNDARY: AP Physics 1 requires magnitude calculations only; direction is beyond scope.
+
+The axis (reference point) chosen affects the value of angular momentum of an object.
+Even an object moving in a straight line has angular momentum about a point not on its path.
+
+Angular impulse:
+  Angular impulse = tau_avg * delta_t
+
+Angular impulse has the same direction as the torque.
+
+Angular impulse = area under the tau vs. time graph.
+
+Angular Impulse-Angular Momentum Theorem:
+  tau_net * delta_t = delta_L = L_final - L_initial
+
+Net torque = slope of the L vs. time graph.
+
+Rotational form of Newton's Second Law (derived from angular impulse-momentum theorem):
+  tau_net = I * alpha   (for constant rotational inertia)
+
+=============================================================
+CONSERVATION OF ANGULAR MOMENTUM
+=============================================================
+Angular momentum is conserved in ALL interactions.
+
+If net external torque on the system = 0:
+  L_initial = L_final   (angular momentum is constant)
+  I_i * omega_i = I_f * omega_f
+
+If net external torque is nonzero: angular momentum transfers between system and environment.
+Change in angular momentum = angular impulse from external torques.
+
+Newton's Third Law (rotational): angular impulse A exerts on B = equal and opposite to impulse B exerts on A.
+Internal torques do NOT change the total angular momentum of a system.
+
+Key consequence: if a non-rigid system changes shape (pulls mass closer or pushes it farther from axis),
+angular velocity changes even with no external torque:
+  I decreases => omega increases (spinning figure skater pulls arms in)
+  I increases => omega decreases (figure skater extends arms out)
+
+Total angular momentum of system = sum of all constituent angular momenta.
+
+=============================================================
+ROLLING (COMBINED TRANSLATION AND ROTATION)
+=============================================================
+Rolling without slipping (pure rolling):
+  - Translational and rotational motions are directly linked.
+  - For a sphere/cylinder of radius R: v_cm = R * omega; a_cm = R * alpha
+  - The contact point has zero velocity relative to the surface.
+  - Static friction at contact point does NO work (contact point doesn't move).
+  - Total KE = (1/2) * m * v_cm^2 + (1/2) * I_cm * omega^2
+
+Rolling while slipping:
+  - Translational and rotational motions are NOT directly related.
+  - Kinetic friction acts at the contact point; the point moves relative to surface.
+  - Kinetic friction DISSIPATES energy.
+  - Qualitatively: object eventually transitions from slipping to rolling without slipping
+    (if friction acts, omega and v_cm adjust toward the rolling-without-slipping condition).
+
+BOUNDARY: Precise math for rolling while slipping is beyond AP Physics 1.
+Students must qualitatively explain linear and angular changes during slipping.
+
+=============================================================
+ORBITING SATELLITES
+=============================================================
+For a satellite orbiting a massive central body (central body mass >> satellite mass):
+  - The motion of the central body is negligible.
+  - Only gravitational force acts.
+
+Gravitational PE between satellite and central body:
+  U_g = -G * M * m / r
+  (defined as zero when r = infinity; negative at all finite distances)
+
+Circular orbit:
+  - Constant mechanical energy E_mech = K + U_g
+  - Constant gravitational PE (constant r)
+  - Constant KE (constant speed)
+  - Constant angular momentum
+
+Elliptical orbit:
+  - Constant total mechanical energy (E_mech = constant)
+  - Constant angular momentum
+  - PE and KE each change (faster and closer at nearest point; slower and farther at farthest)
+
+Escape velocity: minimum speed to escape the gravitational pull (E_mech = 0):
+  v_esc = sqrt(2 * G * M / r)
+  (derived: K + U_g = 0  =>  (1/2)*m*v^2 - G*M*m/r = 0  =>  v = sqrt(2GM/r))
+
+At escape velocity, satellite reaches zero speed at infinite distance.
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+K_rot = (1/2) * I * omega^2
+K_total = (1/2) * m * v^2 + (1/2) * I * omega^2
+W_torque = tau * delta_theta
+L = I * omega   (rigid body about fixed axis)
+L = m * v * r * sin(phi)   (point mass)
+Angular impulse = tau * delta_t = delta_L
+tau_net = I * alpha   (constant I)
+Rolling without slipping: v = R * omega; a = R * alpha
+U_g = -G * M * m / r
+v_esc = sqrt(2GM/r)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Objects with the same mass and radius but different mass distributions roll down ramps at
+  different speeds (disk beats hoop because disk has less rotational inertia).
+- An ice skater spins faster by pulling arms in: I decreases, omega increases (L = I*omega is conserved).
+- Rolling without slipping: static friction acts but does no work (energy conserved).
+- Rolling with slipping: kinetic friction dissipates energy (mechanical energy decreases).
+- Gravitational PE = -GMm/r is always negative; total E_mech of bound satellite is also negative.
+- For circular orbit, increasing r means both slower speed and higher (less negative) total energy.

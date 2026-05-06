@@ -1,0 +1,95 @@
+AP PHYSICS 1 - UNIT 1: KINEMATICS
+Exam Weighting: 10-15%
+
+=============================================================
+SCALARS vs VECTORS
+=============================================================
+Scalars: described by magnitude only (distance, speed)
+Vectors: described by magnitude AND direction (position, displacement, velocity, acceleration)
+Vectors are drawn as arrows; length is proportional to magnitude.
+In one dimension, sign (+/-) fully describes direction of a vector component.
+Vector notation uses an arrow above the symbol.
+
+Adding/subtracting vectors in 1D: opposite directions get opposite signs.
+
+=============================================================
+DISPLACEMENT, VELOCITY, AND ACCELERATION
+=============================================================
+Object model: treat object as a single point with mass; ignore size/shape.
+
+Displacement: change in position (vector)
+  delta_x = x_final - x_initial
+
+Average velocity: displacement divided by time interval (vector)
+  v_avg = delta_x / delta_t
+
+Average acceleration: change in velocity divided by time interval (vector)
+  a_avg = delta_v / delta_t
+
+An object is accelerating if the magnitude and/or direction of velocity is changing.
+Instantaneous velocity = slope of position-vs-time graph at that point.
+Instantaneous acceleration = slope of velocity-vs-time graph at that point.
+Average over a very small interval approaches instantaneous value.
+
+=============================================================
+REPRESENTING MOTION (KINEMATICS EQUATIONS)
+=============================================================
+Motion can be represented with: motion diagrams, graphs, equations, narrative descriptions.
+
+For CONSTANT acceleration in one dimension:
+  v = v_0 + a*t
+  x = x_0 + v_0*t + (1/2)*a*t^2
+  v^2 = v_0^2 + 2*a*(x - x_0)
+
+These equations apply in any single dimension; subscript x or y as needed.
+
+Near Earth's surface: g = 10 m/s^2 downward (also acceptable: 9.8 or 9.81)
+
+Graphical relationships:
+  - Slope of x-vs-t = instantaneous velocity
+  - Slope of v-vs-t = instantaneous acceleration
+  - Area under v-vs-t curve = displacement
+  - Area under a-vs-t curve = change in velocity
+
+BOUNDARY: AP Physics 1 does NOT require quantitative analysis of nonuniform
+acceleration, but students must qualitatively describe and sketch graphs for it.
+
+=============================================================
+REFERENCE FRAMES AND RELATIVE MOTION
+=============================================================
+Reference frame: the perspective of a given observer; determines direction and
+magnitude of measured quantities.
+
+Observations in one inertial reference frame can be converted to another by
+adding or subtracting velocities.
+  v_object_relative_to_ground = v_object_relative_to_observer + v_observer_relative_to_ground
+
+Acceleration is the SAME in all inertial reference frames.
+
+BOUNDARY: Adding/subtracting velocities for relative motion is restricted to one
+dimension. All reference frames are inertial unless stated otherwise.
+
+=============================================================
+VECTORS AND MOTION IN TWO DIMENSIONS
+=============================================================
+Any vector can be broken into two perpendicular components using trig:
+  A_x = A * cos(theta)
+  A_y = A * sin(theta)
+  A = sqrt(A_x^2 + A_y^2)   (Pythagorean theorem: a^2 + b^2 = c^2)
+
+Two-dimensional motion: analyze each dimension independently using 1D kinematics.
+
+Projectile motion: special case of 2D motion.
+  - Horizontal: zero acceleration (constant velocity)
+  - Vertical: constant downward acceleration g = 10 m/s^2
+  - Horizontal and vertical motions are independent of each other.
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Negative acceleration does NOT always mean slowing down; it depends on direction of velocity.
+- An object can have nonzero velocity with zero acceleration (constant velocity).
+- An object can have zero velocity with nonzero acceleration (momentarily at rest, then reversing).
+- On position-vs-time graph: straight line = constant velocity; curve = changing velocity.
+- On velocity-vs-time graph: straight line = constant acceleration; horizontal = zero acceleration.
+- At maximum height of a projectile: v_y = 0, but a_y = g = 10 m/s^2 downward still acts.

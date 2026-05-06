@@ -1,0 +1,115 @@
+AP PHYSICS 1 - UNIT 7: OSCILLATIONS
+Exam Weighting: 5-8%
+
+=============================================================
+DEFINING SIMPLE HARMONIC MOTION (SHM)
+=============================================================
+SHM is a special case of periodic (repetitive) motion.
+
+SHM occurs when a restoring force is proportional to displacement from equilibrium:
+  F_net = -k * x   (for a spring; negative sign means force opposes displacement)
+
+Restoring force: always directed TOWARD equilibrium (opposite to displacement).
+Equilibrium position: where net force on the object is zero.
+
+SHM occurs in:
+  1. Mass on an ideal spring (spring force is linear restoring force).
+  2. Simple pendulum at SMALL angles (restoring torque proportional to angular displacement).
+
+For SHM: F_net is proportional to x (displacement from equilibrium) in magnitude,
+and always points toward equilibrium.
+
+=============================================================
+FREQUENCY AND PERIOD OF SHM
+=============================================================
+Period T: time for one complete oscillation (seconds).
+Frequency f: oscillations per second (Hz = 1/s).
+  T = 1/f
+
+Period of a mass-spring system (object of mass m on spring with constant k):
+  T_s = 2 * pi * sqrt(m/k)
+
+  - Increasing mass => longer period (slower oscillation)
+  - Increasing spring constant k => shorter period (faster oscillation)
+  - Period is INDEPENDENT of amplitude
+
+Period of a simple pendulum (small angle approximation, angle < ~15 degrees):
+  T_p = 2 * pi * sqrt(L/g)
+  where L = length of the pendulum, g = 10 m/s^2
+
+  - Increasing length L => longer period
+  - Increasing g (stronger gravity) => shorter period
+  - Period is INDEPENDENT of mass and amplitude (for small angles)
+  - NOT valid for large angles
+
+=============================================================
+REPRESENTING AND ANALYZING SHM
+=============================================================
+At maximum displacement (amplitude A):
+  - Displacement is maximum (+A or -A)
+  - Velocity is ZERO
+  - Acceleration is MAXIMUM (toward equilibrium)
+  - Spring PE is maximum; KE is zero
+
+At equilibrium (x = 0):
+  - Displacement is zero
+  - Velocity is MAXIMUM
+  - Acceleration is ZERO
+  - KE is maximum; spring PE is zero
+
+The motion is sinusoidal: position, velocity, and acceleration all vary sinusoidally with time.
+  x(t) = A * cos(omega*t) or A * sin(omega*t)
+  (where omega = 2*pi*f = 2*pi/T = angular frequency in rad/s)
+
+Position, velocity, and acceleration vs. time graphs for SHM:
+  - Displacement graph is sinusoidal.
+  - Velocity graph is shifted 90 degrees from displacement (velocity = 0 at extremes; max at center).
+  - Acceleration graph is opposite to displacement (points toward equilibrium at all times).
+
+AMPLITUDE has NO effect on period or frequency.
+Changing amplitude changes the TOTAL energy and maximum speed.
+
+=============================================================
+ENERGY OF SIMPLE HARMONIC OSCILLATORS
+=============================================================
+Total mechanical energy of SHM system is constant (conserved):
+  E_total = K + U = constant
+
+For a mass-spring system:
+  U_spring = (1/2) * k * x^2
+  K = (1/2) * m * v^2
+  E_total = (1/2) * k * A^2   (where A = amplitude)
+
+Energy transformations during oscillation:
+  At maximum displacement: E = all PE, K = 0
+  At equilibrium: E = all KE, U = 0
+  In between: E = K + U (both nonzero)
+
+At equilibrium, maximum kinetic energy = maximum speed:
+  (1/2) * m * v_max^2 = (1/2) * k * A^2
+  v_max = A * sqrt(k/m)
+
+Increasing amplitude INCREASES total energy and increases v_max and a_max.
+Period and frequency are NOT affected by amplitude changes.
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+T = 1/f
+T_spring = 2 * pi * sqrt(m/k)
+T_pendulum = 2 * pi * sqrt(L/g)   (small angles only)
+F_restoring = -k * x   (spring)
+E_total = K + U = (1/2)*k*A^2   (for spring-mass)
+v_max = A * sqrt(k/m)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Period of a pendulum depends ONLY on length and g; NOT on mass or amplitude (for small angles).
+- Period of a spring-mass depends ONLY on mass and k; NOT on amplitude or g.
+- Maximum speed occurs at equilibrium; zero speed at maximum displacement.
+- Maximum acceleration occurs at maximum displacement; zero acceleration at equilibrium.
+- Graphs of x, v, and a vs. time are all sinusoidal but phase-shifted relative to each other.
+- Energy oscillates between KE and PE; total mechanical energy is constant.
+- Doubling amplitude quadruples total energy (E proportional to A^2).
+- The pendulum model as SHM is ONLY valid for small angles (roughly < 15 degrees).

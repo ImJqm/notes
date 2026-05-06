@@ -1,0 +1,136 @@
+AP PHYSICS 1 - UNIT 3: WORK, ENERGY, AND POWER
+Exam Weighting: 18-23%
+
+=============================================================
+TRANSLATIONAL KINETIC ENERGY
+=============================================================
+Kinetic energy (K) of a moving object:
+  K = (1/2) * m * v^2
+
+Kinetic energy is a scalar and is always >= 0.
+Different observers in different reference frames may measure different KE values.
+
+=============================================================
+WORK
+=============================================================
+Work: energy transferred into or out of a system by a force acting over a displacement.
+Work is a scalar; can be positive, negative, or zero.
+
+Only the component of force PARALLEL to displacement does work:
+  W = F_parallel * d = F * d * cos(theta)
+  (theta = angle between force vector and displacement vector)
+
+The component PERPENDICULAR to displacement changes direction of motion but NOT kinetic energy.
+
+Work-Energy Theorem:
+  Net work done on an object = change in kinetic energy of the object
+  W_net = delta_K = K_final - K_initial
+
+If only kinetic energy can change (system modeled as a single object):
+  W_net = delta_K
+
+Work done by friction is dissipated as thermal energy:
+  Energy dissipated by friction = F_friction * path length
+
+Work is equal to the area under the F_parallel vs. displacement graph.
+
+Conservative forces: work is path-independent; only depends on initial and final positions.
+  - Gravity and spring force are conservative.
+  - If object returns to starting point, net work by conservative force = 0.
+  - Potential energy is associated with conservative forces only.
+
+Nonconservative forces: work is path-dependent (friction, air resistance).
+  - Energy is dissipated (typically as thermal energy or sound).
+
+=============================================================
+POTENTIAL ENERGY
+=============================================================
+Potential energy: scalar energy associated with the configuration (position) of objects
+in a system interacting via conservative forces.
+
+A single object by itself has NO potential energy; you need a system of at least two objects.
+
+Zero reference point for PE is chosen by the observer (choice should simplify the analysis).
+
+Types of potential energy:
+
+Elastic (spring) potential energy:
+  U_s = (1/2) * k * x^2
+  (k = spring constant; x = displacement from equilibrium/natural length)
+
+Gravitational potential energy (general, two masses):
+  U_g = -G * m1 * m2 / r
+  (r = distance between centers of mass; G = 6.67 x 10^-11 N m^2/kg^2)
+
+Gravitational potential energy near Earth's surface (constant g approximation):
+  delta_U_g = m * g * delta_h   or   U_g = m * g * h   (with h measured from reference)
+  (valid when change in height is small compared to Earth's radius)
+
+For a system of more than two objects, total PE = sum of PE for each interacting pair.
+
+=============================================================
+CONSERVATION OF ENERGY
+=============================================================
+Mechanical energy = sum of kinetic and potential energies:
+  E_mech = K + U
+
+Energy is always conserved in any interaction.
+
+If a system is defined so that:
+  (1) No external work is done on the system, AND
+  (2) No nonconservative interactions occur within the system
+  THEN: total mechanical energy is constant (E_mech,initial = E_mech,final)
+
+  K_i + U_i = K_f + U_f
+
+If nonconservative forces (like friction) are present:
+  K_i + U_i = K_f + U_f + |W_friction|
+  (mechanical energy decreases by the work done by friction)
+
+If work is done on the system by an external force:
+  W_external = delta_E_mech
+
+Energy can be transferred between kinetic and potential forms, or between system and environment.
+Mechanical energy dissipated by nonconservative forces becomes thermal energy and/or sound.
+
+Energy bar charts: useful tool to represent energy before and after an interaction.
+
+=============================================================
+POWER
+=============================================================
+Power: rate of energy transfer or conversion with respect to time.
+  P_avg = W / delta_t = delta_E / delta_t
+
+Units: Watts (W) = Joules/second (J/s)
+
+Average power from work:
+  P_avg = W_total / delta_t
+
+Instantaneous power from a constant force:
+  P = F_parallel * v   (force component parallel to velocity, times speed)
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+K = (1/2) * m * v^2
+W = F * d * cos(theta)
+W_net = delta_K
+U_spring = (1/2) * k * x^2
+U_gravity (near surface) = m * g * h
+U_gravity (general) = -G * m1 * m2 / r
+E_mech = K + U
+P = W / t = F * v (instantaneous, constant force)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Work is done ONLY when the force has a component parallel to displacement; perpendicular
+  force components do no work (e.g., normal force on horizontal surface does zero work).
+- A system consisting of ONLY a single object can have kinetic energy only, NOT potential energy.
+- Potential energy belongs to the SYSTEM, not to any single object.
+- The choice of zero height for gravitational PE is arbitrary; only CHANGES in PE matter.
+- Friction ALWAYS reduces mechanical energy; energy is not destroyed but becomes thermal energy.
+- Conservation of energy applies to all interactions; if mechanical energy decreases, look for
+  where it went (heat, sound, deformation).
+- The work-energy theorem applies to ALL forces, while conservation of mechanical energy applies
+  when nonconservative forces do zero work.

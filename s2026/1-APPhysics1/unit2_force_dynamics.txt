@@ -1,0 +1,178 @@
+AP PHYSICS 1 - UNIT 2: FORCE AND TRANSLATIONAL DYNAMICS
+Exam Weighting: 18-23%
+
+=============================================================
+SYSTEMS AND CENTER OF MASS
+=============================================================
+A system is a collection of objects. System properties come from interactions between
+constituent objects. If internal structure is unimportant, the system can be treated as
+a single object at its center of mass.
+
+Internal forces (between objects within the system) do NOT affect motion of center of mass.
+External forces DO affect motion of center of mass.
+
+Center of mass location along one axis:
+  x_cm = (sum of m_i * x_i) / (sum of m_i)
+
+For symmetrical mass distributions, center of mass lies on the line(s) of symmetry.
+BOUNDARY: Center of mass calculations are limited to highly symmetrical objects.
+
+=============================================================
+FORCES AND FREE-BODY DIAGRAMS (FBDs)
+=============================================================
+Forces are vector quantities describing interactions between objects/systems.
+Every force on an object is exerted BY another object (forces come in pairs).
+Contact forces are macroscopic effects of interatomic electric forces.
+
+Free-body diagram rules:
+  - Represent the object/system as a dot (at center of mass).
+  - Draw each force as a straight arrow originating from the dot.
+  - Arrow direction = direction of the force.
+  - Forces in the same direction are drawn side by side, NOT overlapping.
+  - Do NOT include component arrows on an FBD; show actual forces only.
+
+Choose a coordinate system with one axis parallel to acceleration to simplify math.
+  (e.g., for inclined plane, one axis parallel to the slope surface)
+
+=============================================================
+NEWTON'S THIRD LAW
+=============================================================
+Every force exerted by object A on object B has an equal and opposite force exerted
+by object B on object A. These paired forces are the same type, same magnitude,
+opposite direction, and act on DIFFERENT objects.
+
+Tension: the force transmitted through a string, rope, chain, or cable.
+  - Ideal string: negligible mass, does not stretch; tension is same throughout.
+  - Non-ideal string with mass: tension may vary along its length (greater at top when hanging).
+  - Ideal pulley: negligible mass, no friction at axle.
+
+BOUNDARY: Distance interactions in AP Physics 1 are limited to gravitational forces only
+(no electric or magnetic forces at a distance).
+
+=============================================================
+NEWTON'S FIRST LAW
+=============================================================
+Net force = vector sum of all forces on the system.
+Translational equilibrium: net force = zero.
+  Sum of all forces = 0 (equilibrium condition)
+
+Newton's First Law: if net force = 0, velocity is constant (object stays at rest or
+moves in a straight line at constant speed).
+
+Forces can be balanced in one dimension but unbalanced in another; velocity only
+changes in the direction of the unbalanced force.
+
+Inertial reference frame: a frame in which Newton's first law holds.
+
+=============================================================
+NEWTON'S SECOND LAW
+=============================================================
+Net force is not zero means the system accelerates.
+
+Newton's Second Law: F_net = m * a
+
+  - a is in the same direction as F_net.
+  - a is proportional to F_net and inversely proportional to mass.
+  - Only net EXTERNAL forces change velocity of the center of mass.
+
+=============================================================
+GRAVITATIONAL FORCE
+=============================================================
+Newton's Law of Universal Gravitation:
+  F_g = G * m_1 * m_2 / r^2
+
+  - G = 6.67 x 10^-11 N m^2/kg^2
+  - r = distance between centers of mass
+  - Force is attractive, directed along the line connecting centers of mass
+  - Force decreases with square of distance (inverse square law)
+
+Gravitational field strength g:
+  g = G * M / r^2  (magnitude at distance r from mass M)
+  Near Earth's surface: g = 10 N/kg (or 10 m/s^2)
+
+Weight = gravitational force on an object near a large body:
+  F_g = m * g   (weight; directed downward near Earth)
+
+If gravity is the only force: observed acceleration = gravitational field strength numerically.
+
+Apparent weight = magnitude of normal force exerted on an object.
+  - If accelerating: apparent weight differs from true gravitational force.
+  - Weightless: when gravity is the only force acting (free fall), OR no forces act.
+
+Equivalence principle: an observer in a noninertial frame cannot distinguish between
+apparent weight and gravitational force.
+
+Inertial mass vs gravitational mass: both measure the same property; experimentally equivalent.
+
+=============================================================
+KINETIC AND STATIC FRICTION
+=============================================================
+Kinetic friction: occurs when two surfaces slide relative to each other.
+  - Direction: opposes relative motion of surfaces.
+  - Does NOT depend on contact surface area.
+  F_f,k = mu_k * F_n
+  (mu_k = coefficient of kinetic friction; F_n = normal force)
+
+Normal force: perpendicular force from a surface on an object, directed away from surface.
+
+Static friction: prevents relative motion between surfaces not sliding.
+  - Adjusts in magnitude/direction as needed (up to a maximum).
+  F_f,s <= mu_s * F_n
+  Maximum static friction: F_f,s,max = mu_s * F_n
+
+Typically: mu_s > mu_k for the same surfaces.
+
+=============================================================
+SPRING FORCES (HOOKE'S LAW)
+=============================================================
+Ideal spring: negligible mass; force proportional to displacement from relaxed length.
+
+Hooke's Law:
+  F_s = k * x
+  (k = spring constant in N/m; x = displacement from equilibrium/natural length)
+
+The spring force always points TOWARD the equilibrium position (restoring force).
+
+=============================================================
+CIRCULAR MOTION
+=============================================================
+Object moving in a circle has centripetal acceleration directed TOWARD the center.
+  a_c = v^2 / r   (v = speed, r = radius)
+
+Net centripetal force (net force toward center):
+  F_c = m * v^2 / r
+
+Tangential acceleration: rate of change of speed, directed tangent to circle.
+Net acceleration = vector sum of centripetal + tangential acceleration.
+
+Period T: time for one complete revolution.
+Frequency f: revolutions per second.
+  T = 1/f
+  T = 2 * pi * r / v   (for constant speed circular motion)
+
+Uniform circular motion: constant speed, only centripetal acceleration.
+
+Vertical circular loop:
+  - At top of loop, minimum speed: gravity alone provides centripetal force.
+    F_g = m * v_min^2 / r  =>  v_min = sqrt(g * r)
+
+Banked curves: components of normal force and static friction contribute to centripetal force.
+Conical pendulum: component of tension provides centripetal force.
+
+Kepler's Third Law (circular orbits):
+  For satellite in circular orbit, gravity provides centripetal force.
+  T^2 / r^3 = 4 * pi^2 / (G * M)
+  (M = mass of central body; the period and radius are related to central body's mass)
+
+BOUNDARY: Banked curve with friction is qualitative only; frictionless banked curves can
+be analyzed quantitatively. Kepler's third law is limited to circular orbits.
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Internal forces between objects in a system do NOT affect the system's center of mass motion.
+- Newton's Third Law pairs act on DIFFERENT objects; they never cancel each other.
+- Normal force is NOT always equal to weight (it equals weight only on flat, non-accelerating surfaces).
+- Friction always opposes relative motion (kinetic) or tendency to slide (static).
+- For circular motion problems, always identify what force(s) provide(s) centripetal acceleration.
+- For FBDs on inclined planes, tilt the coordinate system along the slope to simplify components.

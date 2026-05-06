@@ -1,0 +1,138 @@
+AP PHYSICS 1 - UNIT 5: TORQUE AND ROTATIONAL DYNAMICS
+Exam Weighting: 10-15%
+
+=============================================================
+ROTATIONAL KINEMATICS
+=============================================================
+Rigid system: holds its shape; different points move in different directions during rotation.
+A rigid system CANNOT be modeled as a single object (because different parts move differently).
+
+Angular displacement (theta): angle rotated (in radians).
+  One direction (CW or CCW) is positive; the other is negative.
+
+Average angular velocity (omega):
+  omega_avg = delta_theta / delta_t   (radians per second)
+
+Average angular acceleration (alpha):
+  alpha_avg = delta_omega / delta_t   (radians per second squared)
+
+For CONSTANT angular acceleration (exact analogues of linear kinematic equations):
+  omega = omega_0 + alpha * t
+  theta = theta_0 + omega_0 * t + (1/2) * alpha * t^2
+  omega^2 = omega_0^2 + 2 * alpha * (theta - theta_0)
+
+Graphs of angular displacement, velocity, and acceleration vs. time follow the same
+relationships as linear kinematics graphs (slopes and areas).
+
+BOUNDARY: Direction of rotation is described only as clockwise or counterclockwise
+with respect to a given axis of rotation.
+
+=============================================================
+CONNECTING LINEAR AND ROTATIONAL MOTION
+=============================================================
+For a point at distance r from the axis of rotation:
+
+  Arc length: s = r * theta   (theta in radians)
+  Tangential speed: v = r * omega
+  Tangential acceleration: a_t = r * alpha
+  Centripetal acceleration: a_c = v^2 / r = r * omega^2   (toward center)
+
+All points on a rigid system share the same angular velocity and angular acceleration.
+Points farther from the axis have greater tangential speed and acceleration.
+
+BOUNDARY: Rotation directions limited to clockwise/counterclockwise about a given axis.
+
+=============================================================
+TORQUE
+=============================================================
+Torque: the rotational effect of a force; causes angular acceleration.
+
+Only the component of force PERPENDICULAR to the position vector (from axis to point of
+application) produces torque:
+  tau = r * F * sin(theta)
+  where theta = angle between force vector and position vector from axis to application point
+  OR equivalently: tau = F * L   where L = lever arm
+
+Lever arm (L): the perpendicular distance from the axis of rotation to the LINE OF ACTION
+of the force. To maximize torque, apply force perpendicular to the moment arm (sin(90)=1).
+
+Force diagrams (like FBDs): show forces AND their locations relative to the axis of rotation.
+
+BOUNDARY: AP Physics 1 requires calculating the magnitude of torque but NOT the direction
+(clockwise vs. counterclockwise convention is sufficient for direction description).
+
+=============================================================
+ROTATIONAL INERTIA
+=============================================================
+Rotational inertia (I): measures a system's resistance to changes in rotation.
+Depends on both mass and how that mass is distributed relative to the rotation axis.
+
+For a point mass at perpendicular distance r from axis:
+  I = m * r^2
+
+For a collection of objects:
+  I_total = sum of (m_i * r_i^2)
+
+Rotational inertia is MINIMUM when the axis passes through the center of mass.
+
+Parallel Axis Theorem (when axis does NOT pass through center of mass):
+  I = I_cm + M * d^2
+  (I_cm = rotational inertia about axis through center of mass; d = distance between axes)
+
+Qualitative understanding: mass farther from axis = greater rotational inertia.
+  Example: hoop has more rotational inertia than solid disk of same mass and radius.
+
+BOUNDARY: Students must know I for collections of up to five or fewer point masses in a 2D
+configuration. Rotational inertia formulas for extended objects are GIVEN on the exam.
+
+=============================================================
+ROTATIONAL EQUILIBRIUM AND NEWTON'S FIRST LAW (ROTATIONAL)
+=============================================================
+Net torque = vector sum of all torques about a chosen axis.
+
+Rotational equilibrium: net torque = 0.
+  Sum of all torques = 0
+
+Newton's First Law (rotational form): if net torque = 0, angular velocity is constant
+(object continues rotating at the same rate, or remains at rest rotationally).
+
+A system can be in rotational equilibrium without being in translational equilibrium, and
+vice versa. Both conditions must be separately satisfied for complete static equilibrium.
+
+=============================================================
+NEWTON'S SECOND LAW IN ROTATIONAL FORM
+=============================================================
+If net torque is NOT zero, angular velocity changes:
+  tau_net = I * alpha
+
+  - alpha is in the same direction as tau_net.
+  - alpha is proportional to tau_net.
+  - alpha is inversely proportional to I.
+
+This is the rotational analogue of F_net = m * a.
+
+For a rotating rigid system, both linear and rotational analyses may be needed independently.
+
+=============================================================
+KEY EQUATIONS SUMMARY
+=============================================================
+omega_avg = delta_theta / delta_t
+alpha_avg = delta_omega / delta_t
+Rotational kinematic equations (constant alpha, analogous to linear)
+s = r * theta;   v = r * omega;   a_t = r * alpha
+tau = r * F * sin(theta) = F * L (lever arm)
+I = m * r^2 (point mass)
+I_total = sum of m_i * r_i^2
+I = I_cm + M * d^2 (parallel axis theorem)
+tau_net = I * alpha (Newton's 2nd Law, rotational)
+
+=============================================================
+KEY REMINDERS
+=============================================================
+- Torque depends on BOTH force magnitude AND where/how it is applied (lever arm).
+- A force directed through the axis of rotation produces ZERO torque.
+- Rotating at constant angular velocity means net torque = 0 (just like constant velocity means net force = 0).
+- For a rigid system, every point has the same omega and alpha, but different tangential speeds (v = r*omega).
+- When solving problems with both rotation and translation (e.g., a yo-yo), analyze each separately.
+- For static equilibrium: BOTH net force = 0 AND net torque = 0.
+- The choice of axis for torque calculations is arbitrary; choose a point that eliminates unknowns.
