@@ -1,0 +1,73 @@
+- The logistic model can be written as one of the following
+- ky(1-y/L)
+- ky/L * (L-y)
+- Having an initial condition, or y-intercept of a logistic differntial does not impact the final carrying capacity, it will always be L
+
+- The derivative of a inverse is d/dx f^-1(x) = 1/f'(f^-1(x;))
+
+- Geometric Series do not converge at end points
+- Limits don't exist when left and right sides disagree
+- S = a/1-r only if k = 0
+
+- The definition of contiuity is for every value c on the interval a to be lim x-> c exists (meaning left and right have to agree) and f(c) = that limit
+	- Holes, jumps, and vert asymptotes violate conituity
+  - Differentiability Implies Continuity
+  - Continuity does NOT imply differentiability
+	  - Ex: corner, cusp, or vert tangent
+  - A jump in a graph (eg one filled in the other not) is not continuous becuase the limits don't agree 
+
+  - f''(x) changes sign -> inflection point
+
+  - MVT
+	  - Must be continous on [a,b]
+	  - Must be differntiable on (a,b)
+	  - Then there is some c in (a,b) where f'(c) = f(b) - f(a) / b - a
+	  - Some point where instantenous rate of change = avg rate of change
+
+  - IVT
+	  - Must be contiuos on [a,b]
+	  - f(a) != f(b)
+	  - a <= k <= b
+	  - Then there is some c such that f(c) = k
+
+  - EVT
+	  - Must be continous on [a,b]
+		  - Then there is at least one max and one min on that interval
+
+  - For all reiman sums delta x = b-a / n
+  - Right Reiman Sums:
+	  - sum from k=1 to n of f(a+k * delta x ) * delta x
+	  - We start the delta x
+
+  - Left Reiman Sums:
+	-  sum from k = 0 to n-1 of f(a + k* delta x) * delta x
+	- We start without the delta x
+
+- Midpoint sums
+	- Sum from k  =0 to n -1 of f(a + k*delta x + deltax /2) * delta x
+	- We start at the  midpoint 
+
+- Trapezoidal
+	- Sum from k =1 to n of delta x * 0.5 *( f(a + delta x (k-1) + f(a + delta x * k)  )
+	- The height  is detla x
+	- We add to take the average of the bases
+
+- Cross Sectional Areas
+
+- Semi Circle
+	- Graph  is diameter
+	- V = pi / 8 int from a to b of  s(x)^2 dx	  
+
+- Rectangles of height h
+	- Graph  is width
+	- V = h int  from a to b   of s(x) dx
+
+- Square
+	- Graph is width
+	- V = int from a to b s(x)^2 dx 
+
+- Isoceles  Triangle
+	- V = 0.5 int  from a to b  of s(x)^2 dx
+
+- Equilateral Triangle
+	- V = sqrt(3) / 4 int from a to b of s(x)^2 dx

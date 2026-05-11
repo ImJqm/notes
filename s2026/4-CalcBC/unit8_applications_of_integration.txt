@@ -1,0 +1,72 @@
+AP CALCULUS BC - UNIT 8: APPLICATIONS OF INTEGRATION
+Exam Weighting: 6-9% BC
+=================================================
+
+AVERAGE VALUE OF A FUNCTION
+The average value of a continuous function f on [a, b]:
+  f_avg = (1/(b-a)) * integral from a to b of f(x) dx
+This is different from the average rate of change, which is [f(b) - f(a)] / (b - a).
+
+POSITION, VELOCITY, ACCELERATION WITH INTEGRALS
+Velocity v(t) = s'(t), acceleration a(t) = v'(t) = s''(t).
+Displacement (net change in position) over [a, b]:
+  integral from a to b of v(t) dt = s(b) - s(a)
+Total distance traveled over [a, b]:
+  integral from a to b of |v(t)| dt
+Net change of any quantity over [a, b] = integral of its rate of change over [a, b].
+
+ACCUMULATION IN APPLIED CONTEXTS
+If f'(t) is the rate of change of some quantity, then:
+  integral from a to b of f'(t) dt = f(b) - f(a) (net change)
+A function defined by an integral represents accumulated change from a starting point.
+
+AREA BETWEEN CURVES (functions of x)
+Area between f(x) and g(x) where f(x) >= g(x) on [a, b]:
+  A = integral from a to b of [f(x) - g(x)] dx
+Always integrate [top function - bottom function].
+If the curves cross on [a, b], split the interval at intersection points and handle each part separately.
+Or equivalently: A = integral from a to b of |f(x) - g(x)| dx.
+
+AREA BETWEEN CURVES (functions of y)
+Area between right curve x = f(y) and left curve x = g(y) on [c, d]:
+  A = integral from c to d of [f(y) - g(y)] dy
+Use this when curves are more naturally expressed as functions of y.
+
+VOLUMES WITH KNOWN CROSS SECTIONS
+For a solid whose cross sections perpendicular to the x-axis have area A(x):
+  V = integral from a to b of A(x) dx
+Common cross sections:
+  Square with side s: A = s^2
+  Rectangle with base b and height h: A = b*h
+  Equilateral triangle with side s: A = (sqrt(3)/4) * s^2
+  Isoceles right triangle with leg s: A = (1/2) * s^2
+  Semicircle with diameter d: A = (pi/8) * d^2
+
+DISC METHOD (solid of revolution, no hole)
+Rotate the region under y = f(x) (above the x-axis) about the x-axis:
+  V = pi * integral from a to b of [f(x)]^2 dx
+About the y-axis using x = g(y):
+  V = pi * integral from c to d of [g(y)]^2 dy
+About any horizontal or vertical line: adjust the radius by subtracting the axis of rotation.
+For rotation about y = k: radius = |f(x) - k|.
+
+WASHER METHOD (solid of revolution, with hole)
+Rotate the region between y = f(x) (outer) and y = g(x) (inner) about the x-axis:
+  V = pi * integral from a to b of ([f(x)]^2 - [g(x)]^2) dx
+where f(x) >= g(x) >= 0.
+About other axes: adjust radii accordingly.
+  V = pi * integral of [(outer radius)^2 - (inner radius)^2] dx
+
+ARC LENGTH (BC only)
+For a smooth curve y = f(x) on [a, b]:
+  L = integral from a to b of sqrt(1 + [f'(x)]^2) dx
+Distance traveled vs arc length: arc length applies to the curve itself; for particle motion, total distance = integral of speed.
+
+KEY EXAM TIPS
+- Area is always non-negative: integrate [top - bottom] or use absolute value.
+- For area problems with intersection points, find them first, then set up integrals accordingly.
+- For volumes: draw a diagram and identify orientation (horizontal or vertical slices).
+- For disc vs washer: use disc when the region touches the axis of rotation; use washer when there is a gap.
+- For washer method: radius is measured perpendicular to the axis of rotation.
+- Show the setup (integral expression) clearly before evaluating numerically with a calculator.
+- Net change = integral of rate of change. Total distance = integral of speed (not velocity).

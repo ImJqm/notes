@@ -1,0 +1,98 @@
+AP CALCULUS BC - UNIT 6: INTEGRATION AND ACCUMULATION OF CHANGE
+Exam Weighting: 17-20% BC
+=================================================
+
+ACCUMULATION OF CHANGE
+The area between a rate-of-change function and the x-axis over an interval gives the total accumulated change.
+If the rate is positive, accumulation is positive; if negative, accumulation is negative.
+Unit of area = unit of f(x) times unit of x.
+
+RIEMANN SUMS
+Approximate the area under f on [a, b] by dividing into n subintervals and summing rectangles.
+Left Riemann sum: use left endpoint of each subinterval as height.
+Right Riemann sum: use right endpoint of each subinterval as height.
+Midpoint Riemann sum: use midpoint of each subinterval as height.
+Trapezoidal sum: use average of left and right endpoint values as height (trapezoids, not rectangles).
+Partitions can be uniform (equal widths) or nonuniform.
+
+OVER/UNDERESTIMATES
+If f is increasing: left Riemann sum underestimates, right Riemann sum overestimates.
+If f is decreasing: left Riemann sum overestimates, right Riemann sum underestimates.
+If f is concave up: trapezoidal sum overestimates; midpoint sum underestimates.
+If f is concave down: trapezoidal sum underestimates; midpoint sum overestimates.
+
+DEFINITE INTEGRAL NOTATION
+The definite integral of f from a to b:
+  integral from a to b of f(x) dx = lim (as max delta_x_i -> 0) of sum f(x_i*) * delta_x_i
+where the sum is over all subintervals and x_i* is any point in the ith subinterval.
+The definite integral of a continuous function over [a, b] equals the signed area between f and the x-axis.
+
+PROPERTIES OF DEFINITE INTEGRALS
+- integral of c*f(x) dx = c * integral of f(x) dx
+- integral of [f(x) + g(x)] dx = integral of f(x) dx + integral of g(x) dx
+- integral from a to a of f(x) dx = 0
+- integral from a to b of f(x) dx = -integral from b to a of f(x) dx
+- integral from a to b of f(x) dx + integral from b to c of f(x) dx = integral from a to c of f(x) dx
+The definition of the definite integral can be extended to functions with removable or jump discontinuities.
+
+FUNDAMENTAL THEOREM OF CALCULUS, PART 1 (Accumulation function)
+If f is continuous on an interval containing a, then:
+  d/dx [integral from a to x of f(t) dt] = f(x)
+The derivative of an accumulation function is the integrand evaluated at the upper limit.
+With chain rule: d/dx [integral from a to g(x) of f(t) dt] = f(g(x)) * g'(x)
+
+FUNDAMENTAL THEOREM OF CALCULUS, PART 2 (Evaluation)
+If f is continuous on [a, b] and F is an antiderivative of f:
+  integral from a to b of f(x) dx = F(b) - F(a)
+An antiderivative of f is any function F where F'(x) = f(x).
+
+INDEFINITE INTEGRALS (ANTIDERIVATIVES)
+integral of f(x) dx = F(x) + C, where F'(x) = f(x) and C is any constant.
+Always include +C for indefinite integrals.
+
+BASIC ANTIDERIVATIVE RULES (reverse of differentiation)
+integral of x^n dx = x^(n+1)/(n+1) + C for n not equal to -1
+integral of 1/x dx = ln|x| + C
+integral of e^x dx = e^x + C
+integral of sin x dx = -cos x + C
+integral of cos x dx = sin x + C
+integral of sec^2 x dx = tan x + C
+integral of sec x tan x dx = sec x + C
+integral of csc^2 x dx = -cot x + C
+integral of csc x cot x dx = -csc x + C
+integral of 1/sqrt(1-x^2) dx = arcsin x + C
+integral of 1/(1+x^2) dx = arctan x + C
+
+U-SUBSTITUTION
+Used when the integrand is a composite function times the derivative of the inner function.
+For indefinite integrals:
+  Let u = g(x), then du = g'(x) dx. Rewrite and integrate in terms of u.
+For definite integrals:
+  Either change the limits of integration to correspond to u, or find the antiderivative and then evaluate at original limits.
+
+LONG DIVISION AND COMPLETING THE SQUARE
+For rational integrands where degree of numerator >= degree of denominator: use polynomial long division first.
+For quadratic denominators that are not factorable: complete the square, then use arctan formula.
+
+INTEGRATION BY PARTS (BC only)
+integral of u dv = u*v - integral of v du
+Choose u and dv strategically. Common guideline: u should be easier to differentiate (LIATE: Logarithm, Inverse trig, Algebraic, Trig, Exponential).
+May require multiple applications or solving for the integral.
+
+LINEAR PARTIAL FRACTIONS (BC only)
+For rational functions with factorable (linear, nonrepeating) denominators:
+  Decompose into sum of simpler fractions, then integrate each term.
+Example: 1/[(x+1)(x-2)] = A/(x+1) + B/(x-2). Solve for A and B, then integrate.
+
+IMPROPER INTEGRALS (BC only)
+An improper integral has one or both limits infinite, or the integrand is unbounded on the interval.
+Evaluate using limits of definite integrals.
+  integral from a to infinity of f(x) dx = lim (as b -> inf) of integral from a to b of f(x) dx
+If the limit is a finite number, the integral converges. If not, it diverges.
+
+KEY EXAM TIPS
+- When using a calculator to evaluate a definite integral in a free-response question, write the full integral expression including endpoints and dx before stating the numerical result.
+- Include +C for all indefinite integrals.
+- For u-substitution in definite integrals, be careful to change the limits of integration.
+- Show antiderivatives clearly before evaluating FTC Part 2.
+- Do not write strings of equal signs equating expressions that are not equal.

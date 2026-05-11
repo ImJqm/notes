@@ -1,0 +1,78 @@
+AP CALCULUS BC - UNIT 2: DIFFERENTIATION: DEFINITION AND FUNDAMENTAL PROPERTIES
+Exam Weighting: 4-7% BC
+=================================================
+
+AVERAGE RATE OF CHANGE
+Average rate of change of f on [a, b] = [f(b) - f(a)] / (b - a)
+This equals the slope of the secant line between (a, f(a)) and (b, f(b)).
+Equivalent forms of the difference quotient:
+  [f(a + h) - f(a)] / h
+  [f(x) - f(a)] / (x - a)
+
+DEFINITION OF THE DERIVATIVE
+The instantaneous rate of change of f at x = a:
+  f'(a) = lim [f(a + h) - f(a)] / h as h -> 0
+  f'(a) = lim [f(x) - f(a)] / (x - a) as x -> a
+Both are equivalent definitions. The limit must exist for the derivative to exist.
+The derivative of f as a function: f'(x) = lim [f(x+h) - f(x)] / h as h -> 0
+
+DERIVATIVE NOTATION
+f'(x), y', dy/dx, d/dx[f(x)] are all equivalent notations.
+Higher-order: f''(x), d^2y/dx^2, f^(n)(x), d^n y/dx^n
+
+GEOMETRIC MEANING
+The derivative at a point equals the slope of the tangent line at that point.
+Equation of tangent line at (a, f(a)): y - f(a) = f'(a)(x - a)
+
+ESTIMATING DERIVATIVES
+From a table: use a difference quotient with nearby values.
+From a graph: estimate the slope of the tangent line visually.
+Technology can calculate or estimate derivatives.
+
+DIFFERENTIABILITY AND CONTINUITY
+If f is differentiable at a, then f is continuous at a.
+Contrapositive: if f is not continuous at a, then f is not differentiable there.
+A function can be continuous but not differentiable (the converse does not hold).
+Reasons a continuous function may fail to be differentiable:
+  - Corner or cusp: left and right derivative limits are not equal
+  - Vertical tangent: the limit of the difference quotient is infinite (undefined slope)
+
+POWER RULE
+d/dx [x^r] = r * x^(r-1) for any real number r.
+
+CONSTANT, SUM, DIFFERENCE, CONSTANT MULTIPLE RULES
+d/dx [c] = 0
+d/dx [f(x) + g(x)] = f'(x) + g'(x)
+d/dx [f(x) - g(x)] = f'(x) - g'(x)
+d/dx [c * f(x)] = c * f'(x)
+Polynomials are differentiated by applying power rule term by term.
+
+DERIVATIVES OF BASIC FUNCTIONS
+d/dx [sin x] = cos x
+d/dx [cos x] = -sin x
+d/dx [e^x] = e^x
+d/dx [ln x] = 1/x
+
+PRODUCT RULE
+d/dx [f(x) * g(x)] = f'(x) * g(x) + f(x) * g'(x)
+Do NOT simply differentiate each factor and multiply - use the product rule.
+
+QUOTIENT RULE
+d/dx [f(x)/g(x)] = [f'(x)g(x) - f(x)g'(x)] / [g(x)]^2
+Memory: "lo d-hi minus hi d-lo over lo squared"
+
+DERIVATIVES OF OTHER TRIG FUNCTIONS (derived from sin, cos, product/quotient rules)
+d/dx [tan x] = sec^2 x
+d/dx [cot x] = -csc^2 x
+d/dx [sec x] = sec x tan x
+d/dx [csc x] = -csc x cot x
+These follow from writing tan = sin/cos, etc., and applying the quotient rule.
+
+USING A LIMIT AS A DEFINITION OF DERIVATIVE
+If an expression is recognized as a limit definition of a derivative, it can be evaluated by identifying f and the point. For example, lim [sin(x+h) - sin(x)] / h as h -> 0 is the derivative of sin x, which is cos x.
+
+KEY EXAM TIPS
+- Show the product rule structure explicitly; do not just compute the final answer.
+- Present difference quotients when approximating derivatives from tables.
+- Use correct notation throughout; distinguish f'(x) from f(x).
+- When differentiating at a specific value, show the procedure, then substitute.

@@ -1,0 +1,75 @@
+AP CALCULUS BC - UNIT 9: PARAMETRIC EQUATIONS, POLAR COORDINATES, AND VECTOR-VALUED FUNCTIONS (BC ONLY)
+Exam Weighting: 11-12% BC
+=================================================
+
+PARAMETRIC EQUATIONS
+A curve in the plane defined by x = x(t) and y = y(t) where t is the parameter.
+dy/dx (slope of tangent line) = (dy/dt) / (dx/dt), provided dx/dt is not 0.
+This follows from the chain rule: dy/dx = (dy/dt) * (dt/dx) = (dy/dt) / (dx/dt).
+
+SECOND DERIVATIVE OF PARAMETRIC CURVES
+d^2y/dx^2 = [d/dt(dy/dx)] / (dx/dt)
+That is: differentiate dy/dx with respect to t, then divide by dx/dt.
+Do NOT differentiate dy/dt and divide by d^2x/dt^2.
+
+ARC LENGTH OF A PARAMETRIC CURVE
+L = integral from t1 to t2 of sqrt[(dx/dt)^2 + (dy/dt)^2] dt
+
+VECTOR-VALUED FUNCTIONS
+Position vector: r(t) = <x(t), y(t)>
+Velocity vector: r'(t) = v(t) = <x'(t), y'(t)>
+Acceleration vector: r''(t) = a(t) = <x''(t), y''(t)>
+Speed: |v(t)| = sqrt[(x'(t))^2 + (y'(t))^2]
+
+INTEGRATING VECTOR-VALUED FUNCTIONS
+Integrate component by component:
+  integral of r(t) dt = <integral of x(t) dt, integral of y(t) dt> + C vector
+Given initial position r(t_0) and velocity function v(t), find position by integrating v(t) and using initial condition.
+
+SOLVING MOTION PROBLEMS IN THE PLANE
+Displacement vector from t1 to t2: integral from t1 to t2 of v(t) dt
+Total distance traveled: integral from t1 to t2 of |v(t)| dt = integral of speed dt
+Speed increasing: the magnitude of velocity is increasing, which happens when v dot a > 0 (same direction).
+Direction of motion is given by the velocity vector.
+
+POLAR COORDINATES
+A point is described by (r, theta) where r is the distance from the origin and theta is the angle from the positive x-axis.
+Conversions:
+  x = r*cos(theta)
+  y = r*sin(theta)
+  r^2 = x^2 + y^2
+  tan(theta) = y/x
+
+DIFFERENTIATING IN POLAR FORM
+For r = f(theta):
+  x = f(theta) * cos(theta)
+  y = f(theta) * sin(theta)
+  dx/dtheta = f'(theta)*cos(theta) - f(theta)*sin(theta)
+  dy/dtheta = f'(theta)*sin(theta) + f(theta)*cos(theta)
+  dy/dx = (dy/dtheta) / (dx/dtheta)
+The slope of the tangent line at (r, theta) = dy/dx computed as above.
+
+AREA OF A POLAR REGION
+Area bounded by r = f(theta) from theta = a to theta = b:
+  A = (1/2) * integral from a to b of [f(theta)]^2 dtheta
+This uses the idea that a small sector of angle d(theta) has area approximately (1/2)*r^2*d(theta).
+
+AREA BETWEEN TWO POLAR CURVES
+Area between r = f(theta) (outer) and r = g(theta) (inner) from a to b:
+  A = (1/2) * integral from a to b of ([f(theta)]^2 - [g(theta)]^2) dtheta
+Find the limits by solving f(theta) = g(theta) for their intersections (check also for origin crossings).
+
+COMMON POLAR CURVES TO KNOW
+Circles: r = a (circle of radius a centered at origin); r = 2a*cos(theta) (circle tangent to y-axis); r = 2a*sin(theta) (circle tangent to x-axis)
+Cardioids: r = a(1 + cos theta) or r = a(1 + sin theta)
+Rose curves: r = a*cos(n*theta) or r = a*sin(n*theta) (n petals if n is odd; 2n petals if n is even)
+Limacons: r = a + b*cos(theta)
+Lemniscates: r^2 = a^2 * cos(2*theta)
+
+KEY EXAM TIPS
+- For dy/dx in parametric: (dy/dt)/(dx/dt). For d^2y/dx^2: [d/dt(dy/dx)] / (dx/dt).
+- For polar area: factor of 1/2 in front, and the integrand is r^2 (not r).
+- When finding intersections of polar curves, check whether the origin (r=0) is also an intersection.
+- For particle motion in the plane: distinguish between displacement vector and total distance.
+- Position = initial position + integral of velocity from start time to t.
+- Speed = |velocity vector|, which is always non-negative.

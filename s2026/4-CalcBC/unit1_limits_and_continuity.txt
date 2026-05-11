@@ -1,0 +1,90 @@
+AP CALCULUS BC - UNIT 1: LIMITS AND CONTINUITY
+Exam Weighting: 4-7% BC
+=================================================
+
+WHAT IS A LIMIT
+A limit is the value f(x) approaches as x approaches some number c, but x does not equal c.
+Notation: lim f(x) = R as x -> c
+The epsilon-delta definition is NOT tested on the AP exam.
+A limit can be expressed graphically, numerically, and analytically.
+
+ONE-SIDED LIMITS
+Left-hand limit: lim f(x) as x -> c- (from the left)
+Right-hand limit: lim f(x) as x -> c+ (from the right)
+The two-sided limit exists only if left and right limits are equal.
+
+WHEN LIMITS DO NOT EXIST
+- The function is unbounded near c
+- The function oscillates near c (e.g., sin(1/x) near 0)
+- Left-hand limit does not equal right-hand limit
+
+ESTIMATING LIMITS
+From a graph: read y-value approached as x nears c, ignoring the actual value at c.
+From a table: compute f(x) for x-values approaching c from both sides.
+Note: graphs may miss behavior at scale, so also try analytic methods.
+
+ALGEBRAIC LIMIT PROPERTIES
+If lim f(x) and lim g(x) both exist as x -> c:
+- Sum: lim [f + g] = lim f + lim g
+- Difference: lim [f - g] = lim f - lim g
+- Product: lim [f * g] = lim f * lim g
+- Quotient: lim [f/g] = lim f / lim g, provided lim g is not 0
+- Composite: lim [f(g(x))] = f(lim g(x)) if f is continuous at that value
+
+ALGEBRAIC MANIPULATION
+When direct substitution gives 0/0 (indeterminate form), try:
+- Factor numerator/denominator and cancel common factors
+- Multiply by conjugate to eliminate radicals
+- Use trig identities to rewrite the expression
+Then substitute again after simplification.
+
+SQUEEZE THEOREM
+If g(x) <= f(x) <= h(x) near c and lim g(x) = lim h(x) = L, then lim f(x) = L.
+Key results derived from squeeze theorem:
+  lim (sin x)/x = 1 as x -> 0
+  lim (1 - cos x)/x = 0 as x -> 0
+
+INFINITE LIMITS AND VERTICAL ASYMPTOTES
+When |f(x)| grows without bound as x -> c, the limit is infinite.
+A vertical asymptote at x = c means lim |f(x)| -> infinity.
+Asymptotic behavior describes and explains unbounded function behavior.
+
+LIMITS AT INFINITY AND HORIZONTAL ASYMPTOTES
+lim f(x) as x -> +/- infinity describes end behavior.
+If lim f(x) = L as x -> infinity, then y = L is a horizontal asymptote.
+For rational functions:
+  Degree of numerator < degree of denominator: limit = 0
+  Degrees equal: limit = ratio of leading coefficients
+  Degree of numerator > degree of denominator: no finite limit (no horizontal asymptote)
+Relative magnitudes: logarithms grow slowest, then polynomials, then exponentials.
+
+CONTINUITY AT A POINT
+f is continuous at x = c if ALL THREE conditions hold:
+1. f(c) is defined
+2. lim f(x) exists as x -> c
+3. lim f(x) = f(c)
+
+TYPES OF DISCONTINUITIES
+Removable: limit exists, but f(c) is undefined or does not equal the limit. Can be fixed by defining or redefining f(c).
+Jump: left and right limits both exist but are not equal.
+Infinite (vertical asymptote): function is unbounded near c.
+
+CONTINUITY OVER AN INTERVAL
+A function is continuous on an interval if it is continuous at every point in that interval.
+Polynomial, rational (on its domain), power, exponential, logarithmic, and trigonometric functions are all continuous on their domains.
+
+REMOVING DISCONTINUITIES
+If the limit exists at a discontinuity, redefine f(c) to equal the limit.
+For piecewise functions: at each boundary point, the expressions from the left and right must agree, and must equal the function value there.
+
+INTERMEDIATE VALUE THEOREM (IVT)
+If f is continuous on [a, b] and d is any number between f(a) and f(b), then there exists at least one c in (a, b) such that f(c) = d.
+Use: If f(a) < 0 and f(b) > 0 (or vice versa) and f is continuous, then f has a root in (a, b).
+You must verify continuity on [a, b] before applying IVT.
+
+KEY EXAM TIPS
+- Verify all hypotheses before applying any theorem.
+- Distinguish the limit of a function from its value at a point.
+- Left-hand and right-hand limits must both equal L for the two-sided limit to be L.
+- Use precise notation throughout.
+- Graphical representations can be misleading; confirm analytically when possible.

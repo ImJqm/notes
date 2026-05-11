@@ -1,0 +1,63 @@
+AP CALCULUS BC - UNIT 3: DIFFERENTIATION: COMPOSITE, IMPLICIT, AND INVERSE FUNCTIONS
+Exam Weighting: 4-7% BC
+=================================================
+
+CHAIN RULE
+For a composite function h(x) = f(g(x)):
+  h'(x) = f'(g(x)) * g'(x)
+In Leibniz notation: dy/dx = (dy/du) * (du/dx)
+Reminder: always differentiate the "outer function" first, then multiply by the derivative of the "inner function."
+Common errors:
+  - Forgetting to multiply by the derivative of the inner function
+  - Misidentifying the inner function
+
+CHAIN RULE EXAMPLES
+d/dx [sin(4x)] = cos(4x) * 4
+d/dx [(x^2 + 1)^5] = 5(x^2 + 1)^4 * 2x
+d/dx [e^(3x)] = e^(3x) * 3
+d/dx [ln(5x)] = (1/(5x)) * 5 = 1/x
+
+IMPLICIT DIFFERENTIATION
+Used when y is defined implicitly by an equation in x and y rather than explicitly as y = f(x).
+Differentiate both sides with respect to x.
+Whenever you differentiate a term with y, apply the chain rule and multiply by dy/dx.
+Then solve for dy/dx algebraically.
+Example: for x^2 + y^2 = 25:
+  2x + 2y(dy/dx) = 0 => dy/dx = -x/y
+
+DIFFERENTIATING INVERSE FUNCTIONS
+If f and f-inverse are inverse functions and f is differentiable at a point, then:
+  (f^(-1))'(b) = 1 / f'(f^(-1)(b))
+In words: the derivative of the inverse at b equals 1 divided by the derivative of f at the corresponding input.
+Key: f(f^(-1)(b)) = b, and you must find f^(-1)(b) first (often by solving f(a) = b).
+
+DERIVATIVES OF INVERSE TRIG FUNCTIONS
+d/dx [arcsin x] = 1 / sqrt(1 - x^2)
+d/dx [arccos x] = -1 / sqrt(1 - x^2)
+d/dx [arctan x] = 1 / (1 + x^2)
+d/dx [arccot x] = -1 / (1 + x^2)
+d/dx [arcsec x] = 1 / (|x| * sqrt(x^2 - 1))
+d/dx [arccsc x] = -1 / (|x| * sqrt(x^2 - 1))
+With chain rule: d/dx [arctan(g(x))] = g'(x) / (1 + [g(x)]^2)
+
+HIGHER-ORDER DERIVATIVES
+The second derivative f''(x) is the derivative of f'(x).
+The nth derivative f^(n)(x) is the derivative of f^(n-1)(x).
+Notations: f''(x), d^2y/dx^2, y'', and for nth: f^(n)(x), d^n y/dx^n.
+Second derivatives of implicitly defined functions involve y and dy/dx in the expression.
+
+SELECTING PROCEDURES
+Identify the form of the expression:
+- Power function: power rule
+- Product of two differentiable functions: product rule
+- Quotient: quotient rule
+- Composite function: chain rule
+- Implicitly defined: implicit differentiation
+- Inverse function: inverse function derivative formula
+
+KEY EXAM TIPS
+- Mastery of the chain rule is essential for all remaining units.
+- For implicit differentiation, always apply chain rule to every y term.
+- When differentiating products or quotients with chain rule inside, combine rules carefully.
+- For inverse trig, memorize the six formulas; apply chain rule on top of them.
+- Higher-order implicit derivatives: differentiate dy/dx again with respect to x using product/quotient/chain rules, and substitute known expressions for dy/dx.

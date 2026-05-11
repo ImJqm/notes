@@ -1,0 +1,111 @@
+AP CALCULUS BC - UNIT 10: INFINITE SEQUENCES AND SERIES (BC ONLY)
+Exam Weighting: 17-18% BC
+=================================================
+
+CONVERGENCE OF A SERIES
+An infinite series is a sum: a_1 + a_2 + a_3 + ...
+The nth partial sum S_n = a_1 + a_2 + ... + a_n.
+The series converges to S if lim S_n = S as n -> infinity. Otherwise it diverges.
+
+GEOMETRIC SERIES
+A series with constant ratio r between successive terms: sum of a*r^n from n=0 to infinity.
+Converges if and only if |r| < 1.
+Sum when |r| < 1: a / (1 - r)
+Diverges if |r| >= 1.
+
+nth TERM TEST FOR DIVERGENCE
+If lim a_n is not 0 as n -> infinity, then the series sum a_n diverges.
+If lim a_n = 0, the test is inconclusive (the series may converge or diverge).
+
+INTEGRAL TEST
+If f is a positive, continuous, decreasing function on [1, infinity) and a_n = f(n), then:
+  sum a_n and integral from 1 to infinity of f(x) dx either both converge or both diverge.
+Used to test p-series and other series where f has a simple integral.
+
+p-SERIES
+Sum of 1/n^p:
+  Converges if p > 1
+  Diverges if p <= 1
+Harmonic series: p = 1, diverges.
+
+COMPARISON TEST
+If 0 <= a_n <= b_n for all n:
+  If sum b_n converges, then sum a_n converges.
+  If sum a_n diverges, then sum b_n diverges.
+Compare to a known convergent or divergent series (usually geometric or p-series).
+
+LIMIT COMPARISON TEST
+If a_n > 0 and b_n > 0 and lim (a_n / b_n) = L where L is a finite positive number, then sum a_n and sum b_n either both converge or both diverge.
+More flexible than direct comparison; use when direct comparison is awkward.
+
+ALTERNATING SERIES TEST
+For an alternating series sum (-1)^n * b_n where b_n > 0:
+  Converges if:
+    1. b_n is decreasing (b_{n+1} <= b_n for all n)
+    2. lim b_n = 0 as n -> infinity
+When it converges, the series is at least conditionally convergent.
+
+RATIO TEST
+Let L = lim |a_{n+1} / a_n| as n -> infinity.
+  If L < 1: series converges absolutely.
+  If L > 1 (or L = infinity): series diverges.
+  If L = 1: inconclusive.
+Most useful for series involving factorials or exponentials.
+
+ABSOLUTE AND CONDITIONAL CONVERGENCE
+Absolutely convergent: sum |a_n| converges. Absolute convergence implies convergence.
+Conditionally convergent: sum a_n converges but sum |a_n| diverges.
+Example: alternating harmonic series is conditionally convergent; geometric series with |r|<1 is absolutely convergent.
+If a series converges absolutely, rearranging terms does not change the sum.
+
+ALTERNATING SERIES ERROR BOUND
+If an alternating series converges by the alternating series test, the error in using S_n as an approximation to S satisfies:
+  |S - S_n| <= b_{n+1}
+The error is bounded by the first omitted term.
+
+TAYLOR POLYNOMIALS
+The nth-degree Taylor polynomial of f centered at x = a:
+  P_n(x) = f(a) + f'(a)(x-a) + f''(a)/2! * (x-a)^2 + ... + f^(n)(a)/n! * (x-a)^n
+The coefficient of the kth-degree term is f^(k)(a) / k!
+Taylor polynomials approximate f near x = a.
+A Maclaurin polynomial is a Taylor polynomial centered at a = 0.
+
+LAGRANGE ERROR BOUND
+If |f^(n+1)(x)| <= M for all x between a and z, then:
+  |f(z) - P_n(z)| <= M * |z - a|^(n+1) / (n+1)!
+Used to bound the error of a Taylor polynomial approximation.
+The alternating series error bound (first omitted term) can also bound error when the series is alternating.
+
+RADIUS AND INTERVAL OF CONVERGENCE OF POWER SERIES
+A power series has the form: sum a_n * (x - r)^n
+Use the ratio test on |a_{n+1}(x-r)^(n+1) / a_n(x-r)^n| and set L < 1 to find the radius of convergence R.
+The series converges for |x - r| < R (open interval), diverges for |x - r| > R.
+At the endpoints x = r + R and x = r - R, convergence must be tested separately (plug in and use another test).
+If R = 0: converges only at x = r.
+If R = infinity: converges for all real x.
+
+TAYLOR SERIES AND MACLAURIN SERIES
+The Taylor series for f centered at a: sum f^(n)(a)/n! * (x-a)^n from n=0 to infinity.
+Maclaurin series (a = 0):
+  e^x = sum x^n/n! = 1 + x + x^2/2! + x^3/3! + ... (all real x)
+  sin x = sum (-1)^n * x^(2n+1)/(2n+1)! = x - x^3/6 + x^5/120 - ... (all real x)
+  cos x = sum (-1)^n * x^(2n)/(2n)! = 1 - x^2/2 + x^4/24 - ... (all real x)
+  1/(1-x) = sum x^n = 1 + x + x^2 + x^3 + ... (for |x| < 1, geometric series)
+  ln(1+x) = sum (-1)^(n+1) * x^n / n = x - x^2/2 + x^3/3 - ... (for -1 < x <= 1)
+  arctan x = sum (-1)^n * x^(2n+1)/(2n+1) = x - x^3/3 + x^5/5 - ... (for |x| <= 1)
+
+REPRESENTING FUNCTIONS AS POWER SERIES
+Start from a known series and manipulate using:
+  - Substitution: replace x with an expression (e.g., replace x with x^2 in the geometric series)
+  - Term-by-term differentiation: differentiating a power series gives a new power series; radius of convergence unchanged
+  - Term-by-term integration: same; radius of convergence unchanged
+  - Algebraic operations
+
+KEY EXAM TIPS
+- For each convergence test, verify all required conditions before applying.
+- The nth term test only proves divergence; it never proves convergence.
+- Ratio test is the first choice for series with factorials or exponentials.
+- Memorize the four key Maclaurin series (e^x, sin x, cos x, 1/(1-x)) and be able to derive others from them.
+- For radius of convergence: use ratio test, simplify, set L < 1, solve for x. Then test endpoints separately.
+- Lagrange error bound: you need an upper bound M for the (n+1)th derivative on the relevant interval.
+- Alternating series error bound is simpler to use when applicable (and is often a tighter bound).

@@ -1,0 +1,56 @@
+AP CALCULUS BC - UNIT 4: CONTEXTUAL APPLICATIONS OF DIFFERENTIATION
+Exam Weighting: 6-9% BC
+=================================================
+
+INTERPRETING THE DERIVATIVE IN CONTEXT
+The derivative f'(x) represents the instantaneous rate of change of f with respect to x.
+Units: the unit of f'(x) = unit of f divided by unit of x.
+Example: if f(t) is measured in gallons and t in minutes, f'(t) is in gallons per minute.
+
+RECTILINEAR MOTION (STRAIGHT-LINE MOTION)
+Position: s(t) or x(t)
+Velocity: v(t) = s'(t) (rate of change of position)
+Acceleration: a(t) = v'(t) = s''(t) (rate of change of velocity)
+Speed: |v(t)| (always non-negative)
+Particle moves right/forward when v(t) > 0; left/backward when v(t) < 0.
+Particle speeds up when v(t) and a(t) have the same sign; slows down when opposite signs.
+Particle changes direction when v(t) = 0 and v changes sign.
+
+RATES OF CHANGE IN OTHER CONTEXTS
+The same derivative structure applies to any changing quantity.
+Be specific about which quantity is changing with respect to which variable.
+Always use context-appropriate language (not "velocity" for non-motion problems).
+
+RELATED RATES
+When two or more quantities both depend on time, their rates of change are related.
+Procedure:
+  1. Identify all quantities and their rates.
+  2. Write an equation relating the quantities (geometric, physical, etc.).
+  3. Differentiate both sides with respect to t using the chain rule.
+  4. Substitute known values and solve for the unknown rate.
+  5. State answer with units and interpret in context.
+Key: identify the independent variable that all quantities share (usually t).
+Product rule or quotient rule may also be needed in addition to chain rule.
+
+LOCAL LINEARITY AND LINEARIZATION
+The tangent line at x = a is a local linear approximation of f near x = a.
+Linearization: L(x) = f(a) + f'(a)(x - a)
+If f is concave up at a, the tangent line is below the curve: L(x) underestimates f(x).
+If f is concave down at a, the tangent line is above the curve: L(x) overestimates f(x).
+Linearization is most accurate close to x = a.
+
+L'HOSPITAL'S RULE
+Used when a limit produces an indeterminate form 0/0 or infinity/infinity.
+Prerequisite: verify that the limit produces one of these forms.
+L'Hospital's Rule: if lim f(x) = 0 and lim g(x) = 0 (or both infinite), then:
+  lim f(x)/g(x) = lim f'(x)/g'(x)
+provided the second limit exists.
+Note: take derivatives of numerator and denominator separately (not the quotient rule).
+Other indeterminate forms (0 * infinity, 1^infinity, etc.) are NOT assessed on the BC exam.
+
+KEY EXAM TIPS
+- Always verify that 0/0 or inf/inf is obtained before applying L'Hospital's Rule.
+- For related rates: show the equation, differentiate it, then substitute.
+- Units matter: include them in final answers.
+- For linearization: state explicitly whether the approximation is an overestimate or underestimate, and justify using concavity.
+- The conclusion of L'Hospital's Rule involves derivatives of numerator and denominator separately, not the derivative of their ratio.

@@ -1,0 +1,83 @@
+AP CALCULUS BC - UNIT 5: ANALYTICAL APPLICATIONS OF DIFFERENTIATION
+Exam Weighting: 8-11% BC
+=================================================
+
+MEAN VALUE THEOREM (MVT)
+If f is continuous on [a, b] and differentiable on (a, b), then there exists at least one c in (a, b) such that:
+  f'(c) = [f(b) - f(a)] / (b - a)
+The instantaneous rate of change at c equals the average rate of change on [a, b].
+You must verify both hypotheses (continuous on closed interval, differentiable on open interval) before applying.
+
+EXTREME VALUE THEOREM (EVT)
+If f is continuous on a closed interval [a, b], then f has at least one absolute maximum and one absolute minimum on [a, b].
+The absolute extrema occur either at critical points or at the endpoints.
+
+CRITICAL POINTS
+A critical point is a value x = c in the domain of f where f'(c) = 0 or f'(c) does not exist.
+All local (relative) extrema occur at critical points; but not all critical points are local extrema.
+
+FIRST DERIVATIVE TEST (for local extrema)
+Find critical points. Analyze the sign of f'(x) on intervals around each critical point.
+- If f' changes from positive to negative at c: f has a local maximum at c.
+- If f' changes from negative to positive at c: f has a local minimum at c.
+- If f' does not change sign at c: f has neither at c (possible inflection point).
+
+ABSOLUTE (GLOBAL) EXTREMA ON A CLOSED INTERVAL
+Use the Candidates Test:
+  1. Find all critical points of f on [a, b].
+  2. Evaluate f at each critical point and at both endpoints a and b.
+  3. The largest value is the absolute maximum; the smallest is the absolute minimum.
+
+SECOND DERIVATIVE TEST (for local extrema)
+If f'(c) = 0 and f''(c) exists:
+- f''(c) > 0: f has a local minimum at c.
+- f''(c) < 0: f has a local maximum at c.
+- f''(c) = 0: the test is inconclusive; use first derivative test instead.
+
+Special case: if f is continuous on an interval, has only one critical point, and that critical point is a local extremum, then it is also the absolute extremum on that interval.
+
+INCREASING AND DECREASING FUNCTIONS
+f is increasing on an interval where f'(x) > 0.
+f is decreasing on an interval where f'(x) < 0.
+
+CONCAVITY
+f is concave up on an interval where f'(x) is increasing (f''(x) > 0).
+f is concave down on an interval where f'(x) is decreasing (f''(x) < 0).
+
+POINTS OF INFLECTION
+A point of inflection occurs where the concavity changes (f'' changes sign).
+f'' = 0 is necessary but not sufficient; verify that f'' changes sign.
+
+CONNECTING f, f', f''
+f increasing <=> f' > 0
+f decreasing <=> f' < 0
+f concave up <=> f' increasing <=> f'' > 0
+f concave down <=> f' decreasing <=> f'' < 0
+Local max of f <=> f' changes from + to -
+Local min of f <=> f' changes from - to +
+Point of inflection of f <=> f'' changes sign <=> f' has local extremum
+
+SKETCHING GRAPHS
+Use f', f'' information to determine intervals of increase/decrease and concavity.
+Mark critical points, local extrema, and inflection points.
+
+OPTIMIZATION PROBLEMS
+Procedure:
+  1. Identify the quantity to be maximized or minimized.
+  2. Write it as a function of one variable (use constraints to eliminate other variables).
+  3. Find the domain of the function.
+  4. Find critical points and use first or second derivative test.
+  5. Check endpoints if on a closed interval.
+  6. Interpret the answer in context.
+
+BEHAVIORS OF IMPLICIT RELATIONS
+At critical points of implicit relations: dy/dx = 0 or dy/dx does not exist.
+Second derivatives of implicit functions may involve x, y, and dy/dx.
+Applications of derivatives (increasing/decreasing, concavity) extend to implicitly defined functions.
+
+KEY EXAM TIPS
+- Write justifications using calculus language: refer to f, f', f'' by name, not "the function" or "it."
+- For relative extrema, state explicitly that f' changes sign, and from which direction.
+- Sign charts are useful tools but alone are not sufficient justification on the AP exam; connect to a theorem or definition.
+- For absolute extrema on a closed interval, always check both critical points and endpoints.
+- Always verify hypotheses before applying MVT or EVT.

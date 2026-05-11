@@ -1,0 +1,72 @@
+AP CALCULUS BC - UNIT 7: DIFFERENTIAL EQUATIONS
+Exam Weighting: 6-9% BC
+=================================================
+
+WHAT IS A DIFFERENTIAL EQUATION
+A differential equation is an equation relating a function and one or more of its derivatives.
+Example: dy/dx = 2xy says the rate of change of y with respect to x equals 2 times the product of x and y.
+There are infinitely many general solutions (differing by a constant of integration).
+A particular solution is determined by an initial condition: a specific point (x_0, y_0) on the solution curve.
+
+VERIFYING SOLUTIONS
+To verify that a function is a solution to a differential equation:
+  Differentiate the function, substitute into the DE, and confirm both sides are equal.
+
+SLOPE FIELDS
+A slope field is a graphical representation of a differential equation.
+At each point (x, y) in the plane, draw a short line segment with slope equal to dy/dx at that point.
+Slope fields show the qualitative behavior of all solution curves.
+Different initial conditions lead to different particular solutions passing through the slope field.
+
+EULER'S METHOD (BC only)
+Euler's method approximates a solution to dy/dx = f(x, y) with initial condition y(x_0) = y_0.
+Algorithm:
+  x_{n+1} = x_n + h (step size)
+  y_{n+1} = y_n + h * f(x_n, y_n)
+Each step uses the slope (derivative) at the current point to estimate the next y-value.
+Smaller step size gives better approximation.
+Euler's method is a linear (tangent line) approximation applied repeatedly.
+
+SEPARATION OF VARIABLES
+Used when the DE can be written as g(y) dy = f(x) dx.
+Procedure:
+  1. Separate variables: move all y terms (including dy) to one side, all x terms (including dx) to the other.
+  2. Integrate both sides.
+  3. Add a constant of integration C on one side.
+  4. Solve for y if possible (may involve e^C = another constant, typically renamed A or k).
+  5. Apply initial condition to find the particular solution.
+Failure to separate variables or omitting +C are common errors that cost points.
+
+EXPONENTIAL GROWTH AND DECAY
+Differential equation: dy/dt = k*y
+This arises when "the rate of change of a quantity is proportional to the size of the quantity."
+General solution: y = C * e^(kt) where C is the initial value y(0).
+Or with initial condition y(0) = y_0: y = y_0 * e^(kt)
+k > 0: exponential growth
+k < 0: exponential decay
+
+LOGISTIC GROWTH (BC only)
+Differential equation: dy/dt = k * y * (1 - y/L)
+Can also be modeled by dy/dt = k / L * y (L - y)
+This arises when "rate of change is jointly proportional to the size of the quantity and the difference between the quantity and the carrying capacity."
+Carrying capacity: as t -> infinity, y -> L.
+The solution grows fastest when y = L/2 (halfway to carrying capacity), where d^2y/dt^2 = 0.
+You do not need to solve this DE from scratch on the exam; recognize the form and use its properties.
+Key logistic facts:
+  - y = L/2 is the inflection point (fastest growth)
+  - y approaches a as t -> infinity
+  - if y < L, then dy/dt > 0 (y is increasing)
+  - if y > L, then dy/dt < 0 (y is decreasing toward a)
+
+GENERAL AND PARTICULAR SOLUTIONS
+General solution: includes an arbitrary constant C; represents a family of solution curves.
+Particular solution: the unique solution satisfying a given initial condition y(x_0) = y_0.
+The function F(x) = y_0 + integral from x_0 to x of f(t) dt is a particular solution to dy/dx = f(x) satisfying F(x_0) = y_0.
+Solutions may have domain restrictions depending on where the expressions are defined.
+
+KEY EXAM TIPS
+- Separate variables completely before integrating. Both sides must be cleanly separated.
+- Always include +C after integrating. Using an initial condition to find C is often required.
+- Show that your solution satisfies the DE by verifying (differentiating and substituting back).
+- Identify differential equations in context: "rate proportional to quantity" means exponential; "rate proportional to quantity times (carrying capacity minus quantity)" means logistic.
+- For slope fields: the slope at any point (x, y) is determined by substituting into dy/dx = f(x, y).
