@@ -1,0 +1,30 @@
+A 30-60-90 triangle:
+The hypotenuse is 2x, the side opposite to 30 deg is x, and the side opposite 60 deg is sqrt(3) * x*
+
+Triangle inequality thorem, the sum of any 2 sides must be greater than the third
+
+Law of sines:
+
+a/sin(A) = b/sin(B) = c/sin(C)
+
+Law of cosines:
+
+a ^ 2 = b ^ 2 + c ^ 2 -2bc * cosA
+b ^ 2 = c ^ 2 + a ^ 2 -2ca * cosB
+c ^ 2 = a ^ 2 + b ^ 2 -2ab * cosC
+
+Percent change = (final - initial) / initial * 100
+Percent difference = (V1 - V2) / ((V1 - V2)/2) * 100
+
+The skew is where the tail is
+
+Skewed left: mean < median
+Skewed right: mean > median
+
+- The sum of the solutions for a quadratic formula is -b / a
+- When you do a ratio for similar 2d and 3d figures, that ratio has the same power of as the thing you are dividing
+	- Ex: Surface Area / Surface Area = k^2
+	- Volume / Volume = k ^3
+	- K is the ratio of the dilation
+
+For “percent of a change accounted for by a component,” first compute both changes (component change and net total change). Then divide component change by net total change and multiply by 100. Be alert that the result can exceed 100% when other components decrease.
