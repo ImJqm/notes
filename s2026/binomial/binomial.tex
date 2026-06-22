@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{Generalized Radius of Convergence for the Binomial Theorem}
+\author{me}
+\date{May 2026}
+\begin{document}
+\maketitle
+We can describe the binomial theorem as the following:
+\[(1+x)^n = \sum_{r=0}^{\infty} \binom{n}{k} x^r = \sum_{r=0}^{\infty}\frac{n!}{r!(n-r)!}x^r\] 
+To find the interval of convergence, we can apply the ratio test:
+
+$\lim_{r\to\infty}|\frac{(n+1)!x^{r+1}}{(r+1)!(n-r-1)!} \times \frac{r!(n-r)!}{n!x^r}| = \lim_{r\to\infty}|\frac{(n+1)(n-r)}{(r+1)}\times x| = (n+1)x$
+\end{document}
+

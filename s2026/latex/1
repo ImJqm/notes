@@ -1,0 +1,8 @@
+\documentclass[12pt, letterpaper]{article}
+\title{Hello World!}
+\author{James Harper\thanks{Thank you to the gooners}}
+\usepackage{graphicx} 
+\begin{document}
+\maketitle
+This is my document
+\end{document}
