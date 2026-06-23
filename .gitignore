@@ -1,0 +1,4 @@
+*.parquet
+sm2026/ut/myModel/.venv/
+.venv/
+.DS_Store
