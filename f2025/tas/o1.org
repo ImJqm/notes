@@ -1,27 +1,3 @@
-* NASA Post-Shutdown Oreintation Notes
-
-** Missions 1-4 time have changed, moonshot has not
-
-** Canvas comes out tomorrow
-
-** Onbaording tasks due november 30th
-
-
-
-** Mission 1 begins december 1st
-
-
-** TODO Engineering Design Challenge #1
-   DEADLINE: <2025-12-13 Sat>
-   - Virtual Only 
-   - Saturday December 13
-
-
-** TODO Engineerign Design Challenge #2
-   DEADLINE: <2026-01-31 Sat>
-
-** TODO EDC #3
-   DEADLINE: <2026-03-07 Sat>
-
-** TODO EDC #4
-   DEADLINE: <2026-04-11 Sat>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d24b5ac05c1987725729362d633b8ed8313fe23d30dc284207f4e013107acef
+size 478

@@ -1,2 +1,3 @@
-(self.webpackChunk_scribd_app_monolith=self.webpackChunk_scribd_app_monolith||[]).push([[1386,9005],{89005(s){s.exports="https://s-f.scribdassets.com/webpack/assets/images/shared/logos/slideshare/slideshare_lockup_white_RGB.8afc0075.svg"}}]);
-//# sourceMappingURL=https://www.scribd.com/webpack/monolith/1386.aba098bac7d6f1821021.js.map
+version https://git-lfs.github.com/spec/v1
+oid sha256:1577c71d2b150f41806d14450bfee62d20f76d8147b1dd3f9cbb6735e9afd56b
+size 336

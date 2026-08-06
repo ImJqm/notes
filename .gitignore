@@ -1,4 +1,3 @@
-*.parquet
-sm2026/ut/myModel/.venv/
-.venv/
-.DS_Store
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cc5be5848aa55d29c2351bcb5a9ff65c1798e2151e3bbe98a1a924a3a521e77
+size 52

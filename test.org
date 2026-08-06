@@ -1,2 +1,3 @@
-* DONE this is a test                                                     :cool:
-  DEADLINE: <2025-04-15 Tue> CLOSED: [2025-05-12 Mon 15:22]
+version https://git-lfs.github.com/spec/v1
+oid sha256:576751ba4bb72e730a2d46db76140e436ace4079518c7542b392d138aa163a26
+size 141

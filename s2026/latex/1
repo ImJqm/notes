@@ -1,8 +1,3 @@
-\documentclass[12pt, letterpaper]{article}
-\title{Hello World!}
-\author{James Harper\thanks{Thank you to the gooners}}
-\usepackage{graphicx} 
-\begin{document}
-\maketitle
-This is my document
-\end{document}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35cbb2f2a0f1e9aeea371acfddaf0cac72836a392362dfb1c01602ac36cd073e
+size 205

@@ -1,7 +1,3 @@
-* this is line 1
-- [ ] this is a checkbox
-* Checklist [2/3]
-  - [X] item 1
-  - [X] item 2
-  - [ ] 
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e8a01f9bbb47609f398f48160c1c7b9cdfd2ba2309bef0126391fb051ca1d34
+size 100

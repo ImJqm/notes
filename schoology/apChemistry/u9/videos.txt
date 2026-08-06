@@ -1,1 +1,3 @@
-https://drive.google.com/drive/folders/1akncc4SRo4fhs9m5wIJFRRrk5Yfq-sK_?usp=sharing
+version https://git-lfs.github.com/spec/v1
+oid sha256:013a75272ac9f204b591d2f0d8487aead27d27a19016b61b94d5c9ca33dd93cd
+size 85

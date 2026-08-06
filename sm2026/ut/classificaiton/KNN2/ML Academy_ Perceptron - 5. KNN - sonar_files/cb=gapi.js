@@ -1,4 +1,3 @@
-gapi.loaded_1(function(_){var window=this;
-_.w("gapi.rpc.setup",_.xl);_.w("gapi.rpc.register",_.ml);_.w("gapi.rpc.call",_.ql);_.w("gapi.rpc.unregister",_.nl);_.w("gapi.rpc.sendHandshake",function(a,b){_.xl(a)();_.hl.send(a,_.hl.cM(b),"*")});
-});
-// Google Inc.
+version https://git-lfs.github.com/spec/v1
+oid sha256:922ee4a6f643b2ed057ed75f0a18b3bb0ea54519662aee7a5cac522c3d8db2b7
+size 261

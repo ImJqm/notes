@@ -1,17 +1,3 @@
-[[file:~/Documents/notes/s2025/refile.org][]]
-[[https://www.reddit.com/r/APStudents/comments/8jydch/ap_stats_calculator_programs/][]]
-Add notes to calculator pls
-
-
-Conditions for sample means
-
-study design, systematic sampling
-
-power
-
-Q23
-
-Q26
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c16f3b08db391b9c3e878ab324d9088d9fb36226728d2077e585844083dec9f
+size 247

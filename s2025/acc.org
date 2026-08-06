@@ -1,7 +1,3 @@
-* US History
-* General ACC
-** DONE Vector Training [2/2]
-   DEADLINE: <2025-05-09 Fri> CLOSED: [2025-05-09 Fri 17:44]
-   - [X] Mental Health
-   - [X] Sexual Wellbeing
-** TODO Buy textbook
+version https://git-lfs.github.com/spec/v1
+oid sha256:f989a9179fa0c23e12e1d64020a0544a62b56eab30b8546e88744b22fb79d7cf
+size 188

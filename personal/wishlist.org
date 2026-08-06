@@ -1,2 +1,3 @@
-* Dell P70
-* E-Ink Tablet
+version https://git-lfs.github.com/spec/v1
+oid sha256:395c90a87166efbe2a931fcb19c54a43894399186a2d711a9b5c5d7503fe63cc
+size 26

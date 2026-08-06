@@ -1,28 +1,3 @@
-[[https://youtu.be/VPQ2q7yVjZs?si=v6E7dZgDzfF7734x][]]
-[[https://youtu.be/ibw_gaMxRGw?si=36KcV3-5kV_VyDpq][]]
-[[https://youtube.com/shorts/LRuaHjNVZGQ?si=pYDhtIhYyQc-VKEw][]]
-* APP IDEAS
-** IOS PLANNER APP
-   todo list type beat
-   with widgets and easy check off
-   call it toodoo
-** Python QR COde Generator
-
-** THAT COOL CLI that my BOI james has
-
-** MK laptop w/ macmini -- suitcase type beat fr fr
-
-** Make Satire sekiro copy ish 3d game
-
-** Imagine a typing test app, basically mokkey type but gtk themable????? 
-
-* College
-** DONE Online Info Meeting
-   DEADLINE: <2025-05-29 Thu 20:00> CLOSED: [2025-06-03 Tue 21:59]
-   Uchicago
-   Yale
-   Ut
-   Umichigan
-   Columbia
-
-** Make video about how I got it (🤞)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca705edb8cbccaf912f2236310fcd33e865b7b1b479f10cc8f81980fba99f4e8
+size 717

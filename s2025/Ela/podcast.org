@@ -1,2 +1,3 @@
-* Question Ideas
-** Talk about 
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6e1642653ed41ce3952e40cc04da6e27409fd37354145ed286996266a483886
+size 32
