@@ -64,3 +64,4 @@
 *.sh filter=lfs diff=lfs merge=lfs -text
 /sm2026/utRobotics/coolAhhControls/ydotool filter=lfs diff=lfs merge=lfs -text
 /sm2026/utRobotics/coolAhhControls/ydotoold filter=lfs diff=lfs merge=lfs -text
+*.djvu filter=lfs diff=lfs merge=lfs -text
