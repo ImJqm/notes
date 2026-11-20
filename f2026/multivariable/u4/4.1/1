@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{HW 4.1 Part 1}
+\author{James Harper}
+\date{November 2026}
+
+\begin{document}
+
+\maketitle
+
+% Question 1
+\section{}
+Find the directional derivative of $f$ at the given point in the direction indicated by the angle $\theta$.
+\begin{enumerate}
+  \item[\textbf{a)}] $f(x,y)=xy^3-x^2$,   $(1,2)$,  $\theta=\frac{\pi}{3}$
+    \newline{}
+    \newline{}
+    We find the unit vector $\vec{u}$ on the unit circle to be $\langle \cos(\frac{\pi}{3}), \sin(\frac{\pi}{3})\rangle$
+    = $\langle \frac{1}{2}, \frac{\sqrt{3}}{2} \rangle$
+    Then, we can find $\frac{\partial f}{\partial x} = y^3 - 2x$, and $\frac{\partial f}{\partial y} = 2xy^2$,
+    so $\nabla{f}  = \langle y^3 - 2x, 3xy^2 \rangle$
+    $\nabla{f(1,2)}=\langle 2^3 - 2(1), 3(1)(2)^2 \rangle = \langle 6, 12 \rangle $
+    \newline{}
+    $D_{\vec{u}}f = \nabla{f} \cdot \vec{u} =  \langle 6 , 12 \rangle \cdot \langle\frac{1}{2}, \frac{\sqrt{3}}{2} \rangle = 3 + 6\sqrt{3}$ 
+  \item[\textbf{b)}] $f(x,y)=y\cos{xy}$, $(0,1)$, $\theta=\frac{\pi}{4}$
+    \newline{}
+    \newline{}
+    $\vec{u} = \langle \cos(\frac{\pi}{4}) , \sin(\frac{\pi}{4}) \rangle = \langle \frac{\sqrt{2}}{2} , \frac{\sqrt{ 2}}{2} \rangle$
+    \newline{}
+    $\frac{\partial f}{\partial x} = -y^2\sin(xy)$, $\frac{\partial f}{\partial y} = 1(\cos(xy)) - y(x\sin(xy)) = \cos(xy) - xy\sin(xy)$
+    \newline{}
+    $\nabla{f}(0,1) = \langle -1^2\sin(0*1) , \cos(0*1) - 0 \rangle = \langle 0 , 1 \rangle$
+    \newline{}
+    $D_{\vec{u}}f = \nabla{f} \cdot \vec{u} = \langle 0 , 1 \rangle \cdot \langle \frac{\sqrt{ 2}}{2} , \frac{\sqrt{ 2}}{2} \rangle = \frac{\sqrt{ 2}}{2}$  
+\end{enumerate}
+
+% Question 2
+\section{}
+(a) find the gradient of $f$, (b) Evaluate the gradient at the point P, and (c) Find the rate of change of $f$ at P
+in the direction of the vector $\vec{u}$.
+\newline{}
+$f(x,y) = x/y$, $P(2,1)$, $\vec{u} = \frac{3}{5}\hat{\imath} + \frac{4}{5}\hat{\jmath}$
+\begin{enumerate}
+  \item[\textbf{a)}] $\frac{\partial f}{\partial x} = \frac{1}{y}$, $\frac{\partial f }{\partial y} = -\frac{x}{y^2} \to \nabla{f} = \langle \frac{1}{y} , -\frac{x}{y^2} \rangle$
+  \item[\textbf{b)}] $\nabla{f}(2,1) = \langle \frac{1}{1} , -\frac{2}{1^2} \rangle = \langle 1 , -2 \rangle$
+  \item[\textbf{c)}] $D_{\vec{u}}f(2,1) = \nabla{f}(2,1) \cdot \vec{u} = \langle 1 , -2 \rangle \cdot \langle \frac{3}{5} , \frac{4}{5} \rangle = \frac{3}{5} - \frac{8}{5} = -1$ 
+\end{enumerate}
+
+% Question 3
+\section{}
+(a) find the gradient of $f$, (b) Evaluate the gradient at the point P, and (c) Find the rate of change of $f$ at P
+in the direction of the vector $\vec{u}$.
+\newline{}
+$f(x,y,z) = x^2yz-xyz^3$, $P(2,-1,1)$, $\vec{u} = \langle 0 , \frac{4}{5} , -\frac{3}{5} \rangle$
+\begin{enumerate}
+  \item[\textbf{a)}] $\frac{\partial f}{\partial x} = 2xyz - yz^3$, $\frac{\partial f}{\partial y} = x^2z-xz^3$, $\frac{\partial f}{\partial z} = x^2y - 3xyz^2 
+  \newline{}
+  \to \nabla{f} = \langle 2xyz-yz^3 , x^2z - xz^3 , x^2y - 3xyz^2 \rangle$
+\item[\textbf{b)}] $\nabla{f}(2,-1,1) = \langle 2(2)(-1)(1) - (-1)(1)^3 , (2)^2(1) - (2)(1)^3 , (2)^2(-1) - 3(2)(-1)(1)^2 \rangle = \langle -3 , 2 , 2 \rangle$
+\item[\textbf{c)}] $D_{\vec{u}}f(2,-1,1) = \nabla{f} (2,-1,1) \cdot \vec{u} = \frac{2}{5}$  
+\end{enumerate}
+
+% Questoin 4
+\section{}
+find the directional derivative of the function at the given point in the direction of the vector $\vec{v}$
+\newline{}
+$f(x,y) = e^x \sin y$, $(0, \frac{\pi}{3})$, $\vec{v} = \langle -6 , 8 \rangle$
+\newline{}
+$\frac{\partial f}{\partial x} = \sin(y) e^x$, $\frac{\partial f }{\partial y} = e^x \cos y \to \nabla{f} (0 , \frac{\pi}{3}) = \langle \frac{\sqrt{ 3}}{2} , \frac{1}{2} \rangle$
+\newline{}
+$\vec{u} = \hat{\vec{v}} \to |\vec{v}| = \sqrt{ (-6)^2 + (8)^2 } = 10 \to \vec{u} = \langle -\frac{3}{5} , \frac{4}{5} \rangle$
+\newline{}
+$D_{\vec{u}}f(0, \frac{\pi}{3}) =  \nabla{f}(0, \frac{\pi}{3}) \cdot \vec{u} = \langle \frac{\sqrt{ 3}}{2} , \frac{1}{2} \rangle \cdot \langle - \frac{3}{5} , \frac{4}{5} \rangle =  \frac{4 - \sqrt{ 3}}{10}$
+
+% Question 5
+\section{}
+find the directional derivative of the function at the given point in the direction of the vector $\vec{v}$
+\newline{}
+$g(s,t) = s \sqrt{ t}$, $(2,4)$, $\vec{v} = 2\hat{\imath} - \hat{\jmath}$
+\newline{}
+$\frac{\partial g}{\partial s} = \sqrt{ t}$, $\frac{\partial g}{\partial t} = \frac{s}{2\sqrt{t}}\to \nabla{g} ( 2,4) = \langle 2 , \frac{1}{2} \rangle$
+\newline{}
+$\vec{u} = \hat{\vec{v}} \to |\vec{v}| = \sqrt{ 2^2 + (-1)^2}\to \vec{u} = \langle \frac{2}{\sqrt{ 5}} , -\frac{1}{\sqrt{ 5}} \rangle$
+\newline{}
+$D_{\vec{u}}f(2,4) = \nabla{f}(2,4) \cdot \vec{u} = \frac{7}{2\sqrt{ 5}}$ 
+
+% Question 6
+\section{}
+find the directional derivative of the function at the given point in the direction of the vector $\vec{v}$
+\newline
+$f(x,y,z) = x^2 y + y^2 z $, $(1,2,3)$, $\vec{v} = \langle 2 , -1 , 2 \rangle$
+\newline{}
+$\frac{\partial f}{\partial x} = 2xy$, $\frac{\partial f}{\partial y} = x^2 + 2yz$, $\frac{\partial f}{\partial z} = y^2$
+\newline
+$\nabla{f} (1, 2, 3) = \langle 4 , 13 , 4 \rangle$
+\newline
+$\vec{u} = \frac{\vec{v}}{|\vec{v}|} \to |\vec{v}| = \sqrt{ 2^2 + (-1)^2 + 2^2} = 3 \to \vec{u} = \langle \frac{2}{3} , \frac{-1}{3} , \frac{2}{3} \rangle$
+\newline{}
+$D_{\vec{u}} f (1,2,3) = \vec{u} \cdot \nabla{f} (1,2,3) = 1$ one two skip a few i aint typing allat \^ $\nabla$ \^
+
+\section{}
+find the directional derivative of the function at the given point in the direction of the vector $\vec{v}$
+\newline{}
+$h(r,s,t) = \ln{3r + 6s + 9t}$, $(1,1,1)$, $\vec{v} = 4 \hat{\imath} + 12 \hat{\jmath} + 5 \hat{k}$
+\end{document}
